@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>MySQLのv5.1～v5.7.11へのバージョンアップ対応 | pollseedの孤独技術ホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="※注意点
+この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。
+公式マニュアルを見ましょう。この記事のコマンドをコピペしても僕の環境でしかうまく動きません。
+特に今回はデータベースという大事な資産を削除するので本当に気をつけてください。作業者以外責任を取れません。
+
+　おかしな点があれば親切な方教えてください。大したことない人がやっているので間違いがあると思います。
+実施環境(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQLのv5.1～v5.7.11へのバージョンアップ対応">
+<meta property="og:url" content="http://www.pollseed.com/mysql-version-up/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="※注意点
+この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。
+公式マニュアルを見ましょう。この記事のコマンドをコピペしても僕の環境でしかうまく動きません。
+特に今回はデータベースという大事な資産を削除するので本当に気をつけてください。作業者以外責任を取れません。
+
+　おかしな点があれば親切な方教えてください。大したことない人がやっているので間違いがあると思います。
+実施環境(">
+<meta property="og:image" content="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015042000&mc=1">
+<meta property="og:image" content="http://www15.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HK0TD">
+<meta property="og:updated_time" content="2016-03-07T14:33:58.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MySQLのv5.1～v5.7.11へのバージョンアップ対応">
+<meta name="twitter:description" content="※注意点
+この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。
+公式マニュアルを見ましょう。この記事のコマンドをコピペしても僕の環境でしかうまく動きません。
+特に今回はデータベースという大事な資産を削除するので本当に気をつけてください。作業者以外責任を取れません。
+
+　おかしな点があれば親切な方教えてください。大したことない人がやっているので間違いがあると思います。
+実施環境(">
+<meta name="twitter:image" content="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015042000&mc=1">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
+  
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/pollseed.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/pollseed.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-mysql-version-up" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/mysql-version-up/" class="article-date">
+  <time datetime="2016-03-07T14:19:48.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      MySQLのv5.1～v5.7.11へのバージョンアップ対応
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="※注意点"><a href="#※注意点" class="headerlink" title="※注意点"></a>※注意点</h2><ul>
+<li>この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。</li>
+<li>公式マニュアルを見ましょう。この記事のコマンドをコピペしても僕の環境でしかうまく動きません。</li>
+<li>特に今回はデータベースという大事な資産を削除するので本当に気をつけてください。作業者以外責任を取れません。</li>
+</ul>
+<p>　おかしな点があれば親切な方教えてください。大したことない人がやっているので間違いがあると思います。</p>
+<h1 id="実施環境-参考までに"><a href="#実施環境-参考までに" class="headerlink" title="実施環境(参考までに)"></a>実施環境(参考までに)</h1><ul>
+<li>CentOS6.7</li>
+<li>MySQL v5.1, MySQL v5.7</li>
+</ul>
+<h1 id="最初に"><a href="#最初に" class="headerlink" title="最初に"></a>最初に</h1><p>今回、バージョンアップ対応中にミスをしてやらかしてしまったので再発しないようにメモを残す</p>
+<p>そのミスとは、互換性の確認をしていなかったこと。<br>本来なら、本番サーバ(v5.1)からデータ以外をダンプし、新サーバ(v5.7)にダンプファイルを流し、新サーバにて挙動を確認する<br>問題なければ、本番サーバからデータをダンプし、新サーバにダンプファイルを流し、アプリケーションとの接続(CRUD)を試して挙動を確認する。<br>こうすることで、何かエラーが発生したときの選択肢を一つ切ることができるのだが、新サーバを用意するのがめんどくさくてそのまま移行作業をしてしまった。</p>
+<h1 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h1><p>サービス停止用の知らせを関係者にしておく。コールド状態で行うのでサービスを停止します。<br>Masterの対応後、Slaveを対応する。今回は、一方向Maste-Slave構成であり、データに差分が出ないやり方なので特別な対応はあまりしていません。</p>
+<ol>
+<li>前準備</li>
+<li>バックアップ対応</li>
+<li>MySQLサーバの停止</li>
+<li>古いMySQLパッケージのアンインストール</li>
+<li>新しいMySQLパッケージをインストール</li>
+<li>初期設定＆MySQLサーバの起動</li>
+<li>バックアップデータの復帰</li>
+<li>後始末</li>
+</ol>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HK0TD" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015042000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www15.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HK0TD" alt=""></p>
+<h2 id="0-前準備"><a href="#0-前準備" class="headerlink" title="0. 前準備"></a>0. 前準備</h2><p>まずは、現在バージョンの確認を行う<br><code>mysql --version &amp;&amp; ps aux | grep mysql &amp; which mysql mysqld</code></p>
+<p>Webサーバを停止させデータのCLUDが走らないようにする。ログをモニタリングしながら作業にあたること。</p>
+<h2 id="1-バックアップ対応"><a href="#1-バックアップ対応" class="headerlink" title="1. バックアップ対応"></a>1. バックアップ対応</h2><p>MySQLのコマンドでダンプファイルを作ります<br>必ず、公式マニュアルを見てから対応しましょう。なぜならコマンドやオプションは、バージョンによって異なる可能性があるからです。</p>
+<p>今回は、v5.1とv5.7のマニュアルを見ればよいので二つを目視しつつ作業にあたるのが望ましい。</p>
+<ul>
+<li><a href="http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html</a></li>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/mysqldump.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/mysqldump.html</a></li>
+</ul>
+<p><strong>簡単に良く使うオプションを紹介しておきます。(公式に全て掲載されているものを情報落ちさせて載せています。)</strong></p>
+<h4 id="トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。"><a href="#トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。" class="headerlink" title="トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。"></a>トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。</h4><p>理由もわからずに、オプションなしで発行するのは危険なのでここで整理しておきましょう。<br>–add-locks LOCK TABLES ステートメントと UNLOCK TABLES ステートメントで各テーブルダンプを囲むオプションで、INSERTの速度を向上させます。<br>–flush-privileges ダンプ完了後、出力にFLUSH PRIVILEGES ステートメントを追加する。正しいリストアのためには必須のオプションです。<br>–no-autocommit ダンプするテーブル毎にINSERT ステートメントを SET autocommit = 0 ステートメントと COMMIT ステートメントで囲みます。<br>–order-by-primary 行を主キーやインデクスでソートしてダンプするので便利だが、操作時間がかなり長くなる。<br>–single-transaction InnoDB などのトランザクションテーブルの場合にしか使えませんが、アプリケーションをブロックすることなく、START TRANSACTION が発行された時点のデータベースの一貫した状態をダンプします。<br>ただし、ALTER TABLE、CREATE TABLE、DROP TABLE、RENAME TABLE、TRUNCATE TABLE ステートメントを使用しないようにと書かれているので注意。</p>
+<h4 id="次にパフォーマンスオプションですが、"><a href="#次にパフォーマンスオプションですが、" class="headerlink" title="次にパフォーマンスオプションですが、"></a>次にパフォーマンスオプションですが、</h4><p>INSERT文を速くするためには、いくつかやり方があると思います。<br>簡単な方法としては、VALUES文を複数にし、同時に複数行を挿入する、カラムの定義にDEFAULT値を設定するなどですね。<br>–delayed-insertは非推奨です。<br>–extended-insert, -e 先ほど行ったVALUES文の複数行挿入はこのオプションです。</p>
+<h4 id="フィルタリングオプションは"><a href="#フィルタリングオプションは" class="headerlink" title="フィルタリングオプションは"></a>フィルタリングオプションは</h4><p>–all-databases, -A 全データベース内のすべてのテーブルをダンプする<br>–databases, -B 複数のデータベースをダンプする<br>–ignore-table=db_name.tbl_name 指定されたテーブルをダンプしない<br>–no-data, -d データが必要ないときに使います</p>
+<h3 id="今回はただコピーしたいだけなので"><a href="#今回はただコピーしたいだけなので" class="headerlink" title="今回はただコピーしたいだけなので"></a>今回はただコピーしたいだけなので</h3><p><a href="http://dev.mysql.com/doc/refman/5.7/en/mysqldump-copying-database.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/mysqldump-copying-database.html</a><br><code>mysqldump -u root -p &gt;Dump20150216.sql</code></p>
+<h3 id="InnoDBファイルのバックアップ"><a href="#InnoDBファイルのバックアップ" class="headerlink" title="InnoDBファイルのバックアップ"></a>InnoDBファイルのバックアップ</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mv /var/lib/mysql/ibdata1 ~/backup/ibdata1</span><br><span class="line">mv /var/lib/mysql/.ibd ~/backup/.ibd</span><br><span class="line">mv /var/lib/mysql/ib_logfile0  ~/backup/ib_logfile0</span><br><span class="line">mv /var/lib/mysql/ib_logfile1  ~/backup/ib_logfile1</span><br><span class="line">mv /etc/my.cnf ~/backup/my.cnf</span><br></pre></td></tr></table></figure>
+<h2 id="2-MySQLサーバの停止"><a href="#2-MySQLサーバの停止" class="headerlink" title="2. MySQLサーバの停止"></a>2. MySQLサーバの停止</h2><p>MySQLサーバを止めるのを忘れずに<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/mysqld status</span><br><span class="line">/etc/init.d/mysqld stop</span><br></pre></td></tr></table></figure></p>
+<h2 id="3-古いMySQLパッケージのアンインストール"><a href="#3-古いMySQLパッケージのアンインストール" class="headerlink" title="3. 古いMySQLパッケージのアンインストール"></a>3. 古いMySQLパッケージのアンインストール</h2><p><a href="https://www.centosblog.com/11-useful-yum-commands-centos-linux/" target="_blank" rel="external">https://www.centosblog.com/11-useful-yum-commands-centos-linux/</a><br>まず、CentOS6系のマニュアルを見ましょう(eraseとremoveの違いがわからない方はマニュアルを一度読むことを推奨する)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 古いものを全部削除する</span><br><span class="line">yum remove mysql*</span><br><span class="line">rm -rf /bin/mysql</span><br><span class="line">rm -rf /usr/local/mysqld</span><br></pre></td></tr></table></figure></p>
+<h2 id="4-新しいMySQLパッケージをインストール"><a href="#4-新しいMySQLパッケージをインストール" class="headerlink" title="4. 新しいMySQLパッケージをインストール"></a>4. 新しいMySQLパッケージをインストール</h2><p><a href="https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html" target="_blank" rel="external">https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html</a><br>必ず、マニュアルに書いてある方法を試行しましょう。(以下のコマンドを打つ場合100%こけます)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum localinstall mysql57-community-release-el6-&#123;version-number&#125;.noarch.rpm</span><br><span class="line">yum repolist enabled | grep mysql</span><br><span class="line">sudo yum install mysql-community-server mysql-devel</span><br><span class="line">mysql --version</span><br><span class="line">which mysql mysqld</span><br></pre></td></tr></table></figure></p>
+<h2 id="5-初期設定＆MySQLサーバの起動"><a href="#5-初期設定＆MySQLサーバの起動" class="headerlink" title="5. 初期設定＆MySQLサーバの起動"></a>5. 初期設定＆MySQLサーバの起動</h2><p><a href="https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html" target="_blank" rel="external">https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html
+</a><br>4と同じURLです。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># このコマンドによって、新しくテーブルが作られます。さらに、パスワードもこれによって設定されます。</span><br><span class="line">sudo service mysqld start</span><br><span class="line"></span><br><span class="line">sudo service mysqld status &amp;&amp; ps aux | grep mysql</span><br><span class="line"></span><br><span class="line">sudo grep &apos;temporary password&apos; /var/log/mysqld.log</span><br><span class="line">mysql -uroot -p # パスワードを入力する</span><br><span class="line">ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;MyNewPass4!&apos;;</span><br></pre></td></tr></table></figure></p>
+<h2 id="6-バックアップデータの復帰"><a href="#6-バックアップデータの復帰" class="headerlink" title="6. バックアップデータの復帰"></a>6. バックアップデータの復帰</h2><p><a href="http://dev.mysql.com/doc/refman/5.7/en/reloading-sql-format-dumps.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/reloading-sql-format-dumps.html</a><br>マニュアルの方法を試しましょう。<br><code>mysql -u root -p &lt;Dump20150216.sql</code></p>
+<p><a href="https://dev.mysql.com/doc/refman/5.7/en/replication.html" target="_blank" rel="external">https://dev.mysql.com/doc/refman/5.7/en/replication.html</a><br>スレーブ(Read Only)にも同様に対応し、そのままダンプファイルを流します。(おそらくMasterにSlave用のユーザは存在しているはずなので)<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line">&gt; start slave;</span><br></pre></td></tr></table></figure></p>
+<h2 id="7-後始末"><a href="#7-後始末" class="headerlink" title="7. 後始末"></a>7. 後始末</h2><p>ログにおかしなエラーが吐かれていないかは最低限確認する。<br>余力があれば、新規ユーザを作り、CREATE TABLE, INSERT, UPDATE, DELETE DROP TABLEが発行できるか確認する。<br>データを確認し、おかしなINSERTがされてないか確認する。パフォーマンスやメモリなどは保証されないやり方なのでそこは今回は無視する。<br>デフラグ。<br>アプリケーションを起動させ、プログラムからMySQLサーバに接続し挙動確認を行う。</p>
+<h2 id="もしヤバイ状況になったら"><a href="#もしヤバイ状況になったら" class="headerlink" title="もしヤバイ状況になったら"></a>もしヤバイ状況になったら</h2><p><a href="http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html</a><br>下手にぐぐるよりも、トラブルシューティングのマニュアルを読むのが一番手っ取り早いです。<br>リカバリのやり方が効くかもしれないので。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.pollseed.com/mysql-version-up/" data-id="cilkonr6c0015v30z5h1rfbpt" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MySQL/">MySQL</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/github-extension-api/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          GitHubの拡張APIを作りました
+        
+      </div>
+    </a>
+  
+  
+    <a href="/conoha-vps-setup/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">【初心者必見】ConoHaのVPSを使って一からセットアップしてみる</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

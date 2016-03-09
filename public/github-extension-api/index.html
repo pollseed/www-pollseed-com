@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>GitHubの拡張APIを作りました | pollseedの孤独技術ホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="リリース2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。
+使いたい方は、Twitter Accountに「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合はHOMEで公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)
+現状">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHubの拡張APIを作りました">
+<meta property="og:url" content="http://www.pollseed.com/github-extension-api/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="リリース2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。
+使いたい方は、Twitter Accountに「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合はHOMEで公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)
+現状">
+<meta property="og:image" content="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta property="og:image" content="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT">
+<meta property="og:updated_time" content="2016-03-07T23:18:01.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GitHubの拡張APIを作りました">
+<meta name="twitter:description" content="リリース2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。
+使いたい方は、Twitter Accountに「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合はHOMEで公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)
+現状">
+<meta name="twitter:image" content="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
+  
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/pollseed.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/pollseed.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-github-extension-api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/github-extension-api/" class="article-date">
+  <time datetime="2016-03-07T14:21:39.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      GitHubの拡張APIを作りました
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="リリース"><a href="#リリース" class="headerlink" title="リリース"></a>リリース</h2><p>2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。</p>
+<p>使いたい方は、<a href="https://twitter.com/GEKIKAR90551875" target="_blank" rel="external">Twitter Account</a>に「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合は<a href="http://www.pollseed.com/">HOME</a>で公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)</p>
+<p>現状(v1)ではBasicAuthで管理しています。今後は、OAuth認証に切り替えると思いますが、なにぶん遊びのサーバで動かしてるのでスペックが高くありません。</p>
+<p>v2以降はもう少し使いやすくしようと思います。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="ドキュメント"><a href="#ドキュメント" class="headerlink" title="ドキュメント"></a>ドキュメント</h2><p><a href="http://docs.githubextensionapi.apiary.io/#" target="_blank" rel="external">http://docs.githubextensionapi.apiary.io</a><br>APIのリファレンスです。</p>
+<h2 id="できること"><a href="#できること" class="headerlink" title="できること"></a>できること</h2><p>最大1ヶ月前のGitHub上のデータをソートして50件まで返します。<br>単純に自分でデータ取得用のデータマイニング用に作ったのですが、暇だったのでAPIにした感じです。用途が用途なので、機能はしょぼいですね。</p>
+<p>ソート条件は、以下の10個です<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">github_id・・・GitHub リポジトリ ID</span><br><span class="line">stargazers_count・・・スター数</span><br><span class="line">forks_count・・・フォーク数</span><br><span class="line">commit_created_at・・・作成日時 New</span><br><span class="line">commit_updated_at・・・更新日時</span><br><span class="line">owner_id・・・開発者ID New</span><br><span class="line">owner_followers・・・開発者のフォロワー数 New</span><br><span class="line">owner_following・・・開発者のフォロー数 New</span><br><span class="line">owner_created_at・・・開発者の登録日時 New</span><br><span class="line">owner_updated_at・・・開発者の更新日時 New</span><br></pre></td></tr></table></figure></p>
+<p>Newになっているのが、今回の機能で追加したものです。<br>今後は、ページャ的な取得、開発期間やユーザのフレンド状況でのソート機能も入れようと思いますが、このあたりは時間があれば開発します。</p>
+<p>何か不具合があれば、<a href="https://github.com/pollseed/github-extension-api/issues" target="_blank" rel="external">GitHub Issue</a>に優しく追加してくださると助かります。時間を見つけて直します。<br>いやいや簡単だからこっちで直したぜという凄腕の方がいればプルリクくださると喜びます。言語はRubyで作ってます。</p>
+<p><a href="https://gitter.im/pollseed/github-extension-api" target="_blank" rel="external">チャットルーム</a>はこちらです。</p>
+<h2 id="デベロッパ"><a href="#デベロッパ" class="headerlink" title="デベロッパ"></a>デベロッパ</h2><p>フォークは<a href="https://github.com/pollseed/github-extension-api" target="_blank" rel="external">Github Repo github-extension-api</a>からお願いします。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.pollseed.com/github-extension-api/" data-id="cilkonr5s000fv30zreuj3d74" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Sinatra/">Sinatra</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/about/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          自己紹介
+        
+      </div>
+    </a>
+  
+  
+    <a href="/mysql-version-up/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">MySQLのv5.1～v5.7.11へのバージョンアップ対応</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

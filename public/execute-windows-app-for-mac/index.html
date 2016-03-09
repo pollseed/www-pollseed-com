@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Mac環境からWindowsアプリケーションを実行する | pollseedの孤独技術ホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="初めに今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。
+brew をまだインストールしていない場合1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac環境からWindowsアプリケーションを実行する">
+<meta property="og:url" content="http://www.pollseed.com/execute-windows-app-for-mac/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="初めに今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。
+brew をまだインストールしていない場合1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal">
+<meta property="og:image" content="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta property="og:image" content="http://www16.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.31.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.49.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.00.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.18.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.30.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.44.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.02.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.13.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.25.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.54.18-1024x604.png">
+<meta property="og:updated_time" content="2016-03-07T23:17:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac環境からWindowsアプリケーションを実行する">
+<meta name="twitter:description" content="初めに今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。
+brew をまだインストールしていない場合1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal">
+<meta name="twitter:image" content="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
+  
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/pollseed.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/pollseed.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-execute-windows-app-for-mac" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/execute-windows-app-for-mac/" class="article-date">
+  <time datetime="2016-03-07T14:06:58.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Mac環境からWindowsアプリケーションを実行する
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="初めに"><a href="#初めに" class="headerlink" title="初めに"></a>初めに</h2><p>今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。<br>そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。</p>
+<h2 id="brew-をまだインストールしていない場合"><a href="#brew-をまだインストールしていない場合" class="headerlink" title="brew をまだインストールしていない場合"></a><a href="http://brew.sh/index_ja.html" target="_blank" rel="external">brew</a> をまだインストールしていない場合</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span><br></pre></td></tr></table></figure>
+<h2 id="既にインストールしている場合"><a href="#既にインストールしている場合" class="headerlink" title="既にインストールしている場合"></a>既にインストールしている場合</h2><h3 id="こういうエラーが出た場合"><a href="#こういうエラーが出た場合" class="headerlink" title="こういうエラーが出た場合"></a>こういうエラーが出た場合</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl: (22) The requested URL returned error: 410 Gone</span><br><span class="line">Error: Failed to download resource <span class="string">"hogehoge"</span></span><br></pre></td></tr></table></figure>
+<p>パッケージの在り処が古いままだと、この後行うパッケージインストールでコケるのでbrew自体をupdateしましょう<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew update</span><br></pre></td></tr></table></figure></p>
+<h2 id="Wineのインストール"><a href="#Wineのインストール" class="headerlink" title="Wineのインストール"></a><a href="https://www.winehq.org/" target="_blank" rel="external">Wine</a>のインストール</h2><p>Wineは、OSSです。<br>LinuxなどからWindows用アプリケーションをネイティブ動作させることができます。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install wine</span><br></pre></td></tr></table></figure></p>
+<h3 id="使い方"><a href="#使い方" class="headerlink" title="使い方"></a>使い方</h3><p>wineコマンドを使ってWindows用のアプリケーションを実行させることができます。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine &lt;__アプリケーションの実行ファイルパス__&gt;</span><br></pre></td></tr></table></figure></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www16.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="さくらエディタを使ってみる"><a href="#さくらエディタを使ってみる" class="headerlink" title="さくらエディタを使ってみる"></a>さくらエディタを使ってみる</h2><p>参考までにフリーのテキストエディタを使ってみましょう</p>
+<p><a href="http://sourceforge.net/projects/sakura-editor/" target="_blank" rel="external">ホームページ</a>にアクセスしてexeファイルをダウンロードしてきます。</p>
+<p>「sakura_install2-2-0-1.exe」というファイルがダウンロードされたと思いますので、そのパスをコンソールに打ちましょう</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine /Users/pollseed/Downloads/sakura_install2-2-0-1.exe</span><br></pre></td></tr></table></figure>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.31.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.31.png" alt="スクリーンショット 2015-12-29 13.46.31" width="754" height="224" class="alignnone size-full wp-image-325"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.49.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.49.png" alt="スクリーンショット 2015-12-29 13.46.49" width="998" height="766" class="alignnone size-full wp-image-327"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.00.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.00.png" alt="スクリーンショット 2015-12-29 13.47.00" width="660" height="508" class="alignnone size-large wp-image-328"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.18.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.18.png" alt="スクリーンショット 2015-12-29 13.47.18" width="660" height="508" class="alignnone size-large wp-image-329"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.30.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.30.png" alt="スクリーンショット 2015-12-29 13.47.30" width="660" height="508" class="alignnone size-large wp-image-330"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.44.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.44.png" alt="スクリーンショット 2015-12-29 13.47.44" width="660" height="507" class="alignnone size-large wp-image-331"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.02.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.02.png" alt="スクリーンショット 2015-12-29 13.48.02" width="660" height="508" class="alignnone size-large wp-image-332"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.13.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.13.png" alt="スクリーンショット 2015-12-29 13.48.13" width="660" height="507" class="alignnone size-large wp-image-333"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.25.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.25.png" alt="スクリーンショット 2015-12-29 13.48.25" width="660" height="507" class="alignnone size-large wp-image-334"></a></p>
+<h3 id="起動する"><a href="#起動する" class="headerlink" title="起動する"></a>起動する</h3><p>僕と同じ手順でインストールしていたら以下のパスに居るはずなので、こいつを立ち上げます。</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine .wine/drive_c/Program\ Files/sakura/sakura.exe</span><br></pre></td></tr></table></figure>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.54.18.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.54.18-1024x604.png" alt="スクリーンショット 2015-12-29 13.54.18" width="660" height="389" class="alignnone size-large wp-image-335"></a></p>
+<p>簡単なのでﾔｯﾃﾐﾃｸﾀﾞｻｲ</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.pollseed.com/execute-windows-app-for-mac/" data-id="cilkonr5l000cv30z7vil2fun" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mac/">Mac</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015-year-refrection-and-goal/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          2015年大晦日、今年の反省と来年の抱負
+        
+      </div>
+    </a>
+  
+  
+    <a href="/java-multithread/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Javaのマルチスレッド【クラス変数】と【インスタンス変数】の違い</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

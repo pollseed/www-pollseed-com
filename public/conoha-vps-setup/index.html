@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>【初心者必見】ConoHaのVPSを使って一からセットアップしてみる | pollseedの孤独技術ホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。
+はじめに僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていませ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【初心者必見】ConoHaのVPSを使って一からセットアップしてみる">
+<meta property="og:url" content="http://www.pollseed.com/conoha-vps-setup/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。
+はじめに僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていませ">
+<meta property="og:image" content="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015055000&mc=1">
+<meta property="og:image" content="http://www18.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HMT4H">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2016/02/スクリーンショット-2016-02-13-23.39.44-1024x391.png">
+<meta property="og:updated_time" content="2016-03-07T23:14:08.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【初心者必見】ConoHaのVPSを使って一からセットアップしてみる">
+<meta name="twitter:description" content="今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。
+はじめに僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていませ">
+<meta name="twitter:image" content="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015055000&mc=1">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
+  
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/pollseed.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/pollseed.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-conoha-vps-setup" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/conoha-vps-setup/" class="article-date">
+  <time datetime="2016-03-07T14:17:21.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      【初心者必見】ConoHaのVPSを使って一からセットアップしてみる
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。</p>
+<h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていません。Oreillyの本があればもっとスムーズだったかもしれませんが</p>
+<h2 id="きっかけ"><a href="#きっかけ" class="headerlink" title="きっかけ"></a>きっかけ</h2><ul>
+<li>Webサービスや簡単にクラウド上のLinux環境で遊ぶ時にVPSが必要になった</li>
+<li>AWSだけではなく、国内のVPSを使ってみようとオモタ</li>
+</ul>
+<h2 id="候補"><a href="#候補" class="headerlink" title="候補"></a>候補</h2><ul>
+<li>さくら</li>
+<li>ConoHa</li>
+<li>ServersMan</li>
+</ul>
+<p>この3つが候補になったのは、お手軽さと値段・信頼性である。あまりにも不具合が多い会社は怖いので選ぶ気になれない。</p>
+<p>今回は、ConoHaにしました。</p>
+<p>紹介URLです。もし気が向いたら使ってみてください。こちらのホームページの読者の方は、このリンクから登録するとConoHaの1,000円分のクーポンがもらえます。<br><a href="https://www.conoha.jp/referral/?token=fmmHSnIh9GzQWYsEX7XR9H5snPtr8LfEykCnLDz0msp9hKBV5oc-GQN" target="_blank" rel="external">クーポン利用の方はこちらをクリックして登録してください</a></p>
+<h2 id="OS"><a href="#OS" class="headerlink" title="OS"></a>OS</h2><p>CentOS release 6.7 (Final) : 7系のブリッジサーバの構築で手間取った経験を思い出し、6系にした。今はまだ得意な方で良いと思います。僕はまだ7系のコマンドに不慣れなので、自宅鯖ぐらいしか冒険できないチキンです。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HMT4H" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015055000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www18.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HMT4H" alt=""></p>
+<h2 id="最初にやっておきたいこと"><a href="#最初にやっておきたいこと" class="headerlink" title="最初にやっておきたいこと"></a>最初にやっておきたいこと</h2><p>めんどくさいけど、やってないと後で困るので</p>
+<p>一応、rootのパスワードを20文字以上にする、かつ英数字を入れる。記号もいれると尚良い。ただ、忘れないように、忘れたらAHOなので注意</p>
+<h3 id="ユーザ"><a href="#ユーザ" class="headerlink" title="ユーザ"></a>ユーザ</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ adduser pollseed</span><br><span class="line">$ passwd pollseed</span><br><span class="line">$ gpasswd <span class="_">-a</span> pollseed wheel</span><br><span class="line"></span><br><span class="line"><span class="comment"># vi /etc/sudoers で 以下のコメントアウト外す</span></span><br><span class="line">%wheel  ALL=(ALL)       ALL</span><br></pre></td></tr></table></figure>
+<h3 id="SSH周り"><a href="#SSH周り" class="headerlink" title="SSH周り"></a>SSH周り</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir /home/pollseed/.ssh</span><br><span class="line">$ chown pollseed:pollseed /home/pollseed/.ssh</span><br><span class="line">$ chmod 700 /home/pollseed/.ssh/</span><br><span class="line">$ cp ~/.ssh/authorized_keys /home/pollseed/.ssh/</span><br><span class="line">$ chown pollseed:pollseed authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># vi /etc/ssh/sshd_config の内容を以下に変える</span></span><br><span class="line">Port 22以外</span><br><span class="line">PermitRootLogin no</span><br><span class="line">RSAAuthentication yes</span><br><span class="line">PubkeyAuthentication yes</span><br><span class="line">AuthorizedKeysFile      .ssh/authorized_keys</span><br><span class="line">PasswordAuthentication no</span><br><span class="line"></span><br><span class="line"><span class="comment"># /etc/sysconfig/iptables のポートを変更しておく</span></span><br><span class="line">-A INPUT -m state --state NEW -m tcp -p tcp --dport 22番以外 -j ACCEPT</span><br><span class="line"></span><br><span class="line">$ service iptables restart</span><br><span class="line">$ service sshd restart</span><br><span class="line"></span><br><span class="line">$ ssh -i .ssh/id_rsa pollseed@XX.XX.XX.XX -p XX</span><br><span class="line">$ sudo hostname conoha</span><br><span class="line"></span><br><span class="line">$ mkdir -p ~/.vim/bundle</span><br><span class="line">$ git <span class="built_in">clone</span> git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim</span><br><span class="line"><span class="comment"># .vimrcを作る</span></span><br><span class="line"></span><br><span class="line">$ <span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+<p>やってることは単純で、以下の話。他にもごちゃごちゃやってはいるが、とりあえず最低限これぐらいはやっておきたい</p>
+<ul>
+<li>指定ユーザ（Root禁止）</li>
+<li>パスワードログイン禁止（秘密鍵ログインのみ許可）</li>
+<li>22番ポートでのログイン禁止</li>
+</ul>
+<p>ちなみにIptablesの設定は<a href="http://oxynotes.com/?p=6361" target="_blank" rel="external">こちら</a>がわかりやすいと思います。僕もよく見ます。</p>
+<h3 id="Package"><a href="#Package" class="headerlink" title="Package"></a>Package</h3><p>簡単に<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">yum update -y</span><br><span class="line">su pollseed</span><br><span class="line">sudo yum git zsh gcc zlib zlib-devel openssl-devel sqlite-devel gcc-c++ glibc-headers libyaml-devel readline readline-devel zlib-devel redhat-lsb</span><br><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># nginx</span></span><br><span class="line">sudo rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm</span><br><span class="line">sudo yum install -y nginx</span><br></pre></td></tr></table></figure></p>
+<p>※注意点<br>当たり前の話ですが、忘れがちなこととして、サーバのメモリが小さいとGccのコンパイルはかなり遅いです。</p>
+<p>参考までに、1GでRubyのコンパイルをしてみた時のCPUの消費具合です<br><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2016/02/スクリーンショット-2016-02-13-23.39.44.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2016/02/スクリーンショット-2016-02-13-23.39.44-1024x391.png" alt="スクリーンショット 2016-02-13 23.39.44" width="840" height="321" class="alignnone size-large wp-image-555"></a></p>
+<p>という話ですね</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.pollseed.com/conoha-vps-setup/" data-id="cilkonr5j0009v30zrmm61qq2" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/mysql-version-up/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          MySQLのv5.1～v5.7.11へのバージョンアップ対応
+        
+      </div>
+    </a>
+  
+  
+    <a href="/macbook-bought/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">【何日で配送される？】MacBook 12インチをApple Storeで買ってみた</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

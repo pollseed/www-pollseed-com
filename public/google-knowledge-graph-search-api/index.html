@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Google Knowledge Graph Search APIを使ってみた | pollseedの孤独技術ホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google Knowledge Graph Search APIを使ってみた">
+<meta property="og:url" content="http://www.pollseed.com/google-knowledge-graph-search-api/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10-300x82.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54-300x130.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40-300x140.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01-300x96.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05-1024x589.png">
+<meta property="og:image" content="http://www23.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta property="og:image" content="http://www14.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53-300x251.png">
+<meta property="og:image" content="http://www29.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1">
+<meta property="og:image" content="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H">
+<meta property="og:updated_time" content="2016-03-07T23:18:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Google Knowledge Graph Search APIを使ってみた">
+<meta name="twitter:description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta name="twitter:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
+  
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/pollseed.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/pollseed.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-google-knowledge-graph-search-api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/google-knowledge-graph-search-api/" class="article-date">
+  <time datetime="2016-03-07T13:58:06.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Google Knowledge Graph Search APIを使ってみた
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>この記事は<a href="http://qiita.com/advent-calendar/2015/web_api" target="_blank" rel="external">Web API Advent calendar</a> 2015 の 20 日目です。</p>
+<h1 id="今回は２つの章に分かれています。"><a href="#今回は２つの章に分かれています。" class="headerlink" title="今回は２つの章に分かれています。"></a>今回は２つの章に分かれています。</h1><p>それぞれ必要な環境が違いますので注意してください。</p>
+<h2 id="1-Google-Knowledge-Graph-Search-APIを使うまで"><a href="#1-Google-Knowledge-Graph-Search-APIを使うまで" class="headerlink" title="1. Google Knowledge Graph Search APIを使うまで"></a>1. Google Knowledge Graph Search APIを使うまで</h2><p><a href="https://developers.google.com/knowledge-graph/" target="_blank" rel="external">ドキュメント</a>はここ<br>このAPIを使うためには、Googleアカウントが必要です。</p>
+<h2 id="2-Node-jsで実装してみる"><a href="#2-Node-jsで実装してみる" class="headerlink" title="2. Node.jsで実装してみる"></a>2. Node.jsで実装してみる</h2><p>npm, Node.jsの環境が必要です。</p>
+<h3 id="以下バージョン"><a href="#以下バージョン" class="headerlink" title="以下バージョン"></a>以下バージョン</h3><ul>
+<li>npm v3.3.12</li>
+<li>Node.js v5.2.0</li>
+<li>Express v4.13.1</li>
+<li>Jade v1.11.0</li>
+</ul>
+<h2 id="1-Google-Knowledge-Graph-Search-API"><a href="#1-Google-Knowledge-Graph-Search-API" class="headerlink" title="1. Google Knowledge Graph Search API"></a>1. Google Knowledge Graph Search API</h2><p>これは何かと言うと、Googleの<a href="https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html" target="_blank" rel="external">ナレッジグラフ</a>と言うものを検索するためのAPIになります。</p>
+<p>昔<a href="https://developers.google.com/freebase/" target="_blank" rel="external">Freebase API</a>というものがありましたが、それは非推奨になっており、新しくは<a href="https://developers.google.com/knowledge-graph/" target="_blank" rel="external">Google Knowledge Graph Search API</a>を使うという話になってるみたいですね。</p>
+<h3 id="Request"><a href="#Request" class="headerlink" title="Request"></a>Request</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://kgsearch.googleapis.com/v1/entities:search</span><br></pre></td></tr></table></figure>
+<h3 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h3><p>1系のメソッドは<a href="https://developers.google.com/knowledge-graph/reference/rest/v1/" target="_blank" rel="external">以下</a>になります</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">パラメータ名</th>
+<th style="text-align:center">型</th>
+<th style="text-align:center">詳細</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">query</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">ナレッジグラフで検索するクエリ</td>
+</tr>
+<tr>
+<td style="text-align:center">ids</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">ナレッジグラフで検索するID</td>
+</tr>
+<tr>
+<td style="text-align:center">languages</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">言語コード</td>
+</tr>
+<tr>
+<td style="text-align:center">types</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">型指定</td>
+</tr>
+<tr>
+<td style="text-align:center">indent</td>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">JSON型ならtrue</td>
+</tr>
+<tr>
+<td style="text-align:center">prefix</td>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">部分一致用のプレフィクス</td>
+</tr>
+<tr>
+<td style="text-align:center">limit</td>
+<td style="text-align:center">number</td>
+<td style="text-align:center">リミット数</td>
+</tr>
+</tbody>
+</table>
+<h3 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h3><h4 id="1-Googleアプリにログイン"><a href="#1-Googleアプリにログイン" class="headerlink" title="1. Googleアプリにログイン"></a>1. Googleアプリにログイン</h4><p>アプリを作成します</p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png" alt="スクリーンショット 2015-12-19 23.07.59" width="600" height="168" class="alignnone size-medium wp-image-222"></a></p>
+<h4 id="2-Google-Knowledge-Graph-Search-APIを有効にします"><a href="#2-Google-Knowledge-Graph-Search-APIを有効にします" class="headerlink" title="2. Google Knowledge Graph Search APIを有効にします"></a>2. Google Knowledge Graph Search APIを有効にします</h4><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10-300x82.png" alt="スクリーンショット 2015-12-19 23.14.10" width="600" height="164" class="alignnone size-medium wp-image-223"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54-300x130.png" alt="スクリーンショット 2015-12-19 23.15.54" width="600" height="260" class="alignnone size-medium wp-image-224"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40-300x140.png" alt="スクリーンショット 2015-12-19 23.16.40" width="600" height="280" class="alignnone size-medium wp-image-225"></a></p>
+<h4 id="3-APIキーを生成します。"><a href="#3-APIキーを生成します。" class="headerlink" title="3. APIキーを生成します。"></a>3. APIキーを生成します。</h4><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01-300x96.png" alt="スクリーンショット 2015-12-19 23.27.01" width="600" height="192" class="alignnone size-medium wp-image-227"></a></p>
+<h4 id="4-以下のURLをブラウザから叩くかcurlコマンドで見てみましょう"><a href="#4-以下のURLをブラウザから叩くかcurlコマンドで見てみましょう" class="headerlink" title="4. 以下のURLをブラウザから叩くかcurlコマンドで見てみましょう"></a>4. 以下のURLをブラウザから叩くか<code>curl</code>コマンドで見てみましょう</h4><p>試しに、チューリング賞で有名なケン・トンプソンを調べてみましょうか。{API_KEY}には3. で生成したものを入れてください。</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://kgsearch.googleapis.com/v1/entities:search?query=Kenneth+Lane+Thompson&amp;key=&#123;API_KEY&#125;&amp;<span class="built_in">limit</span>=3&amp;indent=True</span><br></pre></td></tr></table></figure>
+<p>こんな感じで出力されます。<br><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05-1024x589.png" alt="スクリーンショット 2015-12-19 23.34.05" width="660" height="380" class="alignnone size-large wp-image-229"></a></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www23.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="2-コーディング"><a href="#2-コーディング" class="headerlink" title="2. コーディング"></a>2. コーディング</h2><p>Node.jsでコーディングしてみましょうか。<br>やることは、検索した人の名前と画像を表示するという単純なものにします。</p>
+<h3 id="1-Expressを使ってプロジェクトを作ります"><a href="#1-Expressを使ってプロジェクトを作ります" class="headerlink" title="1. Expressを使ってプロジェクトを作ります"></a>1. Expressを使ってプロジェクトを作ります</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// ジェネレータをインストール</span><br><span class="line">npm install express-generator -g</span><br><span class="line"></span><br><span class="line">// Expressを構築</span><br><span class="line">express hack-api</span><br><span class="line"><span class="built_in">cd</span> hack-api</span><br><span class="line">npm install</span><br><span class="line">npm start</span><br></pre></td></tr></table></figure>
+<h4 id="フロント側を作成"><a href="#フロント側を作成" class="headerlink" title="フロント側を作成"></a>フロント側を作成</h4><p>API_KEYには任意の値を入れてください</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">extends layout</span><br><span class="line"></span><br><span class="line">block content</span><br><span class="line">  h1= title</span><br><span class="line">  p Welcome to #&#123;title&#125;</span><br><span class="line"></span><br><span class="line">  img</span><br><span class="line"></span><br><span class="line">  script(type='text/javascript').</span><br><span class="line">    var service_url = 'https://kgsearch.googleapis.com/v1/entities:search';</span><br><span class="line">    var params = &#123;</span><br><span class="line">      'query': 'Kenneth+Lane+Thompson',</span><br><span class="line">      'limit': 3,</span><br><span class="line">      'indent': true,</span><br><span class="line">      'key': 'API_KEY'</span><br><span class="line">    &#125;;</span><br><span class="line">    $.getJSON(service_url + '?callback=?', params, function(response) &#123;</span><br><span class="line">      $.each(response.itemListElement, function(i, element) &#123;</span><br><span class="line">        $('<span class="tag">&lt;<span class="name">div</span>&gt;</span>', &#123;text:element['result']['name']&#125;).appendTo(document.body);</span><br><span class="line">        $('img:eq(0)').attr("src", element['result']['image']['contentUrl']);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="3000ポートにアクセスする"><a href="#3000ポートにアクセスする" class="headerlink" title="3000ポートにアクセスする"></a>3000ポートにアクセスする</h4><p>サーバサイドやその他に関しては初期のままで構いません</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:3000/</span><br></pre></td></tr></table></figure>
+<h5 id="以下のように出力されればOKです"><a href="#以下のように出力されればOKです" class="headerlink" title="以下のように出力されればOKです"></a>以下のように出力されればOKです</h5><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53-300x251.png" alt="スクリーンショット 2015-12-20 0.22.53" width="600" height="502" class="alignnone size-medium wp-image-234"></a></p>
+<p>※ 画像は、<a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="external">https://en.wikipedia.org/wiki/Ken_Thompson</a> を参照しています。</p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/pollseed/Google-Knowledge-Graph-Search-api" target="_blank" rel="external">GitHub</a>に今回使ったソースを上げてあります。なお、API_KEYがハードコードされてますが、既に消去してますのでこのキーは変えてください。</p>
+<h2 id="以上"><a href="#以上" class="headerlink" title="以上"></a>以上</h2><p>非常に簡単にAPIを使うことを確認しました。<br>是非やってみてください。</p>
+<p>※当記事で問題がある箇所があれば仰ってください。削除します。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" target="_blank"><br><img border="0" width="468" height="60" alt="" src="http://www29.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" alt=""></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.pollseed.com/google-knowledge-graph-search-api/" data-id="cilkonr5v000jv30zhua0g7rq" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/buy-list-2015/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          【2015年】買って良かったものをまとめた
+        
+      </div>
+    </a>
+  
+  
+    <a href="/best-linux-driven-development/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">【Windows】パソコン2015年度版・オススメ</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
