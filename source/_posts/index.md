@@ -22,12 +22,13 @@ category: Menu
 #### Technology
 
 ##### 開発したものを置いておく
+※ただし公開しているもののみ
 
- **１．[マルコフ連鎖で要約API](https://github.com/pollseed/markov-lib)**
-
- **２．[GitHub Extension API](https://github.com/pollseed/github-extension-api)** [紹介記事](/github-extension-api)
-
- **３．[簡単にできる3原色の色別あぷり](https://play.google.com/store/apps/details?id=com.pollseed.ThreePrimaryColors)**
+|No|name|lang/FW|other|
+|:--:|:--:|:--:|:--:|
+|1|**[マルコフ連鎖で要約API](http://markov-lib.pollseed.com/)**|Node.js/Express|-|
+|2|**[GitHub Extension API](https://github.com/pollseed/github-extension-api)**|Ruby/Sinatra|[紹介記事](/github-extension-api)|
+|3|**[簡単にできる3原色の色別あぷり](https://play.google.com/store/apps/details?id=com.pollseed.ThreePrimaryColors)**|Kotlin/Android|-|
 
 #### 注意事項
 本サーバ上の文書及びその内容に関し、いかなる保証もしません。万一本サーバ上の文書の内容に誤りがあった場合でも私pollseedは、一切責任を負いかねます。また本サーバ上の文書に記載されている事項は予告なしに変更または中止されることがありますので、あらかじめご了承下さい。

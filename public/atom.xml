@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.pollseed.com/"/>
-  <updated>2016-03-09T08:45:37.000Z</updated>
+  <updated>2016-03-09T12:49:39.000Z</updated>
   <id>http://www.pollseed.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.pollseed.com/about/"/>
     <id>http://www.pollseed.com/about/</id>
     <published>2016-03-07T23:00:11.000Z</published>
-    <updated>2016-03-09T08:45:37.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h4 id=&quot;始めまして&quot;&gt;&lt;a href=&quot;#始めまして&quot; class=&quot;headerlink&quot; title=&quot;始めまして&quot;&gt;&lt;/a&gt;始めまして&lt;/h4&gt;&lt;p&gt;　pollseedと申します。&lt;/p&gt;
 &lt;p&gt;　私は、都内で主にエンジニアリング業務をしています。&lt;strong&gt;Sierでシステムエンジニア&lt;/strong&gt;、&lt;strong&gt;Webサービスのエンジニア&lt;/strong&gt;を経て、&lt;strong&gt;現在はフリーランスでエンジニアリング&lt;/strong&gt;業務をしています。&lt;br&gt;　得意とするのはサーバサイド側の設計・実装ですが、幅広く開発を対応します。&lt;/p&gt;
@@ -74,7 +74,7 @@
     <link href="http://www.pollseed.com/github-extension-api/"/>
     <id>http://www.pollseed.com/github-extension-api/</id>
     <published>2016-03-07T14:21:39.000Z</published>
-    <updated>2016-03-07T23:18:01.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;リリース&quot;&gt;&lt;a href=&quot;#リリース&quot; class=&quot;headerlink&quot; title=&quot;リリース&quot;&gt;&lt;/a&gt;リリース&lt;/h2&gt;&lt;p&gt;2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。&lt;/p&gt;
 &lt;p&gt;使いたい方は、&lt;a href=&quot;https://twitter.com/GEKIKAR90551875&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Account&lt;/a&gt;に「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合は&lt;a href=&quot;http://www.pollseed.com/&quot;&gt;HOME&lt;/a&gt;で公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)&lt;/p&gt;
@@ -109,7 +109,7 @@
     <link href="http://www.pollseed.com/mysql-version-up/"/>
     <id>http://www.pollseed.com/mysql-version-up/</id>
     <published>2016-03-07T14:19:48.000Z</published>
-    <updated>2016-03-07T14:33:58.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;※注意点&quot;&gt;&lt;a href=&quot;#※注意点&quot; class=&quot;headerlink&quot; title=&quot;※注意点&quot;&gt;&lt;/a&gt;※注意点&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。&lt;/li&gt;
@@ -180,7 +180,7 @@
     <link href="http://www.pollseed.com/conoha-vps-setup/"/>
     <id>http://www.pollseed.com/conoha-vps-setup/</id>
     <published>2016-03-07T14:17:21.000Z</published>
-    <updated>2016-03-07T23:14:08.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;p&gt;今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。&lt;/p&gt;
 &lt;h2 id=&quot;はじめに&quot;&gt;&lt;a href=&quot;#はじめに&quot; class=&quot;headerlink&quot; title=&quot;はじめに&quot;&gt;&lt;/a&gt;はじめに&lt;/h2&gt;&lt;p&gt;僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていません。Oreillyの本があればもっとスムーズだったかもしれませんが&lt;/p&gt;
@@ -234,7 +234,7 @@
     <link href="http://www.pollseed.com/macbook-bought/"/>
     <id>http://www.pollseed.com/macbook-bought/</id>
     <published>2016-03-07T14:16:15.000Z</published>
-    <updated>2016-03-07T23:18:25.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;p&gt;題名のとおりですが、仕事で必要になったので、買ってみました。&lt;/p&gt;
 &lt;h2 id=&quot;型番&quot;&gt;&lt;a href=&quot;#型番&quot; class=&quot;headerlink&quot; title=&quot;型番&quot;&gt;&lt;/a&gt;型番&lt;/h2&gt;&lt;p&gt;12インチMacBook 256GB - スペースグレイ&lt;/p&gt;
@@ -284,7 +284,7 @@
     <link href="http://www.pollseed.com/openjdk-vulnerability/"/>
     <id>http://www.pollseed.com/openjdk-vulnerability/</id>
     <published>2016-03-07T14:14:53.000Z</published>
-    <updated>2016-03-07T23:18:39.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;OpenJDK&quot;&gt;&lt;a href=&quot;#OpenJDK&quot; class=&quot;headerlink&quot; title=&quot;OpenJDK&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://openjdk.java.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OpenJDK&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;脆弱性調査はよくやりますが、どのあたりを見たら良いかということで&lt;br&gt;別にOpenJDKに限った話ではないですが、例として今回挙げました。&lt;/p&gt;
 &lt;p&gt;ここらをよく見るってのをメモっておきます。実際に調査したのはすごく前ですが、2016年度の新しい情報が出る前のおさらいとして書いておきます。&lt;/p&gt;
@@ -350,7 +350,7 @@
     <link href="http://www.pollseed.com/mysql-jdbc-insert-update/"/>
     <id>http://www.pollseed.com/mysql-jdbc-insert-update/</id>
     <published>2016-03-07T14:12:23.000Z</published>
-    <updated>2016-03-07T14:33:54.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;INSERT-…-ON-DUPLICATE-KEY-UPDATE&quot;&gt;&lt;a href=&quot;#INSERT-…-ON-DUPLICATE-KEY-UPDATE&quot; class=&quot;headerlink&quot; title=&quot;INSERT … ON DUPLICATE KEY UPDATE&quot;&gt;&lt;/a&gt;INSERT … ON DUPLICATE KEY UPDATE&lt;/h1&gt;&lt;p&gt;JDBCから利用すると戻り値に違和感があった&lt;/p&gt;
 &lt;p&gt;ドキュメントは、&lt;a href=&quot;https://dev.mysql.com/doc/refman/5.6/ja/insert-on-duplicate.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;公式サイト&lt;/a&gt;が最も参考になります。&lt;/p&gt;
@@ -389,7 +389,7 @@
     <link href="http://www.pollseed.com/2015-year-refrection-and-goal/"/>
     <id>http://www.pollseed.com/2015-year-refrection-and-goal/</id>
     <published>2016-03-07T14:10:50.000Z</published>
-    <updated>2016-03-07T23:12:47.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;p&gt;いよいよ2015年も終了ということで、大晦日に今年やってきたことの反省と来年の抱負を書いておく。また来年に確認するためにも。&lt;/p&gt;
 &lt;h2 id=&quot;昨年-2014年-は&quot;&gt;&lt;a href=&quot;#昨年-2014年-は&quot; class=&quot;headerlink&quot; title=&quot;昨年(2014年)は&quot;&gt;&lt;/a&gt;昨年(2014年)は&lt;/h2&gt;&lt;ul&gt;
@@ -455,7 +455,7 @@
     <link href="http://www.pollseed.com/execute-windows-app-for-mac/"/>
     <id>http://www.pollseed.com/execute-windows-app-for-mac/</id>
     <published>2016-03-07T14:06:58.000Z</published>
-    <updated>2016-03-07T23:17:54.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;初めに&quot;&gt;&lt;a href=&quot;#初めに&quot; class=&quot;headerlink&quot; title=&quot;初めに&quot;&gt;&lt;/a&gt;初めに&lt;/h2&gt;&lt;p&gt;今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。&lt;br&gt;そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。&lt;/p&gt;
 &lt;h2 id=&quot;brew-をまだインストールしていない場合&quot;&gt;&lt;a href=&quot;#brew-をまだインストールしていない場合&quot; class=&quot;headerlink&quot; title=&quot;brew をまだインストールしていない場合&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://brew.sh/index_ja.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;brew&lt;/a&gt; をまだインストールしていない場合&lt;/h2&gt;&lt;figure class=&quot;highlight zsh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ruby &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -501,7 +501,7 @@
     <link href="http://www.pollseed.com/java-multithread/"/>
     <id>http://www.pollseed.com/java-multithread/</id>
     <published>2016-03-07T14:04:10.000Z</published>
-    <updated>2016-03-07T14:33:45.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;この記事の対象者&quot;&gt;&lt;a href=&quot;#この記事の対象者&quot; class=&quot;headerlink&quot; title=&quot;この記事の対象者&quot;&gt;&lt;/a&gt;この記事の対象者&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;Java初心者プログラマ&lt;/li&gt;
@@ -565,7 +565,7 @@
     <link href="http://www.pollseed.com/buy-list-2015/"/>
     <id>http://www.pollseed.com/buy-list-2015/</id>
     <published>2016-03-07T14:02:45.000Z</published>
-    <updated>2016-03-07T14:03:33.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;2015年度に買ったものリスト&quot;&gt;&lt;a href=&quot;#2015年度に買ったものリスト&quot; class=&quot;headerlink&quot; title=&quot;2015年度に買ったものリスト&quot;&gt;&lt;/a&gt;2015年度に買ったものリスト&lt;/h1&gt;&lt;h2 id=&quot;iPhone6S-64GB&quot;&gt;&lt;a href=&quot;#iPhone6S-64GB&quot; class=&quot;headerlink&quot; title=&quot;iPhone6S 64GB&quot;&gt;&lt;/a&gt;iPhone6S 64GB&lt;/h2&gt;&lt;p&gt;10万程度&lt;/p&gt;
 &lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://www.amazon.co.jp/gp/product/B015R9QFJI/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B015R9QFJI&amp;linkCode=as2&amp;tag=slicascript-22&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B015R9QFJI&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=slicascript-22&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&amp;l=as2&amp;o=9&amp;a=B015R9QFJI&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;&lt;br&gt;&lt;a rel=&quot;external&quot; href=&quot;http://www.amazon.co.jp/gp/product/B015R9QFJI/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B015R9QFJI&amp;linkCode=as2&amp;tag=slicascript-22&quot; target=&quot;_blank&quot;&gt;【docomo】 iphone 6s　A1688 (64GB, ローズゴールド)&lt;/a&gt;&lt;img src=&quot;http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&amp;l=as2&amp;o=9&amp;a=B015R9QFJI&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;&lt;br&gt;　発売日に予約して購入したが、正直バッテリの持ち具合は最悪級だろう。使っていなくてもスグに電池切れになっている。バックグラウンド処理のアプリを消しても意味は無い。さらにLTE通信料も何もせずとも1日に200MB以上はやり取りしている。これはカレンダーやメモ帳などが自動同期していたりWifi接続やその他諸々の設定を見なおしてからの状態である。こういう電話会社との陰謀みたいなやり方はすきになれない。&lt;br&gt;　とはいえ、商品自体の出来は非常に素晴らしい。写真も3Dタッチも全ての機能が斬新で面白い。そこは他のスマフォにはない。&lt;/p&gt;
@@ -614,7 +614,7 @@
     <link href="http://www.pollseed.com/google-knowledge-graph-search-api/"/>
     <id>http://www.pollseed.com/google-knowledge-graph-search-api/</id>
     <published>2016-03-07T13:58:06.000Z</published>
-    <updated>2016-03-07T23:18:07.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;p&gt;この記事は&lt;a href=&quot;http://qiita.com/advent-calendar/2015/web_api&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Web API Advent calendar&lt;/a&gt; 2015 の 20 日目です。&lt;/p&gt;
 &lt;h1 id=&quot;今回は２つの章に分かれています。&quot;&gt;&lt;a href=&quot;#今回は２つの章に分かれています。&quot; class=&quot;headerlink&quot; title=&quot;今回は２つの章に分かれています。&quot;&gt;&lt;/a&gt;今回は２つの章に分かれています。&lt;/h1&gt;&lt;p&gt;それぞれ必要な環境が違いますので注意してください。&lt;/p&gt;
@@ -718,7 +718,7 @@
     <link href="http://www.pollseed.com/best-linux-driven-development/"/>
     <id>http://www.pollseed.com/best-linux-driven-development/</id>
     <published>2016-03-07T13:55:36.000Z</published>
-    <updated>2016-03-07T23:13:35.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;恣意的なオススメ&quot;&gt;&lt;a href=&quot;#恣意的なオススメ&quot; class=&quot;headerlink&quot; title=&quot;恣意的なオススメ&quot;&gt;&lt;/a&gt;恣意的なオススメ&lt;/h1&gt;&lt;p&gt;軽いノート(1kg以下)を使いたいというので候補を上げてみた。&lt;/p&gt;
 &lt;h2 id=&quot;スペック&quot;&gt;&lt;a href=&quot;#スペック&quot; class=&quot;headerlink&quot; title=&quot;スペック&quot;&gt;&lt;/a&gt;スペック&lt;/h2&gt;&lt;p&gt;軽さ重視&lt;/p&gt;
@@ -762,7 +762,7 @@
     <link href="http://www.pollseed.com/kuromoji-java/"/>
     <id>http://www.pollseed.com/kuromoji-java/</id>
     <published>2016-03-07T13:27:53.000Z</published>
-    <updated>2016-03-07T13:57:24.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;Kuromoji&quot;&gt;&lt;a href=&quot;#Kuromoji&quot; class=&quot;headerlink&quot; title=&quot;Kuromoji&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.atilika.com/ja/products/kuromoji.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kuromoji&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;Javaで書かれているオープンソースの日本語形態素解析エンジン&lt;/li&gt;
@@ -803,7 +803,7 @@
     <link href="http://www.pollseed.com/talib-java/"/>
     <id>http://www.pollseed.com/talib-java/</id>
     <published>2016-03-07T13:24:43.000Z</published>
-    <updated>2016-03-07T13:52:11.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;TA-Lib&quot;&gt;&lt;a href=&quot;#TA-Lib&quot; class=&quot;headerlink&quot; title=&quot;TA-Lib&quot;&gt;&lt;/a&gt;TA-Lib&lt;/h1&gt;&lt;p&gt;　皆さん、TA-Libをご存知でしょうか。&lt;br&gt;　TA-Libというのは、&lt;a href=&quot;http://ta-lib.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;のサイトにあるテクニカル分析をするためのライブラリです。&lt;br&gt;　今回はJavaで書きましたが、他言語もサポートされ、最新バージョンとしては0.4となっています。&lt;br&gt;　こちらのライブラリは、1999年にOSS化して2007年に最終タグが付けられた状態となっております。&lt;br&gt;　それでは、早速コードの方を紹介していきます。&lt;/p&gt;
 &lt;h2 id=&quot;サポート言語&quot;&gt;&lt;a href=&quot;#サポート言語&quot; class=&quot;headerlink&quot; title=&quot;サポート言語&quot;&gt;&lt;/a&gt;サポート言語&lt;/h2&gt;&lt;p&gt;ライブラリの実体は&lt;a href=&quot;http://sourceforge.net/p/ta-lib/code/HEAD/tree/tags/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;に置かれています。&lt;/p&gt;
@@ -847,7 +847,7 @@
     <link href="http://www.pollseed.com/2016-a-favorite-javascript-lib/"/>
     <id>http://www.pollseed.com/2016-a-favorite-javascript-lib/</id>
     <published>2016-03-07T13:16:14.000Z</published>
-    <updated>2016-03-07T13:52:27.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;p&gt;タイトルが凄い凄いオーバーな感じですが、早速紹介します。&lt;br&gt;　JSのライブラリを見ていて面白そうなものを恣意的に使ってみて、少しだけ紹介している記事となっています。濃い内容は書いてないです。&lt;br&gt;　新しい技術をちょっと動かして遊んでいるだけなので、ガチで使いたい時はドキュメントを読むだけでなくソース読まないと多分使えないですね。&lt;/p&gt;
 &lt;h2 id=&quot;Labella-js&quot;&gt;&lt;a href=&quot;#Labella-js&quot; class=&quot;headerlink&quot; title=&quot;Labella.js&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://twitter.github.io/labella.js/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Labella.js&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;こちらのライブラリですが「&lt;a href=&quot;https://twitter.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter, Inc.&lt;/a&gt;」のリポジトリで開発されてリリースされています。となると当然、注目すべきライブラリの一つですよね。ちなみに開発された方は&lt;a href=&quot;https://twitter.com/kristw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kristw&lt;/a&gt;という方みたいです。&lt;br&gt;既にファーストリリースから10日以上経ちます。&lt;br&gt;このライブラリは、なんとオーバラップさせずにラベルを自動的にインタラクティブに再配置してくれます。こんなこと自分でやろうとしたらものすごく大変ですよね。&lt;/p&gt;
@@ -894,7 +894,7 @@ npm install --save matreshka
     <link href="http://www.pollseed.com/work/"/>
     <id>http://www.pollseed.com/work/</id>
     <published>2016-03-07T13:00:24.000Z</published>
-    <updated>2016-03-07T13:53:17.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;仕事の依頼に関してのページ&quot;&gt;&lt;a href=&quot;#仕事の依頼に関してのページ&quot; class=&quot;headerlink&quot; title=&quot;仕事の依頼に関してのページ&quot;&gt;&lt;/a&gt;仕事の依頼に関してのページ&lt;/h2&gt;&lt;h3 id=&quot;委任契約&quot;&gt;&lt;a href=&quot;#委任契約&quot; class=&quot;headerlink&quot; title=&quot;委任契約&quot;&gt;&lt;/a&gt;委任契約&lt;/h3&gt;&lt;p&gt;プログラマ業務&lt;/p&gt;
 &lt;h4 id=&quot;価格&quot;&gt;&lt;a href=&quot;#価格&quot; class=&quot;headerlink&quot; title=&quot;価格&quot;&gt;&lt;/a&gt;価格&lt;/h4&gt;&lt;p&gt;700,000〜1,000,000円 / 月あたり&lt;/p&gt;
@@ -925,7 +925,7 @@ npm install --save matreshka
     <link href="http://www.pollseed.com/news/"/>
     <id>http://www.pollseed.com/news/</id>
     <published>2016-03-07T12:57:24.000Z</published>
-    <updated>2016-03-09T07:40:48.000Z</updated>
+    <updated>2016-03-09T12:49:39.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;a href=&quot;#気になったテックニュースをただひたすら羅列していく&quot; class=&quot;headerlink&quot; title=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;/a&gt;気になったテックニュースをただひたすら羅列していく&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;2016年1月〜開始。&lt;/li&gt;
@@ -1251,7 +1251,7 @@ nvm alias default v5.4.1
     <link href="http://www.pollseed.com/index/"/>
     <id>http://www.pollseed.com/index/</id>
     <published>2016-03-07T12:40:18.000Z</published>
-    <updated>2016-03-09T08:27:47.000Z</updated>
+    <updated>2016-03-09T13:11:02.000Z</updated>
     
     <content type="html">&lt;h4 id=&quot;メニュー一覧&quot;&gt;&lt;a href=&quot;#メニュー一覧&quot; class=&quot;headerlink&quot; title=&quot;メニュー一覧&quot;&gt;&lt;/a&gt;メニュー一覧&lt;/h4&gt;&lt;p&gt;　&lt;strong&gt;１．&lt;a href=&quot;/news&quot;&gt;テックニュース&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;　&lt;strong&gt;２．&lt;a href=&quot;/work&quot;&gt;仕事の依頼 (クライアント向け)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -1259,9 +1259,37 @@ nvm alias default v5.4.1
 &lt;p&gt;　&lt;strong&gt;４．&lt;a href=&quot;/categories/Technology/&quot;&gt;技術ネタ&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;　&lt;strong&gt;５．&lt;a href=&quot;/categories/daily/&quot;&gt;日記&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;&lt;img border=&quot;0&quot; width=&quot;350&quot; height=&quot;80&quot; alt=&quot;&quot; src=&quot;http://www26.a8.net/svt/bgt?aid=151209554724&amp;wid=001&amp;eno=01&amp;mid=s00000000018015081000&amp;mc=1&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; src=&quot;http://www18.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h4 id=&quot;Technology&quot;&gt;&lt;a href=&quot;#Technology&quot; class=&quot;headerlink&quot; title=&quot;Technology&quot;&gt;&lt;/a&gt;Technology&lt;/h4&gt;&lt;h5 id=&quot;開発したものを置いておく&quot;&gt;&lt;a href=&quot;#開発したものを置いておく&quot; class=&quot;headerlink&quot; title=&quot;開発したものを置いておく&quot;&gt;&lt;/a&gt;開発したものを置いておく&lt;/h5&gt;&lt;p&gt; &lt;strong&gt;１．&lt;a href=&quot;https://github.com/pollseed/markov-lib&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;マルコフ連鎖で要約API&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;２．&lt;a href=&quot;https://github.com/pollseed/github-extension-api&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub Extension API&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;/github-extension-api&quot;&gt;紹介記事&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;３．&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.pollseed.ThreePrimaryColors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;簡単にできる3原色の色別あぷり&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Technology&quot;&gt;&lt;a href=&quot;#Technology&quot; class=&quot;headerlink&quot; title=&quot;Technology&quot;&gt;&lt;/a&gt;Technology&lt;/h4&gt;&lt;h5 id=&quot;開発したものを置いておく&quot;&gt;&lt;a href=&quot;#開発したものを置いておく&quot; class=&quot;headerlink&quot; title=&quot;開発したものを置いておく&quot;&gt;&lt;/a&gt;開発したものを置いておく&lt;/h5&gt;&lt;p&gt;※ただし公開しているもののみ&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;No&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;name&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;lang/FW&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;other&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;http://markov-lib.pollseed.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;マルコフ連鎖で要約API&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Node.js/Express&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/pollseed/github-extension-api&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub Extension API&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Ruby/Sinatra&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;/github-extension-api&quot;&gt;紹介記事&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.pollseed.ThreePrimaryColors&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;簡単にできる3原色の色別あぷり&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Kotlin/Android&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h4 id=&quot;注意事項&quot;&gt;&lt;a href=&quot;#注意事項&quot; class=&quot;headerlink&quot; title=&quot;注意事項&quot;&gt;&lt;/a&gt;注意事項&lt;/h4&gt;&lt;p&gt;本サーバ上の文書及びその内容に関し、いかなる保証もしません。万一本サーバ上の文書の内容に誤りがあった場合でも私pollseedは、一切責任を負いかねます。また本サーバ上の文書に記載されている事項は予告なしに変更または中止されることがありますので、あらかじめご了承下さい。&lt;/p&gt;
 </content>
     
