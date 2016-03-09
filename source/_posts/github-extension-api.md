@@ -2,7 +2,7 @@
 title: GitHubの拡張APIを作りました
 date: 2016-03-07 23:21:39
 tags: Sinatra
-category: API
+category: Technology
 ---
 ## リリース
 2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。

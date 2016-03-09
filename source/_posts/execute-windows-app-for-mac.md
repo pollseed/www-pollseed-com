@@ -2,6 +2,7 @@
 title: Mac環境からWindowsアプリケーションを実行する
 date: 2016-03-07 23:06:58
 tags: Mac
+category: Technology
 ---
 ## 初めに
 今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。

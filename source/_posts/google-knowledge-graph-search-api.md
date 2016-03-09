@@ -2,6 +2,7 @@
 title: Google Knowledge Graph Search APIを使ってみた
 date: 2016-03-07 22:58:06
 tags: JavaScript
+category: Technology
 ---
 この記事は[Web API Advent calendar](http://qiita.com/advent-calendar/2015/web_api) 2015 の 20 日目です。
 

@@ -2,6 +2,7 @@
 title: 【何日で配送される？】MacBook 12インチをApple Storeで買ってみた
 date: 2016-03-07 23:16:15
 tags: Mac
+category: daily
 ---
 題名のとおりですが、仕事で必要になったので、買ってみました。
 

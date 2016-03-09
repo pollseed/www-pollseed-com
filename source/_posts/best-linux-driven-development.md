@@ -1,7 +1,8 @@
 ---
 title: 【Windows】パソコン2015年度版・オススメ
 date: 2016-03-07 22:55:36
-category: PC
+category: daily
+tags: Windows
 ---
 # 恣意的なオススメ
 軽いノート(1kg以下)を使いたいというので候補を上げてみた。

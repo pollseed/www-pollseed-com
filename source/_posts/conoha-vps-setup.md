@@ -2,7 +2,7 @@
 title: 【初心者必見】ConoHaのVPSを使って一からセットアップしてみる
 date: 2016-03-07 23:17:21
 tags: Linux
-category: VPS
+category: Technology
 ---
 今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。
 
