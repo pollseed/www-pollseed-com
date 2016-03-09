@@ -39,3 +39,10 @@ category: Menu
 * MacBook Pro (Retina, 15-inch, Mid 2014) 16GB 256GBSSD
 * MacBook (Retina, 12-inch, Early 2015) 8GB 256GBSSD
 * MacMini (2013) 16GB 1TBHDD
+
+
+#### Contact
+
+* **[GitHub](https://github.com/pollseed)**
+* **[Qiita](http://qiita.com/pollseed)**
+* **[Twitter](https://twitter.com/GEKIKAR90551875)**
