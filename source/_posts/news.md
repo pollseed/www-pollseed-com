@@ -13,6 +13,7 @@ category: Menu
 
 |日付|技術名|ジャンル|詳細|
 |:--:|:--:|:--:|
+|3/9|Apache Flink|Software|[v1.0 Released](http://flink.apache.org/news/2016/03/08/release-1.0.0.html)|
 |3/9|React.js|Software|[v15.0 cadidate Released](https://facebook.github.io/react/blog/2016/03/07/react-v15-rc1.html)|
 |3/4|[Node.js](https://nodejs.org/en/)|Programing|[v5.7.1 Released](https://github.com/nodejs/node/releases/tag/v5.7.1)|
 |2/20|Wine|Software|[1.9.4 Released](https://www.winehq.org/announce/1.9.4)

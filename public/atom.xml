@@ -925,7 +925,7 @@ npm install --save matreshka
     <link href="http://www.pollseed.com/news/"/>
     <id>http://www.pollseed.com/news/</id>
     <published>2016-03-07T12:57:24.000Z</published>
-    <updated>2016-03-09T12:49:39.000Z</updated>
+    <updated>2016-03-09T14:39:05.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;a href=&quot;#気になったテックニュースをただひたすら羅列していく&quot; class=&quot;headerlink&quot; title=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;/a&gt;気になったテックニュースをただひたすら羅列していく&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;2016年1月〜開始。&lt;/li&gt;
@@ -943,6 +943,12 @@ npm install --save matreshka
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/9&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Apache Flink&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Software&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://flink.apache.org/news/2016/03/08/release-1.0.0.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;v1.0 Released&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;3/9&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;React.js&lt;/td&gt;
@@ -1251,7 +1257,7 @@ nvm alias default v5.4.1
     <link href="http://www.pollseed.com/index/"/>
     <id>http://www.pollseed.com/index/</id>
     <published>2016-03-07T12:40:18.000Z</published>
-    <updated>2016-03-09T13:11:02.000Z</updated>
+    <updated>2016-03-10T11:01:01.000Z</updated>
     
     <content type="html">&lt;h4 id=&quot;メニュー一覧&quot;&gt;&lt;a href=&quot;#メニュー一覧&quot; class=&quot;headerlink&quot; title=&quot;メニュー一覧&quot;&gt;&lt;/a&gt;メニュー一覧&lt;/h4&gt;&lt;p&gt;　&lt;strong&gt;１．&lt;a href=&quot;/news&quot;&gt;テックニュース&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;　&lt;strong&gt;２．&lt;a href=&quot;/work&quot;&gt;仕事の依頼 (クライアント向け)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -1272,7 +1278,7 @@ nvm alias default v5.4.1
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;http://markov-lib.pollseed.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;マルコフ連鎖で要約API&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://markov-lib.pollseed.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;マルコフ連鎖で要約API&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;Node.js/Express&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;-&lt;/td&gt;
 &lt;/tr&gt;
