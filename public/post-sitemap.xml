@@ -7,6 +7,30 @@
     </url>
 
     <url>
+        <loc>http://www.pollseed.com/index/</loc>
+        <lastmod>2016-03-12T04:03:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.pollseed.com/news/</loc>
+        <lastmod>2016-03-12T04:01:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.pollseed.com/todo-reading/</loc>
+        <lastmod>2016-03-12T00:59:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.pollseed.com/about/</loc>
         <lastmod>2016-03-10T12:23:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -15,23 +39,7 @@
     </url>
 
     <url>
-        <loc>http://www.pollseed.com/index/</loc>
-        <lastmod>2016-03-10T11:01:01.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.pollseed.com/news/</loc>
-        <lastmod>2016-03-09T14:39:05.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.pollseed.com/2015-year-refrection-and-goal/</loc>
+        <loc>http://www.pollseed.com/2016-a-favorite-javascript-lib/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -39,7 +47,7 @@
     </url>
 
     <url>
-        <loc>http://www.pollseed.com/2016-a-favorite-javascript-lib/</loc>
+        <loc>http://www.pollseed.com/2015-year-refrection-and-goal/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -55,15 +63,7 @@
     </url>
 
     <url>
-        <loc>http://www.pollseed.com/execute-windows-app-for-mac/</loc>
-        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.pollseed.com/buy-list-2015/</loc>
+        <loc>http://www.pollseed.com/conoha-vps-setup/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -79,15 +79,7 @@
     </url>
 
     <url>
-        <loc>http://www.pollseed.com/java-multithread/</loc>
-        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.pollseed.com/conoha-vps-setup/</loc>
+        <loc>http://www.pollseed.com/execute-windows-app-for-mac/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -96,14 +88,6 @@
 
     <url>
         <loc>http://www.pollseed.com/google-knowledge-graph-search-api/</loc>
-        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.pollseed.com/mysql-jdbc-insert-update/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -127,6 +111,14 @@
     </url>
 
     <url>
+        <loc>http://www.pollseed.com/mysql-jdbc-insert-update/</loc>
+        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.pollseed.com/talib-java/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -143,6 +135,14 @@
     </url>
 
     <url>
+        <loc>http://www.pollseed.com/openjdk-vulnerability/</loc>
+        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.pollseed.com/work/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -151,7 +151,15 @@
     </url>
 
     <url>
-        <loc>http://www.pollseed.com/openjdk-vulnerability/</loc>
+        <loc>http://www.pollseed.com/java-multithread/</loc>
+        <lastmod>2016-03-09T12:49:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.pollseed.com/buy-list-2015/</loc>
         <lastmod>2016-03-09T12:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

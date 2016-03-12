@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.pollseed.com/"/>
-  <updated>2016-03-10T12:23:18.000Z</updated>
+  <updated>2016-03-12T00:59:08.000Z</updated>
   <id>http://www.pollseed.com/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>読んでおきたいもの</title>
+    <link href="http://www.pollseed.com/todo-reading/"/>
+    <id>http://www.pollseed.com/todo-reading/</id>
+    <published>2016-03-12T00:56:02.000Z</published>
+    <updated>2016-03-12T00:59:08.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot; title=&quot;TODO&quot;&gt;&lt;/a&gt;TODO&lt;/h2&gt;&lt;p&gt;読んでおきたいリンクリスト&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;date&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;URL&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Genre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/12&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;https://hagbarddenstore.se/posts/2016-03-11/using-nginx-to-load-balance-microservices/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Using nginx to load balance microservices&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Nginx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot; title=&quot;TODO&quot;&gt;&lt;/a&gt;TODO&lt;/h2&gt;&lt;p&gt;読んでおきたいリンクリスト&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:c
+    
+    </summary>
+    
+      <category term="Menu" scheme="http://www.pollseed.com/categories/Menu/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>自己紹介</title>
@@ -925,7 +966,7 @@ npm install --save matreshka
     <link href="http://www.pollseed.com/news/"/>
     <id>http://www.pollseed.com/news/</id>
     <published>2016-03-07T12:57:24.000Z</published>
-    <updated>2016-03-09T14:39:05.000Z</updated>
+    <updated>2016-03-12T04:01:52.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;a href=&quot;#気になったテックニュースをただひたすら羅列していく&quot; class=&quot;headerlink&quot; title=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;/a&gt;気になったテックニュースをただひたすら羅列していく&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;2016年1月〜開始。&lt;/li&gt;
@@ -943,6 +984,18 @@ npm install --save matreshka
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/12&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;PyPy&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Software&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://morepypy.blogspot.jp/2016/03/pypy-50-released.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;5.0 released&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/12&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;JDK9&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Language&lt;/td&gt;
+&lt;td&gt;ついにモジュール&lt;a href=&quot;http://www.infoq.com/news/2016/03/jigsaw-jdk-9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jigsaw Finally Arrives in JDK 9&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;3/9&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;Apache Flink&lt;/td&gt;
@@ -1257,7 +1310,7 @@ nvm alias default v5.4.1
     <link href="http://www.pollseed.com/index/"/>
     <id>http://www.pollseed.com/index/</id>
     <published>2016-03-07T12:40:18.000Z</published>
-    <updated>2016-03-10T11:01:01.000Z</updated>
+    <updated>2016-03-12T04:03:48.000Z</updated>
     
     <content type="html">&lt;h4 id=&quot;メニュー一覧&quot;&gt;&lt;a href=&quot;#メニュー一覧&quot; class=&quot;headerlink&quot; title=&quot;メニュー一覧&quot;&gt;&lt;/a&gt;メニュー一覧&lt;/h4&gt;&lt;p&gt;　&lt;strong&gt;１．&lt;a href=&quot;/news&quot;&gt;テックニュース&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;　&lt;strong&gt;２．&lt;a href=&quot;/work&quot;&gt;仕事の依頼 (クライアント向け)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
