@@ -966,7 +966,7 @@ npm install --save matreshka
     <link href="http://www.pollseed.com/news/"/>
     <id>http://www.pollseed.com/news/</id>
     <published>2016-03-07T12:57:24.000Z</published>
-    <updated>2016-03-22T06:53:33.000Z</updated>
+    <updated>2016-03-22T09:09:58.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;a href=&quot;#気になったテックニュースをただひたすら羅列していく&quot; class=&quot;headerlink&quot; title=&quot;気になったテックニュースをただひたすら羅列していく&quot;&gt;&lt;/a&gt;気になったテックニュースをただひたすら羅列していく&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;2016年1月〜開始。&lt;/li&gt;
@@ -984,6 +984,12 @@ npm install --save matreshka
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/22&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;cURL,openSSL&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Security&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://securitychecklist.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Security Checklist&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;3/22&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;Safari&lt;/td&gt;
@@ -1268,6 +1274,13 @@ npm install --save matreshka
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3/22&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;http://www.oreilly.co.jp/books/9784873117645/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;カンバン仕事術&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Buisiness&lt;/td&gt;
+&lt;td&gt;Oreilly&lt;/td&gt;
+&lt;td&gt;カンバンの原則や流れの管理などの入門的な事柄から応用的な話題までを網羅的に解説&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;3/1&lt;/td&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;http://www.oreilly.co.jp/books/9784873117607/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;マイクロサービスアーキテクチャ&lt;/a&gt;&lt;/td&gt;

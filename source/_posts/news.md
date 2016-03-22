@@ -13,6 +13,7 @@ category: Menu
 
 |日付|技術名|ジャンル|詳細|
 |:--:|:--:|:--:|
+|3/22|cURL,openSSL|Security|[Security Checklist](https://securitychecklist.org/)|
 |3/22|Safari|Browser|[9.1 Released](https://developer.apple.com/library/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html)|
 |3/22|Swift|Language|[2.2 Released](https://swift.org/blog/swift-2-2-released/)
 |3/22|iPad Pro|Device|[iPad Pro](http://www.apple.com/jp/ipad-pro/)|
@@ -64,6 +65,7 @@ category: Menu
 
 |日付|書名|ジャンル|出版社|詳細|
 |:--:|:--:|:--:|
+|3/22|[カンバン仕事術](http://www.oreilly.co.jp/books/9784873117645/)|Buisiness|Oreilly|カンバンの原則や流れの管理などの入門的な事柄から応用的な話題までを網羅的に解説|
 |3/1|[マイクロサービスアーキテクチャ](http://www.oreilly.co.jp/books/9784873117607/)|IS|Oreilly|マイクロサービスについて深く理解できる一冊|
 |2/11|[初めてのAndroid 第4版](http://www.oreilly.co.jp/books/9784873117492/)|Android|Oreilly|シンプルなゲームアプリの開発を通してAndroidアプリ開発の“いろは”を学ぶための書籍
 |1/26|[Rパッケージ開発入門](http://www.oreilly.co.jp/books/9784873117591/)|R|Oreilly|テスト、文書化、コード共有の手法を学ぶ|
