@@ -1,121 +1,149 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="expires" content="0">
   
   <title>KuromojiをJavaで使ってみる | pollseedの孤独技術ホームページ</title>
-  <meta name="author" content="pollseed">
-  
-  <meta name="description" content="engineering-archives">
-  
-  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Kuromoji
+Javaで書かれているオープンソースの日本語形態素解析エンジン
+Javaで自然言語処理等をするならば非常に有用なライブラリです。
 
-  <meta property="og:title" content="KuromojiをJavaで使ってみる"/>
-  <meta property="og:site_name" content="pollseedの孤独技術ホームページ"/>
+機能
+複合語の分割 テキストを言葉に分割（形態素）
+品詞のタグ付け 言葉分類の割当（名詞、動詞、助詞、形容詞など）
+見出し化 活用の動詞や形容詞に辞書の見出しを表示
+読み方 漢字の読み方を抽出
 
-  
-    <meta property="og:image" content="undefined"/>
-  
+大学院でも最近自然言語処理を研究テーマとする人が多く、">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KuromojiをJavaで使ってみる">
+<meta property="og:url" content="http://www.pollseed.com/kuromoji-java/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="Kuromoji
+Javaで書かれているオープンソースの日本語形態素解析エンジン
+Javaで自然言語処理等をするならば非常に有用なライブラリです。
 
+機能
+複合語の分割 テキストを言葉に分割（形態素）
+品詞のタグ付け 言葉分類の割当（名詞、動詞、助詞、形容詞など）
+見出し化 活用の動詞や形容詞に辞書の見出しを表示
+読み方 漢字の読み方を抽出
+
+大学院でも最近自然言語処理を研究テーマとする人が多く、">
+<meta property="og:image" content="http://www22.a8.net/svt/bgt?aid=151209554799&wid=001&eno=01&mid=s00000015587001010000&mc=1">
+<meta property="og:image" content="http://www13.a8.net/0.gif?a8mat=2I0Y1E+D7PD4I+3C9Q+60H7L">
+<meta property="og:image" content="http://www20.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015081000&mc=1">
+<meta property="og:image" content="http://www12.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP">
+<meta property="og:updated_time" content="2016-03-09T12:49:39.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="KuromojiをJavaで使ってみる">
+<meta name="twitter:description" content="Kuromoji
+Javaで書かれているオープンソースの日本語形態素解析エンジン
+Javaで自然言語処理等をするならば非常に有用なライブラリです。
+
+機能
+複合語の分割 テキストを言葉に分割（形態素）
+品詞のタグ付け 言葉分類の割当（名詞、動詞、助詞、形容詞など）
+見出し化 活用の動詞や形容詞に辞書の見出しを表示
+読み方 漢字の読み方を抽出
+
+大学院でも最近自然言語処理を研究テーマとする人が多く、">
+<meta name="twitter:image" content="http://www22.a8.net/svt/bgt?aid=151209554799&wid=001&eno=01&mid=s00000015587001010000&mc=1">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
   
     <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
   
   
-    <link href="/favicon.ico" rel="icon">
+    <link rel="shortcut icon" href="/favicon.png">
   
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
   
-  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <script src="/js/jquery-2.0.3.min.js"></script>
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
 
-  <!-- analytics -->
-  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-70812759-1', 'auto');
-  ga('send', 'pageview');
 </script>
-
-
+<!-- End Google Analytics -->
 
 
 </head>
 
- <body>  
-  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		<span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-	  <a class="navbar-brand" href="/">pollseedの孤独技術ホームページ</a>
-      <div class="collapse navbar-collapse nav-menu">
-		<ul class="nav navbar-nav">
-		  
-		  <li>
-			<a href="/archives" title="All the articles.">
-			  <i class=""></i>Archives
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/about" title="About me.">
-			  <i class=""></i>About
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/atom.xml" title="Subscribe me.">
-			  <i class=""></i>RSS
-			</a>
-		  </li>
-		  
-		</ul>
-      </div>
-    </div> <!-- container -->
-</nav>
-<div class="clearfix"></div>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/favicon.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
 
-  <div class="container">
-  	<div class="content">
-    	 
+      <div class="outer">
+        <section id="main"><article id="post-kuromoji-java" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/kuromoji-java/" class="article-date">
+  <time datetime="2016-03-07T13:27:53.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
 
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      KuromojiをJavaで使ってみる
+    </h1>
+  
 
-	
-		<div class="page-header">
-			<h1> KuromojiをJavaで使ってみる</h1>
-		</div>
-	
-
-
-
-<div class="row post">
-	<!-- cols -->
-	
-	<div id="top_meta"></div>
-	<div class="col-md-9">
-	
-
-	<!-- content -->
-	<div class="mypage">
-	  
-
-	  <h1 id="Kuromoji"><a href="#Kuromoji" class="headerlink" title="Kuromoji"></a><a href="http://www.atilika.com/ja/products/kuromoji.html" target="_blank" rel="external">Kuromoji</a></h1><ul>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Kuromoji"><a href="#Kuromoji" class="headerlink" title="Kuromoji"></a><a href="http://www.atilika.com/ja/products/kuromoji.html" target="_blank" rel="external">Kuromoji</a></h1><ul>
 <li>Javaで書かれているオープンソースの日本語形態素解析エンジン</li>
 <li>Javaで自然言語処理等をするならば非常に有用なライブラリです。</li>
 </ul>
@@ -135,157 +163,88 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> kuromojiWrapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.LinkedList;</span><br><span class="line"><span class="keyword">import</span> java.util.Queue;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> junit.framework.Assert;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atilika.kuromoji.jumandic.Token;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">KuromojiWrapperTest</span> </span>&#123;</span><br><span class="line">    <span class="keyword">static</span> KuromojiWrapper KW = <span class="keyword">new</span> KuromojiWrapper();</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_surfaces</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;String&gt; surfacesTrue = <span class="keyword">new</span> LinkedList&lt;String&gt;() &#123;</span><br><span class="line">            <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = <span class="number">1L</span>;</span><br><span class="line">            &#123;</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        KW.surfaces(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, surfacesTrue.poll()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_features</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;Token&gt; tokens = <span class="keyword">new</span> LinkedList&lt;Token&gt;();</span><br><span class="line">        KW.token(<span class="string">"ほげほげ"</span>).forEach(v -&gt; tokens.add(v));</span><br><span class="line">        KW.allFeatures(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, tokens.poll().getAllFeatures()));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www20.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015081000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www12.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" alt=""></p>
 
-		<div class="clearfix" align="right">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			<a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
-			data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
-			data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
-			<img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
-			alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-			<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-		</div>
-	</div>
-	
-	<div>
-  	<center>
-	<div class="pagination">
+      
+    </div>
+    <footer class="article-footer">
+      <div align="right">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
+        data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
+        data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
+        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
+        alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </div>
+      <a data-url="http://www.pollseed.com/kuromoji-java/" data-id="cilofblsq000mfz0zrf4at8s5" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li></ul>
 
-    
-    
-    <a href="/best-linux-driven-development/" type="button" class="btn btn-default"><i
-                class="fa fa-arrow-circle-o-left"></i> Prev</a>
-    
-
-    <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
-    
-    <a href="/talib-java/" type="button" class="btn btn-default ">Next<i
-                class="fa fa-arrow-circle-o-right"></i></a>
-    
-
-    
-</div>
-
-    </center>
-	</div>
-
-	<!-- comment -->
-	
-<section id="comment">
-    <h2 class="title">Comments</h2>
-
-    
-</section>
-
-
-	</div> <!-- col-md-9/col-md-12 -->
-
-	
-	<div id="side_meta">
-		<div class="col-md-3" id="post_meta"> 
-
-	<!-- date -->
-	
-	<div class="meta-widget">
-	<i class="fa fa-clock-o"></i>
-	2016-03-07 
-	</div>
-	
-
-	<!-- categories -->
-    
-	<div class="meta-widget">
-	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
-    <ul id="categorys" class="tag_box list-unstyled collapse in">
-          
-  <li>
-    <li><a href="/categories/Technology/">Technology<span>11</span></a></li>
-  </li>
-
-    </ul>
-	</div>
-	
-
-	<!-- tags -->
-	
-	<div class="meta-widget">
-	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
-    <ul id="tags" class="tag_box list-unstyled collapse in">	  
-	    
-  <li><a href="/tags/Java/">Java<span>3</span></a></li>
-    </ul>
-	</div>
-		
-
-	<!-- toc -->
-	<div class="meta-widget">
-	
-	</div>
-	
-    <hr>
-	
-</div><!-- col-md-3 -->
-
-	</div>
-	
-
-</div><!-- row -->
-
-
-
-	</div>
+    </footer>
   </div>
-  <div class="container-narrow">
-  <footer> <p>
-  &copy; 2016 pollseed
   
-</p>
-<div align="center">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- 縦置き用の広告 -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:336px;height:280px"
-       data-ad-client="ca-pub-3316992516723199"
-       data-ad-slot="8954231468"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
- </footer>
-</div> <!-- container-narrow -->
+    
+<nav id="article-nav">
   
-
+    <a href="/best-linux-driven-development/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          【Windows】パソコン2015年度版・オススメ
+        
+      </div>
+    </a>
+  
+  
+    <a href="/talib-java/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">TA-LibをJavaで使ってみる</div>
+    </a>
+  
+</nav>
 
   
-<a id="gotop" href="#">   
-  <span>⬆︎TOP</span>
-</a>
-
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/search.js"></script> 
+</article>
 
 
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-  $('.fancybox').fancybox();
-})(jQuery);
-</script>
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div align="center">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 縦置き用の広告 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:336px;height:280px"
+           data-ad-client="ca-pub-3316992516723199"
+           data-ad-slot="8954231468"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
+<script src="/js/script.js"></script>
 
-   <script type="text/javascript">      
-     var search_path = "search.xml";
-	 if (search_path.length == 0) {
-	 	search_path = "search.xml";
-	 }
-	 var path = "/" + search_path;
-     searchFunc(path, 'local-search-input', 'local-search-result');
-   </script>
-
+  </div>
 </body>
-   </html>
+</html>

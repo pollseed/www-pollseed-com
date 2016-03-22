@@ -1,121 +1,135 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="expires" content="0">
   
   <title>Google Knowledge Graph Search APIを使ってみた | pollseedの孤独技術ホームページ</title>
-  <meta name="author" content="pollseed">
-  
-  <meta name="description" content="engineering-archives">
-  
-  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <meta property="og:title" content="Google Knowledge Graph Search APIを使ってみた"/>
-  <meta property="og:site_name" content="pollseedの孤独技術ホームページ"/>
-
-  
-    <meta property="og:image" content="undefined"/>
-  
-
+  <meta name="description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google Knowledge Graph Search APIを使ってみた">
+<meta property="og:url" content="http://www.pollseed.com/google-knowledge-graph-search-api/index.html">
+<meta property="og:site_name" content="pollseedの孤独技術ホームページ">
+<meta property="og:description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10-300x82.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54-300x130.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40-300x140.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01-300x96.png">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05-1024x589.png">
+<meta property="og:image" content="http://www23.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1">
+<meta property="og:image" content="http://www14.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT">
+<meta property="og:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53-300x251.png">
+<meta property="og:image" content="http://www29.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1">
+<meta property="og:image" content="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H">
+<meta property="og:updated_time" content="2016-03-09T12:49:39.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Google Knowledge Graph Search APIを使ってみた">
+<meta name="twitter:description" content="この記事はWeb API Advent calendar 2015 の 20 日目です。
+今回は２つの章に分かれています。それぞれ必要な環境が違いますので注意してください。
+1. Google Knowledge Graph Search APIを使うまでドキュメントはこここのAPIを使うためには、Googleアカウントが必要です。
+2. Node.jsで実装してみるnpm, Node.jsの環境">
+<meta name="twitter:image" content="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png">
+<meta name="twitter:creator" content="@GEKIKAR90551875">
   
     <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
   
   
-    <link href="/favicon.ico" rel="icon">
+    <link rel="shortcut icon" href="/favicon.png">
   
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
   
-  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <script src="/js/jquery-2.0.3.min.js"></script>
+ga('create', 'UA-70950728-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
 
-  <!-- analytics -->
-  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-70812759-1', 'auto');
-  ga('send', 'pageview');
 </script>
-
-
+<!-- End Google Analytics -->
 
 
 </head>
 
- <body>  
-  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		<span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-	  <a class="navbar-brand" href="/">pollseedの孤独技術ホームページ</a>
-      <div class="collapse navbar-collapse nav-menu">
-		<ul class="nav navbar-nav">
-		  
-		  <li>
-			<a href="/archives" title="All the articles.">
-			  <i class=""></i>Archives
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/about" title="About me.">
-			  <i class=""></i>About
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/atom.xml" title="Subscribe me.">
-			  <i class=""></i>RSS
-			</a>
-		  </li>
-		  
-		</ul>
-      </div>
-    </div> <!-- container -->
-</nav>
-<div class="clearfix"></div>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="/favicon.png" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">pollseedの孤独技術ホームページ</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">フリーランスでエンジニアリング業務をしています。</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+        
+          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
 
-  <div class="container">
-  	<div class="content">
-    	 
+      <div class="outer">
+        <section id="main"><article id="post-google-knowledge-graph-search-api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/google-knowledge-graph-search-api/" class="article-date">
+  <time datetime="2016-03-07T13:58:06.000Z" itemprop="datePublished">2016-03-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Technology/">Technology</a>
+  </div>
 
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Google Knowledge Graph Search APIを使ってみた
+    </h1>
+  
 
-	
-		<div class="page-header">
-			<h1> Google Knowledge Graph Search APIを使ってみた</h1>
-		</div>
-	
-
-
-
-<div class="row post">
-	<!-- cols -->
-	
-	<div id="top_meta"></div>
-	<div class="col-md-9">
-	
-
-	<!-- content -->
-	<div class="mypage">
-	  
-
-	  <p>この記事は<a href="http://qiita.com/advent-calendar/2015/web_api" target="_blank" rel="external">Web API Advent calendar</a> 2015 の 20 日目です。</p>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>この記事は<a href="http://qiita.com/advent-calendar/2015/web_api" target="_blank" rel="external">Web API Advent calendar</a> 2015 の 20 日目です。</p>
 <h1 id="今回は２つの章に分かれています。"><a href="#今回は２つの章に分かれています。" class="headerlink" title="今回は２つの章に分かれています。"></a>今回は２つの章に分かれています。</h1><p>それぞれ必要な環境が違いますので注意してください。</p>
 <h2 id="1-Google-Knowledge-Graph-Search-APIを使うまで"><a href="#1-Google-Knowledge-Graph-Search-APIを使うまで" class="headerlink" title="1. Google Knowledge Graph Search APIを使うまで"></a>1. Google Knowledge Graph Search APIを使うまで</h2><p><a href="https://developers.google.com/knowledge-graph/" target="_blank" rel="external">ドキュメント</a>はここ<br>このAPIを使うためには、Googleアカウントが必要です。</p>
 <h2 id="2-Node-jsで実装してみる"><a href="#2-Node-jsで実装してみる" class="headerlink" title="2. Node.jsで実装してみる"></a>2. Node.jsで実装してみる</h2><p>npm, Node.jsの環境が必要です。</p>
@@ -198,157 +212,88 @@
 <p>※当記事で問題がある箇所があれば仰ってください。削除します。</p>
 <p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" target="_blank"><br><img border="0" width="468" height="60" alt="" src="http://www29.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" alt=""></p>
 
-		<div class="clearfix" align="right">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			<a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
-			data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
-			data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
-			<img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
-			alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-			<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-		</div>
-	</div>
-	
-	<div>
-  	<center>
-	<div class="pagination">
+      
+    </div>
+    <footer class="article-footer">
+      <div align="right">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
+        data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
+        data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
+        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
+        alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </div>
+      <a data-url="http://www.pollseed.com/google-knowledge-graph-search-api/" data-id="cilofblsi000efz0zimexw3xx" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
 
-    
-    
-    <a href="/buy-list-2015/" type="button" class="btn btn-default"><i
-                class="fa fa-arrow-circle-o-left"></i> Prev</a>
-    
-
-    <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
-    
-    <a href="/best-linux-driven-development/" type="button" class="btn btn-default ">Next<i
-                class="fa fa-arrow-circle-o-right"></i></a>
-    
-
-    
-</div>
-
-    </center>
-	</div>
-
-	<!-- comment -->
-	
-<section id="comment">
-    <h2 class="title">Comments</h2>
-
-    
-</section>
-
-
-	</div> <!-- col-md-9/col-md-12 -->
-
-	
-	<div id="side_meta">
-		<div class="col-md-3" id="post_meta"> 
-
-	<!-- date -->
-	
-	<div class="meta-widget">
-	<i class="fa fa-clock-o"></i>
-	2016-03-07 
-	</div>
-	
-
-	<!-- categories -->
-    
-	<div class="meta-widget">
-	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
-    <ul id="categorys" class="tag_box list-unstyled collapse in">
-          
-  <li>
-    <li><a href="/categories/Technology/">Technology<span>11</span></a></li>
-  </li>
-
-    </ul>
-	</div>
-	
-
-	<!-- tags -->
-	
-	<div class="meta-widget">
-	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
-    <ul id="tags" class="tag_box list-unstyled collapse in">	  
-	    
-  <li><a href="/tags/JavaScript/">JavaScript<span>2</span></a></li>
-    </ul>
-	</div>
-		
-
-	<!-- toc -->
-	<div class="meta-widget">
-	
-	</div>
-	
-    <hr>
-	
-</div><!-- col-md-3 -->
-
-	</div>
-	
-
-</div><!-- row -->
-
-
-
-	</div>
+    </footer>
   </div>
-  <div class="container-narrow">
-  <footer> <p>
-  &copy; 2016 pollseed
   
-</p>
-<div align="center">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- 縦置き用の広告 -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:336px;height:280px"
-       data-ad-client="ca-pub-3316992516723199"
-       data-ad-slot="8954231468"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
- </footer>
-</div> <!-- container-narrow -->
+    
+<nav id="article-nav">
   
-
+    <a href="/buy-list-2015/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          【2015年】買って良かったものをまとめた
+        
+      </div>
+    </a>
+  
+  
+    <a href="/best-linux-driven-development/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">【Windows】パソコン2015年度版・オススメ</div>
+    </a>
+  
+</nav>
 
   
-<a id="gotop" href="#">   
-  <span>⬆︎TOP</span>
-</a>
-
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/search.js"></script> 
+</article>
 
 
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-  $('.fancybox').fancybox();
-})(jQuery);
-</script>
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div align="center">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 縦置き用の広告 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:336px;height:280px"
+           data-ad-client="ca-pub-3316992516723199"
+           data-ad-slot="8954231468"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div id="footer-info" class="inner">
+      &copy; 2016 pollseed<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
+<script src="/js/script.js"></script>
 
-   <script type="text/javascript">      
-     var search_path = "search.xml";
-	 if (search_path.length == 0) {
-	 	search_path = "search.xml";
-	 }
-	 var path = "/" + search_path;
-     searchFunc(path, 'local-search-input', 'local-search-result');
-   </script>
-
+  </div>
 </body>
-   </html>
+</html>
