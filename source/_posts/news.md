@@ -13,6 +13,14 @@ category: Menu
 
 |日付|技術名|ジャンル|詳細|
 |:--:|:--:|:--:|
+|3/22|Safari|Browser|[9.1 Released](https://developer.apple.com/library/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html)|
+|3/22|Swift|Language|[2.2 Released](https://swift.org/blog/swift-2-2-released/)
+|3/22|iPad Pro|Device|[iPad Pro](http://www.apple.com/jp/ipad-pro/)|
+|3/22|iPhone SE|Device|[iPhone SE](http://www.apple.com/iphone-se/)|
+|3/21|Markov Chains|Blog|[Markov Chains](http://setosa.io/ev/markov-chains/)
+|3/17|InfraRuby|Software|[4.0 Released](http://infraruby.com/blog/infraruby-4.0-released)|
+|3/16|Zube|Web|[1.0 – Powerful project management for GitHub Issues](https://zube.io/)|
+|3/15|V8|JS Engine|[Release 5.0](http://v8project.blogspot.jp/2016/03/v8-release-50.html)|
 |3/12|PyPy|Software|[5.0 released](http://morepypy.blogspot.jp/2016/03/pypy-50-released.html)|
 |3/12|JDK9|Language|ついにモジュール[Jigsaw Finally Arrives in JDK 9](http://www.infoq.com/news/2016/03/jigsaw-jdk-9)|
 |3/9|Apache Flink|Software|[v1.0 Released](http://flink.apache.org/news/2016/03/08/release-1.0.0.html)|
