@@ -2,6 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
   
   <title>KuromojiをJavaで使ってみる | pollseedの孤独技術ホームページ</title>
   <meta name="author" content="pollseed">
@@ -18,77 +21,113 @@
     <meta property="og:image" content="undefined"/>
   
 
-  <link href="/favicon.ico" rel="icon" type="image/x-ico">
-  <link rel="alternate" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-70950728-1']);
-  _gaq.push(['_trackPageview']);
+    <link rel="alternative" href="/atom.xml" title="pollseedの孤独技術ホームページ" type="application/atom+xml">
+  
+  
+    <link href="/favicon.ico" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-70812759-1', 'auto');
+  ga('send', 'pageview');
 </script>
+
+
+
 
 </head>
 
-
-<body>
-  <header id="header" class="inner"><div class="alignleft">
-  <h1><a href="/">pollseedの孤独技術ホームページ</a></h1>
-  <h2 class="subtitle">フリーランスでエンジニアリング業務をしています。</h2>
-</div>
-<nav id="main-nav" class="alignright">
-  <ul>
-    
-      <li><a href="/">Home</a></li>
-    
-      <li><a href="/archives">Archives</a></li>
-    
-      <li><a href="/about">About</a></li>
-    
-      <li><a href="/atom.xml">RSS</a></li>
-    
-  </ul>
-  <div class="clearfix"></div>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">pollseedの孤独技術ホームページ</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class=""></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class=""></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class=""></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class=""></i>About
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/atom.xml" title="Subscribe me.">
+			  <i class=""></i>RSS
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
 </nav>
 <div class="clearfix"></div>
-</header>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
-  
-    <div class="gallery">
-  <div class="photoset">
-    
-      <img src="">
-    
-  </div>
-  <div class="control">
-    <div class="prev"></div>
-    <div class="next"></div>
-  </div>
-</div>
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-03-07T13:27:53.000Z"><a href="/kuromoji-java/">2016-03-07</a></time>
-      
-      
-  
-    <h1 class="title">KuromojiをJavaで使ってみる</h1>
-  
 
-    </header>
-    <div class="entry">
-      
-        <h1 id="Kuromoji"><a href="#Kuromoji" class="headerlink" title="Kuromoji"></a><a href="http://www.atilika.com/ja/products/kuromoji.html" target="_blank" rel="external">Kuromoji</a></h1><ul>
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">
+			<h1> KuromojiをJavaで使ってみる</h1>
+		</div>
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">
+	  
+
+	  <h1 id="Kuromoji"><a href="#Kuromoji" class="headerlink" title="Kuromoji"></a><a href="http://www.atilika.com/ja/products/kuromoji.html" target="_blank" rel="external">Kuromoji</a></h1><ul>
 <li>Javaで書かれているオープンソースの日本語形態素解析エンジン</li>
 <li>Javaで自然言語処理等をするならば非常に有用なライブラリです。</li>
 </ul>
@@ -108,137 +147,111 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> kuromojiWrapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.LinkedList;</span><br><span class="line"><span class="keyword">import</span> java.util.Queue;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> junit.framework.Assert;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atilika.kuromoji.jumandic.Token;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">KuromojiWrapperTest</span> </span>&#123;</span><br><span class="line">    <span class="keyword">static</span> KuromojiWrapper KW = <span class="keyword">new</span> KuromojiWrapper();</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_surfaces</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;String&gt; surfacesTrue = <span class="keyword">new</span> LinkedList&lt;String&gt;() &#123;</span><br><span class="line">            <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = <span class="number">1L</span>;</span><br><span class="line">            &#123;</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        KW.surfaces(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, surfacesTrue.poll()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_features</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;Token&gt; tokens = <span class="keyword">new</span> LinkedList&lt;Token&gt;();</span><br><span class="line">        KW.token(<span class="string">"ほげほげ"</span>).forEach(v -&gt; tokens.add(v));</span><br><span class="line">        KW.allFeatures(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, tokens.poll().getAllFeatures()));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www20.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015081000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www12.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" alt=""></p>
 
-      
-    </div>
-    <footer>
-      
-        
-  
-  <div class="categories">
-    <a href="/categories/Technology/">Technology</a>
+		<div class="clearfix" align="right">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
+			data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
+			data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
+			<img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
+			alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+			<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</div>
+	</div>
+	
+	<div>
+  	<center>
+	<div class="pagination">
+
+    
+    
+    <a href="/best-linux-driven-development/" type="button" class="btn btn-default"><i
+                class="fa fa-arrow-circle-o-left"></i> Anterior</a>
+    
+
+    <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
+    
+    <a href="/talib-java/" type="button" class="btn btn-default ">Próximo<i
+                class="fa fa-arrow-circle-o-right"></i></a>
+    
+
+    
+</div>
+
+    </center>
+	</div>
+
+	<!-- comment -->
+	
+<section id="comment">
+    <h2 class="title">Comentários</h2>
+
+    
+</section>
+
+
+	</div> <!-- col-md-9/col-md-12 -->
+
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-03-07 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/Technology/">Technology<span>11</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/Java/">Java<span>3</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+	
+
+</div><!-- row -->
+
+
+
+	</div>
   </div>
-
-        
-  
-  <div class="tags">
-    <a href="/tags/Java/">Java</a>
-  </div>
-
-        
-      
-      <div class="clearfix" align="right">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="GEKIKAR90551875" data-lang="ja">ツイート</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <a href="http://b.hatena.ne.jp/entry/https://www.pollseed.com" class="hatena-bookmark-button"
-        data-hatena-bookmark-title="はてなブックマーク" data-hatena-bookmark-layout="standard-balloon"
-        data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
-        <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png"
-        alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-      </div>
-    </footer>
-  </div>
-</article>
-
-
-
-</div></div>
-    <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="Suche">
-    <input type="hidden" name="q" value="site:www.pollseed.com">
-  </form>
-</div>
-
-  
-<div class="widget tag">
-  <h3 class="title">Kategorien</h3>
-  <ul class="entry">
-  
-    <li><a href="/categories/Menu/">Menu</a><small>5</small></li>
-  
-    <li><a href="/categories/Technology/">Technology</a><small>11</small></li>
-  
-    <li><a href="/categories/daily/">daily</a><small>4</small></li>
-  
-  </ul>
-</div>
-
-
-  
-<div class="widget tag">
-  <h3 class="title">Neueste Artikel</h3>
-  <ul class="entry">
-    
-      <li>
-        <a href="/todo-reading/">読んでおきたいもの</a>
-      </li>
-    
-      <li>
-        <a href="/about/">自己紹介</a>
-      </li>
-    
-      <li>
-        <a href="/github-extension-api/">GitHubの拡張APIを作りました</a>
-      </li>
-    
-      <li>
-        <a href="/mysql-version-up/">MySQLのv5.1～v5.7.11へのバージョンアップ対応</a>
-      </li>
-    
-      <li>
-        <a href="/conoha-vps-setup/">【初心者必見】ConoHaのVPSを使って一からセットアップしてみる</a>
-      </li>
-    
-  </ul>
-</div>
-
-
-  
-<div class="widget tag">
-  <h3 class="title">Tags</h3>
-  <ul class="entry">
-  
-    <li><a href="/tags/Java/">Java</a><small>3</small></li>
-  
-    <li><a href="/tags/JavaScript/">JavaScript</a><small>2</small></li>
-  
-    <li><a href="/tags/Linux/">Linux</a><small>1</small></li>
-  
-    <li><a href="/tags/Mac/">Mac</a><small>2</small></li>
-  
-    <li><a href="/tags/MySQL/">MySQL</a><small>2</small></li>
-  
-    <li><a href="/tags/OpenJDK/">OpenJDK</a><small>1</small></li>
-  
-    <li><a href="/tags/Sinatra/">Sinatra</a><small>1</small></li>
-  
-    <li><a href="/tags/Windows/">Windows</a><small>1</small></li>
-  
-  </ul>
-</div>
-
-
-<div align="center">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- 縦置き用の広告 -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:336px;height:280px"
-       data-ad-client="ca-pub-3316992516723199"
-       data-ad-slot="8954231468"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
-</aside>
-    <div class="clearfix"></div>
-  </div>
-  <footer id="footer" class="inner"><div class="alignleft">
-  
+  <div class="container-narrow">
+  <footer> <p>
   &copy; 2016 pollseed
   
-</div>
+</p>
 <div align="center">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- 縦置き用の広告 -->
@@ -250,13 +263,21 @@
   (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 </div>
-<div class="clearfix"></div>
-</footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>⬆︎TOP</span>
+</a>
+
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
-
-
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
@@ -267,5 +288,16 @@
 })(jQuery);
 </script>
 
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
 </body>
-</html>
+   </html>

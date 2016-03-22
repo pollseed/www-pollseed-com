@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[読んでおきたいもの]]></title>
+      <url>http://www.pollseed.com/todo-reading/</url>
+      <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><p>読んでおきたいリンクリスト</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">date</th>
+<th style="text-align:center">URL</th>
+<th style="text-align:center">Genre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">3/12</td>
+<td style="text-align:center"><a href="https://hagbarddenstore.se/posts/2016-03-11/using-nginx-to-load-balance-microservices/" target="_blank" rel="external">Using nginx to load balance microservices</a></td>
+<td style="text-align:center">Nginx</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[自己紹介]]></title>
+      <url>http://www.pollseed.com/about/</url>
+      <content type="html"><![CDATA[<h4 id="始めまして"><a href="#始めまして" class="headerlink" title="始めまして"></a>始めまして</h4><p>　pollseedと申します。</p>
+<p>　私は、都内で主にエンジニアリング業務をしています。<strong>Sierでシステムエンジニア</strong>、<strong>Webサービスのエンジニア</strong>を経て、<strong>現在はフリーランスでエンジニアリング</strong>業務をしています。<br>　得意とするのはサーバサイド側の設計・実装ですが、幅広く開発を対応します。</p>
+<h4 id="趣味"><a href="#趣味" class="headerlink" title="趣味"></a>趣味</h4><ul>
+<li>ギター、ベースのような弦楽器を弾きます。</li>
+<li>漫画、アニメ、ゲームのような日本の最近の文化を嗜みます。</li>
+<li>車、バイクのような乗り物を運転することが好きで、色々な場所を訪問することも同時に良くします。</li>
+<li>新しい、あるいは気になった技術をハックしてみることで何かに使えないかと試行錯誤することが好きで、その作業中は他事を一切せずに徹夜することも良く有ります。</li>
+<li>ショッピング。</li>
+<li>EDM,Dubstepが好きでクラブに踊りに行きます。</li>
+<li>温泉に入るのが至福の時です。ストレス解消の意味もあり、1ヶ月に1度は必ず温泉に行っています。</li>
+</ul>
+<h4 id="Technology"><a href="#Technology" class="headerlink" title="Technology"></a>Technology</h4><h5 id="よく使う言語と、よく使うFWとか"><a href="#よく使う言語と、よく使うFWとか" class="headerlink" title="よく使う言語と、よく使うFWとか"></a>よく使う言語と、よく使うFWとか</h5><ul>
+<li>Java (Struts, Struts2, Spring, Seasar, Play1, Play2)</li>
+<li>JavaScript (jQuery)</li>
+<li>PHP (CakePHP)</li>
+<li>Node.js (Express)</li>
+<li>ShellScript</li>
+<li>Ruby (RubyOnRails, Sinatra)</li>
+<li>Python</li>
+</ul>
+<h4 id="使用中の機材"><a href="#使用中の機材" class="headerlink" title="使用中の機材"></a>使用中の機材</h4><ul>
+<li>iPhone 6S 64GB</li>
+<li>Android Nexus 5 32GB</li>
+<li>TOSHIBA (13-inch, Linux Ubuntu 14.04 LTS, 2013) 4GB 500GB</li>
+<li>MacBook Pro (Retina, 15-inch, Mid 2014) 16GB 256GBSSD</li>
+<li>MacBook (Retina, 12-inch, Early 2015) 8GB 256GBSSD</li>
+<li>MacMini (2013) 16GB 1TBHDD</li>
+</ul>
+<h4 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h4><ul>
+<li><strong><a href="https://github.com/pollseed" target="_blank" rel="external">GitHub</a></strong></li>
+<li><strong><a href="http://qiita.com/pollseed" target="_blank" rel="external">Qiita</a></strong></li>
+<li><strong><a href="https://twitter.com/GEKIKAR90551875" target="_blank" rel="external">Twitter</a></strong></li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[GitHubの拡張APIを作りました]]></title>
+      <url>http://www.pollseed.com/github-extension-api/</url>
+      <content type="html"><![CDATA[<h2 id="リリース"><a href="#リリース" class="headerlink" title="リリース"></a>リリース</h2><p>2016年2月20日は、GitHubの拡張APIを作ったのでリリースしました。</p>
+<p>使いたい方は、<a href="https://twitter.com/GEKIKAR90551875" target="_blank" rel="external">Twitter Account</a>に「GitHubの拡張APIが使いたい」とメッセージを下さい。パスやエンドポイント情報を教えます。(パス等は、変更することがあるので、その場合は<a href="http://www.pollseed.com/">HOME</a>で公開しますので、事前にでもいいし、事後でもよいので、Twitterでメッセージをくれた方に再度通知します。)</p>
+<p>現状(v1)ではBasicAuthで管理しています。今後は、OAuth認証に切り替えると思いますが、なにぶん遊びのサーバで動かしてるのでスペックが高くありません。</p>
+<p>v2以降はもう少し使いやすくしようと思います。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="ドキュメント"><a href="#ドキュメント" class="headerlink" title="ドキュメント"></a>ドキュメント</h2><p><a href="http://docs.githubextensionapi.apiary.io/#" target="_blank" rel="external">http://docs.githubextensionapi.apiary.io</a><br>APIのリファレンスです。</p>
+<h2 id="できること"><a href="#できること" class="headerlink" title="できること"></a>できること</h2><p>最大1ヶ月前のGitHub上のデータをソートして50件まで返します。<br>単純に自分でデータ取得用のデータマイニング用に作ったのですが、暇だったのでAPIにした感じです。用途が用途なので、機能はしょぼいですね。</p>
+<p>ソート条件は、以下の10個です<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">github_id・・・GitHub リポジトリ ID</span><br><span class="line">stargazers_count・・・スター数</span><br><span class="line">forks_count・・・フォーク数</span><br><span class="line">commit_created_at・・・作成日時 New</span><br><span class="line">commit_updated_at・・・更新日時</span><br><span class="line">owner_id・・・開発者ID New</span><br><span class="line">owner_followers・・・開発者のフォロワー数 New</span><br><span class="line">owner_following・・・開発者のフォロー数 New</span><br><span class="line">owner_created_at・・・開発者の登録日時 New</span><br><span class="line">owner_updated_at・・・開発者の更新日時 New</span><br></pre></td></tr></table></figure></p>
+<p>Newになっているのが、今回の機能で追加したものです。<br>今後は、ページャ的な取得、開発期間やユーザのフレンド状況でのソート機能も入れようと思いますが、このあたりは時間があれば開発します。</p>
+<p>何か不具合があれば、<a href="https://github.com/pollseed/github-extension-api/issues" target="_blank" rel="external">GitHub Issue</a>に優しく追加してくださると助かります。時間を見つけて直します。<br>いやいや簡単だからこっちで直したぜという凄腕の方がいればプルリクくださると喜びます。言語はRubyで作ってます。</p>
+<p><a href="https://gitter.im/pollseed/github-extension-api" target="_blank" rel="external">チャットルーム</a>はこちらです。</p>
+<h2 id="デベロッパ"><a href="#デベロッパ" class="headerlink" title="デベロッパ"></a>デベロッパ</h2><p>フォークは<a href="https://github.com/pollseed/github-extension-api" target="_blank" rel="external">Github Repo github-extension-api</a>からお願いします。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[MySQLのv5.1～v5.7.11へのバージョンアップ対応]]></title>
+      <url>http://www.pollseed.com/mysql-version-up/</url>
+      <content type="html"><![CDATA[<h2 id="※注意点"><a href="#※注意点" class="headerlink" title="※注意点"></a>※注意点</h2><ul>
+<li>この記事は、公式のドキュメントを読むことに勝る内容は掲載されていません。</li>
+<li>公式マニュアルを見ましょう。この記事のコマンドをコピペしても僕の環境でしかうまく動きません。</li>
+<li>特に今回はデータベースという大事な資産を削除するので本当に気をつけてください。作業者以外責任を取れません。</li>
+</ul>
+<p>　おかしな点があれば親切な方教えてください。大したことない人がやっているので間違いがあると思います。</p>
+<h1 id="実施環境-参考までに"><a href="#実施環境-参考までに" class="headerlink" title="実施環境(参考までに)"></a>実施環境(参考までに)</h1><ul>
+<li>CentOS6.7</li>
+<li>MySQL v5.1, MySQL v5.7</li>
+</ul>
+<h1 id="最初に"><a href="#最初に" class="headerlink" title="最初に"></a>最初に</h1><p>今回、バージョンアップ対応中にミスをしてやらかしてしまったので再発しないようにメモを残す</p>
+<p>そのミスとは、互換性の確認をしていなかったこと。<br>本来なら、本番サーバ(v5.1)からデータ以外をダンプし、新サーバ(v5.7)にダンプファイルを流し、新サーバにて挙動を確認する<br>問題なければ、本番サーバからデータをダンプし、新サーバにダンプファイルを流し、アプリケーションとの接続(CRUD)を試して挙動を確認する。<br>こうすることで、何かエラーが発生したときの選択肢を一つ切ることができるのだが、新サーバを用意するのがめんどくさくてそのまま移行作業をしてしまった。</p>
+<h1 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h1><p>サービス停止用の知らせを関係者にしておく。コールド状態で行うのでサービスを停止します。<br>Masterの対応後、Slaveを対応する。今回は、一方向Maste-Slave構成であり、データに差分が出ないやり方なので特別な対応はあまりしていません。</p>
+<ol>
+<li>前準備</li>
+<li>バックアップ対応</li>
+<li>MySQLサーバの停止</li>
+<li>古いMySQLパッケージのアンインストール</li>
+<li>新しいMySQLパッケージをインストール</li>
+<li>初期設定＆MySQLサーバの起動</li>
+<li>バックアップデータの復帰</li>
+<li>後始末</li>
+</ol>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HK0TD" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015042000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www15.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HK0TD" alt=""></p>
+<h2 id="0-前準備"><a href="#0-前準備" class="headerlink" title="0. 前準備"></a>0. 前準備</h2><p>まずは、現在バージョンの確認を行う<br><code>mysql --version &amp;&amp; ps aux | grep mysql &amp; which mysql mysqld</code></p>
+<p>Webサーバを停止させデータのCLUDが走らないようにする。ログをモニタリングしながら作業にあたること。</p>
+<h2 id="1-バックアップ対応"><a href="#1-バックアップ対応" class="headerlink" title="1. バックアップ対応"></a>1. バックアップ対応</h2><p>MySQLのコマンドでダンプファイルを作ります<br>必ず、公式マニュアルを見てから対応しましょう。なぜならコマンドやオプションは、バージョンによって異なる可能性があるからです。</p>
+<p>今回は、v5.1とv5.7のマニュアルを見ればよいので二つを目視しつつ作業にあたるのが望ましい。</p>
+<ul>
+<li><a href="http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html</a></li>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/mysqldump.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/mysqldump.html</a></li>
+</ul>
+<p><strong>簡単に良く使うオプションを紹介しておきます。(公式に全て掲載されているものを情報落ちさせて載せています。)</strong></p>
+<h4 id="トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。"><a href="#トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。" class="headerlink" title="トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。"></a>トランザクションオプションを利用しておくとパフォーマンスが落ちますが、データの信頼性と一貫性を担保できます。</h4><p>理由もわからずに、オプションなしで発行するのは危険なのでここで整理しておきましょう。<br>–add-locks LOCK TABLES ステートメントと UNLOCK TABLES ステートメントで各テーブルダンプを囲むオプションで、INSERTの速度を向上させます。<br>–flush-privileges ダンプ完了後、出力にFLUSH PRIVILEGES ステートメントを追加する。正しいリストアのためには必須のオプションです。<br>–no-autocommit ダンプするテーブル毎にINSERT ステートメントを SET autocommit = 0 ステートメントと COMMIT ステートメントで囲みます。<br>–order-by-primary 行を主キーやインデクスでソートしてダンプするので便利だが、操作時間がかなり長くなる。<br>–single-transaction InnoDB などのトランザクションテーブルの場合にしか使えませんが、アプリケーションをブロックすることなく、START TRANSACTION が発行された時点のデータベースの一貫した状態をダンプします。<br>ただし、ALTER TABLE、CREATE TABLE、DROP TABLE、RENAME TABLE、TRUNCATE TABLE ステートメントを使用しないようにと書かれているので注意。</p>
+<h4 id="次にパフォーマンスオプションですが、"><a href="#次にパフォーマンスオプションですが、" class="headerlink" title="次にパフォーマンスオプションですが、"></a>次にパフォーマンスオプションですが、</h4><p>INSERT文を速くするためには、いくつかやり方があると思います。<br>簡単な方法としては、VALUES文を複数にし、同時に複数行を挿入する、カラムの定義にDEFAULT値を設定するなどですね。<br>–delayed-insertは非推奨です。<br>–extended-insert, -e 先ほど行ったVALUES文の複数行挿入はこのオプションです。</p>
+<h4 id="フィルタリングオプションは"><a href="#フィルタリングオプションは" class="headerlink" title="フィルタリングオプションは"></a>フィルタリングオプションは</h4><p>–all-databases, -A 全データベース内のすべてのテーブルをダンプする<br>–databases, -B 複数のデータベースをダンプする<br>–ignore-table=db_name.tbl_name 指定されたテーブルをダンプしない<br>–no-data, -d データが必要ないときに使います</p>
+<h3 id="今回はただコピーしたいだけなので"><a href="#今回はただコピーしたいだけなので" class="headerlink" title="今回はただコピーしたいだけなので"></a>今回はただコピーしたいだけなので</h3><p><a href="http://dev.mysql.com/doc/refman/5.7/en/mysqldump-copying-database.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/mysqldump-copying-database.html</a><br><code>mysqldump -u root -p &gt;Dump20150216.sql</code></p>
+<h3 id="InnoDBファイルのバックアップ"><a href="#InnoDBファイルのバックアップ" class="headerlink" title="InnoDBファイルのバックアップ"></a>InnoDBファイルのバックアップ</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mv /var/lib/mysql/ibdata1 ~/backup/ibdata1</span><br><span class="line">mv /var/lib/mysql/.ibd ~/backup/.ibd</span><br><span class="line">mv /var/lib/mysql/ib_logfile0  ~/backup/ib_logfile0</span><br><span class="line">mv /var/lib/mysql/ib_logfile1  ~/backup/ib_logfile1</span><br><span class="line">mv /etc/my.cnf ~/backup/my.cnf</span><br></pre></td></tr></table></figure>
+<h2 id="2-MySQLサーバの停止"><a href="#2-MySQLサーバの停止" class="headerlink" title="2. MySQLサーバの停止"></a>2. MySQLサーバの停止</h2><p>MySQLサーバを止めるのを忘れずに<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/mysqld status</span><br><span class="line">/etc/init.d/mysqld stop</span><br></pre></td></tr></table></figure></p>
+<h2 id="3-古いMySQLパッケージのアンインストール"><a href="#3-古いMySQLパッケージのアンインストール" class="headerlink" title="3. 古いMySQLパッケージのアンインストール"></a>3. 古いMySQLパッケージのアンインストール</h2><p><a href="https://www.centosblog.com/11-useful-yum-commands-centos-linux/" target="_blank" rel="external">https://www.centosblog.com/11-useful-yum-commands-centos-linux/</a><br>まず、CentOS6系のマニュアルを見ましょう(eraseとremoveの違いがわからない方はマニュアルを一度読むことを推奨する)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 古いものを全部削除する</span><br><span class="line">yum remove mysql*</span><br><span class="line">rm -rf /bin/mysql</span><br><span class="line">rm -rf /usr/local/mysqld</span><br></pre></td></tr></table></figure></p>
+<h2 id="4-新しいMySQLパッケージをインストール"><a href="#4-新しいMySQLパッケージをインストール" class="headerlink" title="4. 新しいMySQLパッケージをインストール"></a>4. 新しいMySQLパッケージをインストール</h2><p><a href="https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html" target="_blank" rel="external">https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html</a><br>必ず、マニュアルに書いてある方法を試行しましょう。(以下のコマンドを打つ場合100%こけます)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum localinstall mysql57-community-release-el6-&#123;version-number&#125;.noarch.rpm</span><br><span class="line">yum repolist enabled | grep mysql</span><br><span class="line">sudo yum install mysql-community-server mysql-devel</span><br><span class="line">mysql --version</span><br><span class="line">which mysql mysqld</span><br></pre></td></tr></table></figure></p>
+<h2 id="5-初期設定＆MySQLサーバの起動"><a href="#5-初期設定＆MySQLサーバの起動" class="headerlink" title="5. 初期設定＆MySQLサーバの起動"></a>5. 初期設定＆MySQLサーバの起動</h2><p><a href="https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html" target="_blank" rel="external">https://dev.mysql.com/doc/mysql-repo-excerpt/5.7/en/linux-installation-yum-repo.html
+</a><br>4と同じURLです。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># このコマンドによって、新しくテーブルが作られます。さらに、パスワードもこれによって設定されます。</span><br><span class="line">sudo service mysqld start</span><br><span class="line"></span><br><span class="line">sudo service mysqld status &amp;&amp; ps aux | grep mysql</span><br><span class="line"></span><br><span class="line">sudo grep &apos;temporary password&apos; /var/log/mysqld.log</span><br><span class="line">mysql -uroot -p # パスワードを入力する</span><br><span class="line">ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;MyNewPass4!&apos;;</span><br></pre></td></tr></table></figure></p>
+<h2 id="6-バックアップデータの復帰"><a href="#6-バックアップデータの復帰" class="headerlink" title="6. バックアップデータの復帰"></a>6. バックアップデータの復帰</h2><p><a href="http://dev.mysql.com/doc/refman/5.7/en/reloading-sql-format-dumps.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/reloading-sql-format-dumps.html</a><br>マニュアルの方法を試しましょう。<br><code>mysql -u root -p &lt;Dump20150216.sql</code></p>
+<p><a href="https://dev.mysql.com/doc/refman/5.7/en/replication.html" target="_blank" rel="external">https://dev.mysql.com/doc/refman/5.7/en/replication.html</a><br>スレーブ(Read Only)にも同様に対応し、そのままダンプファイルを流します。(おそらくMasterにSlave用のユーザは存在しているはずなので)<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line">&gt; start slave;</span><br></pre></td></tr></table></figure></p>
+<h2 id="7-後始末"><a href="#7-後始末" class="headerlink" title="7. 後始末"></a>7. 後始末</h2><p>ログにおかしなエラーが吐かれていないかは最低限確認する。<br>余力があれば、新規ユーザを作り、CREATE TABLE, INSERT, UPDATE, DELETE DROP TABLEが発行できるか確認する。<br>データを確認し、おかしなINSERTがされてないか確認する。パフォーマンスやメモリなどは保証されないやり方なのでそこは今回は無視する。<br>デフラグ。<br>アプリケーションを起動させ、プログラムからMySQLサーバに接続し挙動確認を行う。</p>
+<h2 id="もしヤバイ状況になったら"><a href="#もしヤバイ状況になったら" class="headerlink" title="もしヤバイ状況になったら"></a>もしヤバイ状況になったら</h2><p><a href="http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html" target="_blank" rel="external">http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html</a><br>下手にぐぐるよりも、トラブルシューティングのマニュアルを読むのが一番手っ取り早いです。<br>リカバリのやり方が効くかもしれないので。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【初心者必見】ConoHaのVPSを使って一からセットアップしてみる]]></title>
+      <url>http://www.pollseed.com/conoha-vps-setup/</url>
+      <content type="html"><![CDATA[<p>今回、AWSだけではなく、国内のVPSも契約してみることにしました。その際に参考にした情報を残しておきます。</p>
+<h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>僕が初めてサーバ構築をした時、自宅鯖にLinuxとして新しくリリースされたUbuntuを入れてサーバ環境を整えました。当時は、技術も知識もあまりなく、結局完成まで1週間ぐらいかかりました。確かBINDの設定でどはまりして、大分死にそうになったような気がします。もうあまり覚えていません。Oreillyの本があればもっとスムーズだったかもしれませんが</p>
+<h2 id="きっかけ"><a href="#きっかけ" class="headerlink" title="きっかけ"></a>きっかけ</h2><ul>
+<li>Webサービスや簡単にクラウド上のLinux環境で遊ぶ時にVPSが必要になった</li>
+<li>AWSだけではなく、国内のVPSを使ってみようとオモタ</li>
+</ul>
+<h2 id="候補"><a href="#候補" class="headerlink" title="候補"></a>候補</h2><ul>
+<li>さくら</li>
+<li>ConoHa</li>
+<li>ServersMan</li>
+</ul>
+<p>この3つが候補になったのは、お手軽さと値段・信頼性である。あまりにも不具合が多い会社は怖いので選ぶ気になれない。</p>
+<p>今回は、ConoHaにしました。</p>
+<p>紹介URLです。もし気が向いたら使ってみてください。こちらのホームページの読者の方は、このリンクから登録するとConoHaの1,000円分のクーポンがもらえます。<br><a href="https://www.conoha.jp/referral/?token=fmmHSnIh9GzQWYsEX7XR9H5snPtr8LfEykCnLDz0msp9hKBV5oc-GQN" target="_blank" rel="external">クーポン利用の方はこちらをクリックして登録してください</a></p>
+<h2 id="OS"><a href="#OS" class="headerlink" title="OS"></a>OS</h2><p>CentOS release 6.7 (Final) : 7系のブリッジサーバの構築で手間取った経験を思い出し、6系にした。今はまだ得意な方で良いと思います。僕はまだ7系のコマンドに不慣れなので、自宅鯖ぐらいしか冒険できないチキンです。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HMT4H" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www21.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015055000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www18.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HMT4H" alt=""></p>
+<h2 id="最初にやっておきたいこと"><a href="#最初にやっておきたいこと" class="headerlink" title="最初にやっておきたいこと"></a>最初にやっておきたいこと</h2><p>めんどくさいけど、やってないと後で困るので</p>
+<p>一応、rootのパスワードを20文字以上にする、かつ英数字を入れる。記号もいれると尚良い。ただ、忘れないように、忘れたらAHOなので注意</p>
+<h3 id="ユーザ"><a href="#ユーザ" class="headerlink" title="ユーザ"></a>ユーザ</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ adduser pollseed</span><br><span class="line">$ passwd pollseed</span><br><span class="line">$ gpasswd <span class="_">-a</span> pollseed wheel</span><br><span class="line"></span><br><span class="line"><span class="comment"># vi /etc/sudoers で 以下のコメントアウト外す</span></span><br><span class="line">%wheel  ALL=(ALL)       ALL</span><br></pre></td></tr></table></figure>
+<h3 id="SSH周り"><a href="#SSH周り" class="headerlink" title="SSH周り"></a>SSH周り</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir /home/pollseed/.ssh</span><br><span class="line">$ chown pollseed:pollseed /home/pollseed/.ssh</span><br><span class="line">$ chmod 700 /home/pollseed/.ssh/</span><br><span class="line">$ cp ~/.ssh/authorized_keys /home/pollseed/.ssh/</span><br><span class="line">$ chown pollseed:pollseed authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># vi /etc/ssh/sshd_config の内容を以下に変える</span></span><br><span class="line">Port 22以外</span><br><span class="line">PermitRootLogin no</span><br><span class="line">RSAAuthentication yes</span><br><span class="line">PubkeyAuthentication yes</span><br><span class="line">AuthorizedKeysFile      .ssh/authorized_keys</span><br><span class="line">PasswordAuthentication no</span><br><span class="line"></span><br><span class="line"><span class="comment"># /etc/sysconfig/iptables のポートを変更しておく</span></span><br><span class="line">-A INPUT -m state --state NEW -m tcp -p tcp --dport 22番以外 -j ACCEPT</span><br><span class="line"></span><br><span class="line">$ service iptables restart</span><br><span class="line">$ service sshd restart</span><br><span class="line"></span><br><span class="line">$ ssh -i .ssh/id_rsa pollseed@XX.XX.XX.XX -p XX</span><br><span class="line">$ sudo hostname conoha</span><br><span class="line"></span><br><span class="line">$ mkdir -p ~/.vim/bundle</span><br><span class="line">$ git <span class="built_in">clone</span> git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim</span><br><span class="line"><span class="comment"># .vimrcを作る</span></span><br><span class="line"></span><br><span class="line">$ <span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+<p>やってることは単純で、以下の話。他にもごちゃごちゃやってはいるが、とりあえず最低限これぐらいはやっておきたい</p>
+<ul>
+<li>指定ユーザ（Root禁止）</li>
+<li>パスワードログイン禁止（秘密鍵ログインのみ許可）</li>
+<li>22番ポートでのログイン禁止</li>
+</ul>
+<p>ちなみにIptablesの設定は<a href="http://oxynotes.com/?p=6361" target="_blank" rel="external">こちら</a>がわかりやすいと思います。僕もよく見ます。</p>
+<h3 id="Package"><a href="#Package" class="headerlink" title="Package"></a>Package</h3><p>簡単に<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">yum update -y</span><br><span class="line">su pollseed</span><br><span class="line">sudo yum git zsh gcc zlib zlib-devel openssl-devel sqlite-devel gcc-c++ glibc-headers libyaml-devel readline readline-devel zlib-devel redhat-lsb</span><br><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># nginx</span></span><br><span class="line">sudo rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm</span><br><span class="line">sudo yum install -y nginx</span><br></pre></td></tr></table></figure></p>
+<p>※注意点<br>当たり前の話ですが、忘れがちなこととして、サーバのメモリが小さいとGccのコンパイルはかなり遅いです。</p>
+<p>参考までに、1GでRubyのコンパイルをしてみた時のCPUの消費具合です<br><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2016/02/スクリーンショット-2016-02-13-23.39.44.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2016/02/スクリーンショット-2016-02-13-23.39.44-1024x391.png" alt="スクリーンショット 2016-02-13 23.39.44" width="840" height="321" class="alignnone size-large wp-image-555"></a></p>
+<p>という話ですね</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【何日で配送される？】MacBook 12インチをApple Storeで買ってみた]]></title>
+      <url>http://www.pollseed.com/macbook-bought/</url>
+      <content type="html"><![CDATA[<p>題名のとおりですが、仕事で必要になったので、買ってみました。</p>
+<h2 id="型番"><a href="#型番" class="headerlink" title="型番"></a>型番</h2><p>12インチMacBook 256GB - スペースグレイ</p>
+<h2 id="スペック"><a href="#スペック" class="headerlink" title="スペック"></a>スペック</h2><p>カスタマイズした所は「<strong>太字</strong>」にしています。<br>具体的には、CPUとUSキーボードです。</p>
+<ul>
+<li><strong>1.3GHz Dual-Core Intel Core M</strong></li>
+<li>Intel HD Graphics 5300</li>
+<li>8GB 1600MHz LPDDR3</li>
+<li>256GB PCIe-based Flash Storage</li>
+<li><strong>US KEYBOARD/USER’S GUIDE-JPA</strong></li>
+<li>COUNTRY KIT-JPN</li>
+</ul>
+<h2 id="購入金額"><a href="#購入金額" class="headerlink" title="購入金額"></a>購入金額</h2><p>193,104円</p>
+<h3 id="備品系-計22-744円"><a href="#備品系-計22-744円" class="headerlink" title="備品系 (計22,744円)"></a>備品系 (計22,744円)</h3><ul>
+<li>Incase 12インチNeoprene Classic Sleeve for MacBook 5,184円</li>
+<li>USB-C Digital AV Multiportアダプタ 10,260円</li>
+<li>MacBook 12 SeeThru Clear Core 3 Packaging SPK-A4124 5,120円</li>
+<li>Macbook 12インチ用 高精細反射防止フィルム 2,180円</li>
+</ul>
+<p>合計で、215,848円となりました。<br>20万は超えないだろうと思っていたら意外と超えてました。<br>ちなみに電気屋で１年前に購入したPro15インチは、ポイントのおかげで23万ぐらいだったので、このMacBookというやつはものすごい高いことがわかります。</p>
+<h2 id="注文日"><a href="#注文日" class="headerlink" title="注文日"></a>注文日</h2><h3 id="2016-01-15-21-00ぐらい"><a href="#2016-01-15-21-00ぐらい" class="headerlink" title="2016/01/15 21:00ぐらい"></a>2016/01/15 21:00ぐらい</h3><h2 id="海外荷物受付"><a href="#海外荷物受付" class="headerlink" title="海外荷物受付"></a>海外荷物受付</h2><p>５日後にやっと伝票が作られました。<br>カスタマイズすると遅くなるのは知っていましたが、まさか５日もかかるとはびっくりですねー。GWでもあったんですか？</p>
+<p>さらに20日の朝にこの場所に到着してから２日程放置されていたみたいです。</p>
+<h3 id="2016-01-20-10-10-上海支店（中国）"><a href="#2016-01-20-10-10-上海支店（中国）" class="headerlink" title="2016/01/20 10:10 上海支店（中国）"></a>2016/01/20 10:10 上海支店（中国）</h3><h2 id="荷物受付・発送"><a href="#荷物受付・発送" class="headerlink" title="荷物受付・発送"></a>荷物受付・発送</h2><p>やっと発送されましたね。</p>
+<h3 id="01-22-10-21-ADSC支店"><a href="#01-22-10-21-ADSC支店" class="headerlink" title="01/22 10:21 ＡＤＳＣ支店"></a>01/22 10:21 ＡＤＳＣ支店</h3><h2 id="依頼受付（日・時間帯変更）"><a href="#依頼受付（日・時間帯変更）" class="headerlink" title="依頼受付（日・時間帯変更）"></a>依頼受付（日・時間帯変更）</h2><p><strong>発送されたことが分かったので、スグに翌日の時間指定によって絶対に受け取れる日時を指定しました。</strong>これをしないと最悪翌日の夜とかになったりします。ここは重要なポイントです。</p>
+<h3 id="01-22-12-36-新東京主管支店-サービスセンター"><a href="#01-22-12-36-新東京主管支店-サービスセンター" class="headerlink" title="01/22 12:36 新東京主管支店 サービスセンター"></a>01/22 12:36 新東京主管支店 サービスセンター</h3><h3 id="01-23-到着"><a href="#01-23-到着" class="headerlink" title="01/23 到着"></a>01/23 到着</h3><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>15日に注文してから、23に到着しているので、<strong>「８日」</strong>かかっています。<br>※実際は15日夜ですが、そこは考慮してません。</p>
+<p>住居地にもよりますが、MacBookをカスタムしてから商品の在庫があれば、大体1週間〜1週間半はかかるでしょう。</p>
+<p>僕は、仕事で急遽必要になりましたが、1週間〜2週間の猶予がありましたので間に合いました。急いでる時はなるべく早めに注文するか、未カスタムであれば最も在庫が多いMacの店舗で購入しましょう。</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00VTN1PH4/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00VTN1PH4&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00VTN1PH4&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00VTN1PH4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B00VTN1PH4/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00VTN1PH4&linkCode=as2&tag=slicascript-22" target="_blank">APPLE MacBook (1.1GHzデュアルコア Intel CoreMプロセッサ/12型/8GB/256GB/USB-C/ゴールド) MK4M2J/A</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00VTN1PH4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【初心者必見】OpenJDKの脆弱性調査]]></title>
+      <url>http://www.pollseed.com/openjdk-vulnerability/</url>
+      <content type="html"><![CDATA[<h2 id="OpenJDK"><a href="#OpenJDK" class="headerlink" title="OpenJDK"></a><a href="http://openjdk.java.net/" target="_blank" rel="external">OpenJDK</a></h2><p>脆弱性調査はよくやりますが、どのあたりを見たら良いかということで<br>別にOpenJDKに限った話ではないですが、例として今回挙げました。</p>
+<p>ここらをよく見るってのをメモっておきます。実際に調査したのはすごく前ですが、2016年度の新しい情報が出る前のおさらいとして書いておきます。</p>
+<p>ゼロデイとかになってくると未然に防ぐのは難しいですが、迅速な対応が結局何よりも大事ですので、順に紹介していきます。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" target="_blank"><br><img border="0" width="468" height="60" alt="" src="http://www25.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www19.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" alt=""></p>
+<h2 id="1-JPCERT"><a href="#1-JPCERT" class="headerlink" title="1. JPCERT"></a>1. <a href="https://www.jpcert.or.jp/" target="_blank" rel="external">JPCERT</a></h2><p>Japan Computer Emergency Response Team Coordination Centerの略です。<br>まずは、このサイトを見ますね。</p>
+<p><a href="https://www.jpcert.or.jp/at/2015/at150038.html" target="_blank" rel="external">2016/1/7時点の最新</a>を見る。最新と言いながら去年の10月なので古めですね。その前は<a href="https://www.jpcert.or.jp/at/2015/at150022.html" target="_blank" rel="external">7月</a>です。</p>
+<h2 id="2-IPA"><a href="#2-IPA" class="headerlink" title="2. IPA"></a>2. <a href="https://www.ipa.go.jp/" target="_blank" rel="external">IPA</a></h2><p>ご存知IPAです。</p>
+<p>JPCERTと共同でJVNを運営していますので情報はかぶりますが、<a href="https://www.ipa.go.jp/security/ciadr/vul/20151021-jre.html" target="_blank" rel="external">こちらのIPAのサイト</a>もよく見ます。</p>
+<h3 id="ターゲット"><a href="#ターゲット" class="headerlink" title="ターゲット"></a>ターゲット</h3><p>今回で言うと以下になります。</p>
+<ul>
+<li>JDK and JRE (Oracle Java SE) 8 Update 60 およびそれ以前のバージョン</li>
+<li>JDK and JRE (Oracle Java SE) 7 Update 85 およびそれ以前のバージョン</li>
+<li>JDK and JRE (Oracle Java SE) 6 Update 101 およびそれ以前のバージョン</li>
+<li>JDK and JRE (Oracle Java SE Embedded) 8 Update 51 およびそれ以前のバージョン</li>
+</ul>
+<h3 id="対策"><a href="#対策" class="headerlink" title="対策"></a>対策</h3><p>要は<a href="https://java.com/ja/download/" target="_blank" rel="external">アプデ</a>してくださいということです。</p>
+<h2 id="3-CVE"><a href="#3-CVE" class="headerlink" title="3. CVE"></a>3. <a href="https://cve.mitre.org/" target="_blank" rel="external">CVE</a></h2><p>Common Vulnerabilities and Exposuresの略です。一番見るサイトですね。</p>
+<p>今回は<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4835" target="_blank" rel="external">CVE-2015-4835</a>を中心に追いましたのでリンクを貼ってます。</p>
+<h2 id="4-AusCert"><a href="#4-AusCert" class="headerlink" title="4. AusCert"></a>4. <a href="https://www.auscert.org.au/" target="_blank" rel="external">AusCert</a></h2><p>日本以外のCertページもよく見ます。別にオーストラリアでなくてもいいですが。<br><a href="https://www.auscert.org.au/render.html?it=27137" target="_blank" rel="external">まとめ</a>てあります。</p>
+<h3 id="BugFix"><a href="#BugFix" class="headerlink" title="BugFix"></a>BugFix</h3><p>今回のバグフィックスのメモです。</p>
+<pre>
+1233687 - CVE-2015-4806 OpenJDK: HttpURLConnection header restriction bypass (Libraries, 8130193)
+1273022 - CVE-2015-4835 OpenJDK: insufficient permission checks in StubGenerator (CORBA, 8076383)
+1273027 - CVE-2015-4881 OpenJDK: missing type checks in IIOPInputStream (CORBA, 8076392)
+1273053 - CVE-2015-4843 OpenJDK: java.nio Buffers integer overflow issues (Libraries, 8130891)
+1273304 - CVE-2015-4883 OpenJDK: incorrect access control context used in DGCClient (RMI, 8076413)
+1273308 - CVE-2015-4860 OpenJDK: incorrect access control context used in DGCImpl (RMI, 8080688)
+1273311 - CVE-2015-4805 OpenJDK: missing checks for proper initialization in ObjectStreamClass (Serialization, 8103671)
+1273318 - CVE-2015-4844 ICU: missing boundary checks in layout engine (OpenJDK 2D, 8132042)
+1273338 - CVE-2015-4840 OpenJDK: OOB access in CMS code (2D, 8086092)
+1273414 - CVE-2015-4882 OpenJDK: incorrect String object deserialization in IIOPInputStream (CORBA, 8076387)
+1273425 - CVE-2015-4842 OpenJDK: leak of user.dir location (JAXP, 8078427)
+1273430 - CVE-2015-4734 OpenJDK: kerberos realm name leak (JGSS, 8048030)
+1273496 - CVE-2015-4903 OpenJDK: insufficient proxy class checks in RemoteObjectInvocationHandler (RMI, 8076339)
+1273637 - CVE-2015-4803 OpenJDK: inefficient use of hash tables and lists during XML parsing (JAXP, 8068842)
+1273638 - CVE-2015-4893 OpenJDK: incomplete MaxXMLNameLimit enforcement (JAXP, 8086733)
+1273645 - CVE-2015-4911 OpenJDK: incomplete supportDTD enforcement (JAXP, 8130078)
+1273734 - CVE-2015-4872 OpenJDK: incomplete constraints enforcement by AlgorithmChecker (Security, 8131291)
+</pre>
+
+<h2 id="5-パッチ"><a href="#5-パッチ" class="headerlink" title="5. パッチ"></a>5. パッチ</h2><p>前バージョンと修正後ソースの差分をテストしたい時もけっこうありますよね。僕は脆弱性を吐かしてテストしたい時がありますので、こういうアーカイブはよく見ます。ただ、攻撃に使われないようにしているので、実際にどこをどう直したかはわかりづらいです。探しても中々見つかりません。Oracleの中にはそのような情報はなかったような気がします。結局自分であたりを付けて動的解析なりなんなり動かしてみるしかない時も多いかもしれません。</p>
+<p>パッチのモノ自体の在り処は<a href="http://mail.openjdk.java.net/pipermail/jdk7u-dev/" target="_blank" rel="external">OpenJDK公式</a>にあります。</p>
+<h2 id="6-RedHat"><a href="#6-RedHat" class="headerlink" title="6. RedHat"></a>6. <a href="https://access.redhat.com/security/security-updates/#/?q=openjdk&amp;p=1&amp;sort=portal_publication_date%20desc&amp;rows=10&amp;srch=any&amp;portal_severity=Critical&amp;portal_advisory_type=Security%20Advisory&amp;documentKind=PortalProduct&amp;%7B!child%20of%3D%22documentKind:Errata%22%7DdocumentKind=Errata" target="_blank" rel="external">RedHat</a></h2><p>クリティカルアラートを見ます。情報が多く検索もし易いのでオススメです。</p>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><p>vulnerabilityのサイト自体にインジェクション系の攻撃が埋め込まれていることも多いので、それは注意しましょう。<br>今回紹介したサイトは公式で運営されているため100％ではないですが、安全性は高いです。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【MySQL】JDBCでINSERT ... ON DUPLICATE KEY UPDATE時の戻り値]]></title>
+      <url>http://www.pollseed.com/mysql-jdbc-insert-update/</url>
+      <content type="html"><![CDATA[<h1 id="INSERT-…-ON-DUPLICATE-KEY-UPDATE"><a href="#INSERT-…-ON-DUPLICATE-KEY-UPDATE" class="headerlink" title="INSERT … ON DUPLICATE KEY UPDATE"></a>INSERT … ON DUPLICATE KEY UPDATE</h1><p>JDBCから利用すると戻り値に違和感があった</p>
+<p>ドキュメントは、<a href="https://dev.mysql.com/doc/refman/5.6/ja/insert-on-duplicate.html" target="_blank" rel="external">公式サイト</a>が最も参考になります。</p>
+<p>今回は、この構文(<code>INSERT ... ON DUPLICATE KEYUPDATE</code>)をJDBCから利用した時の戻り値をまとめておくことにした。</p>
+<h2 id="気になった箇所"><a href="#気になった箇所" class="headerlink" title="気になった箇所"></a>気になった箇所</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">ON DUPLICATE KEY UPDATE を使用した場合、</span><br><span class="line"></span><br><span class="line">行ごとの影響を受けた行の値は、</span><br><span class="line">その行が新しい行として挿入された場合は 1、</span><br><span class="line">既存の行が更新された場合は 2、</span><br><span class="line">既存の行がその現在の値に設定された場合は 0 です。</span><br><span class="line"></span><br><span class="line">mysqld への接続時に</span><br><span class="line">CLIENT_FOUND_ROWS フラグを mysql_real_connect() に指定すると、</span><br><span class="line">既存の行がその現在の値に設定された場合の影響を受けた行の値は</span><br><span class="line">(0 ではなく) 1 になります。</span><br></pre></td></tr></table></figure>
+<h2 id="簡単に実行してみる"><a href="#簡単に実行してみる" class="headerlink" title="簡単に実行してみる"></a>簡単に実行してみる</h2><p>挙動を確認することで、MySQLの構文仕様とJDBCの仕様を比較するのが早い</p>
+<h3 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h3><p>id,job_code,store_idをPKとして、<br>そのキー制約を違反することで更新処理をかけるSQLを実行してその結果を確認することにした。<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- DDL</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`employees`</span> (</span><br><span class="line">   <span class="string">`id`</span> <span class="built_in">int</span>(<span class="number">11</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>,</span><br><span class="line">   <span class="string">`fname`</span> <span class="built_in">varchar</span>(<span class="number">30</span>) <span class="keyword">DEFAULT</span> <span class="literal">NULL</span>,</span><br><span class="line">   <span class="string">`lname`</span> <span class="built_in">varchar</span>(<span class="number">30</span>) <span class="keyword">DEFAULT</span> <span class="literal">NULL</span>,</span><br><span class="line">   <span class="string">`hired`</span> <span class="built_in">date</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">DEFAULT</span> <span class="string">'1970-01-01'</span>,</span><br><span class="line">   <span class="string">`separated`</span> <span class="built_in">date</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> <span class="keyword">DEFAULT</span> <span class="string">'9999-12-31'</span>,</span><br><span class="line">   <span class="string">`job_code`</span> <span class="built_in">int</span>(<span class="number">11</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>,</span><br><span class="line">   <span class="string">`store_id`</span> <span class="built_in">int</span>(<span class="number">11</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>,</span><br><span class="line">   PRIMARY <span class="keyword">KEY</span> (<span class="string">`id`</span>,<span class="string">`job_code`</span>,<span class="string">`store_id`</span>)</span><br><span class="line"> ) <span class="keyword">ENGINE</span>=<span class="keyword">InnoDB</span> <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=utf8</span><br><span class="line"> <span class="comment">/*!50100 PARTITION BY RANGE (store_id)</span><br><span class="line"> (PARTITION p0 VALUES LESS THAN (6) ENGINE = InnoDB,</span><br><span class="line">  PARTITION p1 VALUES LESS THAN (11) ENGINE = InnoDB,</span><br><span class="line">  PARTITION p2 VALUES LESS THAN (16) ENGINE = InnoDB,</span><br><span class="line">  PARTITION p3 VALUES LESS THAN (21) ENGINE = InnoDB) */</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Wrapper"><a href="#Wrapper" class="headerlink" title="Wrapper"></a>Wrapper</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.assertEquals;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.sql.Connection;</span><br><span class="line"><span class="keyword">import</span> java.sql.DriverManager;</span><br><span class="line"><span class="keyword">import</span> java.sql.PreparedStatement;</span><br><span class="line"><span class="keyword">import</span> java.sql.SQLException;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> mockit.Expectations;</span><br><span class="line"><span class="keyword">import</span> mockit.integration.junit4.JMockit;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">PreparedStatementTest</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">int</span> <span class="title">executeUpdate</span><span class="params">(String sql)</span> <span class="keyword">throws</span> SQLException </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> (Connection conn =</span><br><span class="line">                DriverManager.getConnection(<span class="string">"jdbc:mysql://127.0.0.1:3306/test?user=root&amp;password=password"</span>);</span><br><span class="line">                PreparedStatement stmt = conn.prepareStatement(sql);) &#123;</span><br><span class="line">            <span class="keyword">return</span> stmt.executeUpdate();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">            <span class="keyword">throw</span> e;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test</span><span class="params">()</span> <span class="keyword">throws</span> SQLException </span>&#123;</span><br><span class="line">        String sql =</span><br><span class="line">                <span class="string">"insert into employees (id,job_code, store_id) values (7, 4, 19) on duplicate key update id = 7, job_code = 4, separated = now();"</span>;</span><br><span class="line">        <span class="keyword">int</span> executeUpdate1 = executeUpdate(sql);</span><br><span class="line">        <span class="keyword">int</span> executeUpdate2 = executeUpdate(sql);</span><br><span class="line">        <span class="keyword">int</span> executeUpdate3 = executeUpdate(sql);</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">"1回目 : "</span> + executeUpdate1);</span><br><span class="line">        System.out.println(<span class="string">"2回目 : "</span> + executeUpdate2);</span><br><span class="line">        System.out.println(<span class="string">"3回目 : "</span> + executeUpdate3);</span><br><span class="line"></span><br><span class="line">        assertEquals(executeUpdate1, <span class="number">1</span>);</span><br><span class="line">        assertEquals(executeUpdate2, <span class="number">2</span>);</span><br><span class="line">        assertEquals(executeUpdate3, <span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="コンソール"><a href="#コンソール" class="headerlink" title="コンソール"></a>コンソール</h4><p>思った想定値ではなかったようだ。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 結果</span></span><br><span class="line"><span class="number">1</span>回目 : <span class="number">1</span></span><br><span class="line"><span class="number">2</span>回目 : <span class="number">2</span></span><br><span class="line"><span class="number">3</span>回目 : <span class="number">1</span></span><br><span class="line"></span><br><span class="line">java.lang.AssertionError: expected:&lt;<span class="number">1</span>&gt; but was:&lt;<span class="number">0</span>&gt;</span><br><span class="line">    at test.PreparedStatementTest.test(PreparedStatementTest.java:<span class="number">44</span>)</span><br><span class="line">    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</span><br><span class="line">    at java.lang.reflect.Method.invoke(Method.java:<span class="number">497</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:<span class="number">50</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:<span class="number">38</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:<span class="number">459</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:<span class="number">675</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:<span class="number">382</span>)</span><br><span class="line">    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:<span class="number">192</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="MySQLに直接クエリ投げる"><a href="#MySQLに直接クエリ投げる" class="headerlink" title="MySQLに直接クエリ投げる"></a>MySQLに直接クエリ投げる</h4><p>念のため。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1   47  16:30:46    <span class="keyword">insert</span> <span class="keyword">into</span> employees (<span class="keyword">id</span>,job_code, store_id) <span class="keyword">values</span> (<span class="number">7</span>, <span class="number">4</span>, <span class="number">19</span>) <span class="keyword">on</span> <span class="keyword">duplicate</span> <span class="keyword">key</span> <span class="keyword">update</span> <span class="keyword">id</span> = <span class="number">7</span>, job_code = <span class="number">4</span>, separated = <span class="keyword">now</span>() <span class="number">0</span> <span class="keyword">row</span>(s) affected, <span class="number">1</span> <span class="keyword">warning</span>(s):</span><br><span class="line"> <span class="number">1292</span> Incorrect <span class="built_in">date</span> <span class="keyword">value</span>: <span class="string">'2016-01-06 16:30:46'</span> <span class="keyword">for</span> <span class="keyword">column</span> <span class="string">'separated'</span> <span class="keyword">at</span> <span class="keyword">row</span> <span class="number">1</span>   <span class="number">0.000</span> sec</span><br></pre></td></tr></table></figure>
+<h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>おそらくだが以下のリファレンスの話なのではないかと思う。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mysqld への接続時に</span><br><span class="line">CLIENT_FOUND_ROWS フラグを mysql_real_connect() に指定すると、</span><br><span class="line">既存の行がその現在の値に設定された場合の影響を受けた行の値は</span><br><span class="line">(0 ではなく) 1 になります。</span><br></pre></td></tr></table></figure>
+<p>JDBCの中で<code>CLIENT_FOUND_ROWS</code>フラグを<code>mysql_real_connect()</code>に指定しているのではなかろうか。</p>
+<h3 id="ここらへんのメソッドがきになる"><a href="#ここらへんのメソッドがきになる" class="headerlink" title="ここらへんのメソッドがきになる"></a>ここらへんのメソッドがきになる</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">checkErrorPacket(Buffer resultPacket)</span><br><span class="line">appendDeadlockStatusInformation(String xOpen, StringBuilder errorBuf)</span><br><span class="line">sqlQueryDirect(StatementImpl callingStatement, String query, String characterEncoding, Buffer queryPacket, <span class="keyword">int</span> maxRows, <span class="keyword">int</span> resultSetType, <span class="keyword">int</span> resultSetConcurrency, <span class="keyword">boolean</span> streamResults, String catalog, Field[] cachedMetadata)</span><br><span class="line">readAllResults(StatementImpl callingStatement, <span class="keyword">int</span> maxRows, <span class="keyword">int</span> resultSetType, <span class="keyword">int</span> resultSetConcurrency, <span class="keyword">boolean</span> streamResults, String catalog, Buffer resultPacket, <span class="keyword">boolean</span> isBinaryEncoded, <span class="keyword">long</span> preSentColumnCount, Field[] metadataFromCache)</span><br><span class="line">readResultsForQueryOrUpdate(StatementImpl callingStatement, <span class="keyword">int</span> maxRows, <span class="keyword">int</span> resultSetType, <span class="keyword">int</span> resultSetConcurrency, <span class="keyword">boolean</span> streamResults, String catalog, Buffer resultPacket, <span class="keyword">boolean</span> isBinaryEncoded, <span class="keyword">long</span> preSentColumnCount, Field[] metadataFromCache)</span><br><span class="line">buildResultSetWithUpdates(StatementImpl callingStatement, Buffer resultPacket) (updateCountをセットしている)</span><br></pre></td></tr></table></figure>
+<h2 id="リファレンス"><a href="#リファレンス" class="headerlink" title="リファレンス"></a>リファレンス</h2><p><a rel="external" href="http://www.amazon.co.jp/gp/product/4774170208/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4774170208&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774170208&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774170208" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/4774170208/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4774170208&linkCode=as2&tag=slicascript-22" target="_blank">MariaDB&amp;MySQL全機能バイブル</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774170208" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/4774171972/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4774171972&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774171972&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774171972" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/4774171972/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4774171972&linkCode=as2&tag=slicascript-22" target="_blank">理論から学ぶデータベース実践入門 ~リレーショナルモデルによる効率的なSQL (WEB+DB PRESS plus)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774171972" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2015年大晦日、今年の反省と来年の抱負]]></title>
+      <url>http://www.pollseed.com/2015-year-refrection-and-goal/</url>
+      <content type="html"><![CDATA[<p>いよいよ2015年も終了ということで、大晦日に今年やってきたことの反省と来年の抱負を書いておく。また来年に確認するためにも。</p>
+<h2 id="昨年-2014年-は"><a href="#昨年-2014年-は" class="headerlink" title="昨年(2014年)は"></a>昨年(2014年)は</h2><ul>
+<li>とある企業の四等兵として、毎日ガシガシとプログラムを作ってはリリースしてを繰り返していた年で、スマフォアプリやWeb、業務システムなどを担当してきたが、イマイチ達成感という視点で言うと具体的に「コレ」と言える代物がなかった。その代物を作るために、2015年の目標に未経験のPMをやっておくというのをTODOに加えた。</li>
+<li>将来のことを考え始めてきて、トレーニングをして身体の健康を保つことを心がけようと思った。</li>
+<li>Swiftという巨大な技術がデファクトとなったので、習得しようと思っていた。</li>
+<li>毎年やろうやろうと目論んでいる「英語」をどうにかしたいと思いつつ</li>
+</ul>
+<h2 id="2015年"><a href="#2015年" class="headerlink" title="2015年"></a>2015年</h2><p>去年の目的のいくつかを達成することはできた。例えばPM</p>
+<h3 id="技術バージョン移行メモ"><a href="#技術バージョン移行メモ" class="headerlink" title="技術バージョン移行メモ"></a>技術バージョン移行メモ</h3><p>Javaを早く8に移行したい。9もリリース間近なので。<br>Node.jsは5まで頑張って移行したが、そもそものES5をES6に移行したい。<br>CentOSはしばらく7に変える気はない。</p>
+<ul>
+<li>Java 1.6.xx → 1.7.xx</li>
+<li>Node.js 0.12 → 5.xx</li>
+<li>CentOS 5.xx → 6.xx</li>
+<li>Ubuntu 12.xx → 14.xx</li>
+</ul>
+<h3 id="DONE"><a href="#DONE" class="headerlink" title="DONE"></a>DONE</h3><ul>
+<li>プロジェクトマネージャとしてプロジェクトの要件定義〜設計、コーディング、テスト、リリース、運用まで全て担当する</li>
+<li>フリーランスとして仕事を見つけ、ある程度プログラマとして稼ぐこと</li>
+<li>いくつかサービスロンチ</li>
+<li>黒字化</li>
+<li>技術用のホームページを公開する</li>
+<li>週に１度以上新技術の発信をする</li>
+<li>スポーツ・トレーニングを始めること</li>
+</ul>
+<h3 id="Not-Completed"><a href="#Not-Completed" class="headerlink" title="Not Completed"></a>Not Completed</h3><ul>
+<li>スマートフォンアプリの開発、リリース (Swift)</li>
+<li>便利なAPIの作成</li>
+<li>稼げるサービスのロンチ</li>
+<li>関数型言語の習得</li>
+<li>英語の勉強、オーラルコミュニケーションができるように</li>
+<li>仮想環境を利用するのではなく、提供する側を担当する</li>
+</ul>
+<h2 id="2016年"><a href="#2016年" class="headerlink" title="2016年"></a>2016年</h2><h3 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h3><p>持ち越しのものにおいては<strong>bold</strong>にする</p>
+<ul>
+<li><strong>スマートフォンアプリの開発、リリース (Swift)</strong></li>
+<li><strong>便利なAPIの作成</strong></li>
+<li><strong>稼げるサービスのロンチ</strong></li>
+<li>法人化</li>
+<li><strong>関数型言語の習得</strong></li>
+<li>イラストレータの使い方を習得し、自サービスに組み込めるレベルまで持って行く</li>
+<li>資格を取得する</li>
+<li><strong>英語の勉強、オーラルコミュニケーションができるように</strong></li>
+<li><strong>仮想環境を利用するのではなく、提供する側を担当する</strong></li>
+<li>スポーツ・トレーニングを継続すること</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac環境からWindowsアプリケーションを実行する]]></title>
+      <url>http://www.pollseed.com/execute-windows-app-for-mac/</url>
+      <content type="html"><![CDATA[<h2 id="初めに"><a href="#初めに" class="headerlink" title="初めに"></a>初めに</h2><p>今回、少しWindows用のアプリケーションを実行する機会が発生し、ただVagrantで起動するまでもなく簡単に実行したい。<br>そこで、Windowsアプリケーション実行用のコマンドをインストールしてみました。</p>
+<h2 id="brew-をまだインストールしていない場合"><a href="#brew-をまだインストールしていない場合" class="headerlink" title="brew をまだインストールしていない場合"></a><a href="http://brew.sh/index_ja.html" target="_blank" rel="external">brew</a> をまだインストールしていない場合</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span><br></pre></td></tr></table></figure>
+<h2 id="既にインストールしている場合"><a href="#既にインストールしている場合" class="headerlink" title="既にインストールしている場合"></a>既にインストールしている場合</h2><h3 id="こういうエラーが出た場合"><a href="#こういうエラーが出た場合" class="headerlink" title="こういうエラーが出た場合"></a>こういうエラーが出た場合</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl: (22) The requested URL returned error: 410 Gone</span><br><span class="line">Error: Failed to download resource <span class="string">"hogehoge"</span></span><br></pre></td></tr></table></figure>
+<p>パッケージの在り処が古いままだと、この後行うパッケージインストールでコケるのでbrew自体をupdateしましょう<br><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew update</span><br></pre></td></tr></table></figure></p>
+<h2 id="Wineのインストール"><a href="#Wineのインストール" class="headerlink" title="Wineのインストール"></a><a href="https://www.winehq.org/" target="_blank" rel="external">Wine</a>のインストール</h2><p>Wineは、OSSです。<br>LinuxなどからWindows用アプリケーションをネイティブ動作させることができます。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install wine</span><br></pre></td></tr></table></figure></p>
+<h3 id="使い方"><a href="#使い方" class="headerlink" title="使い方"></a>使い方</h3><p>wineコマンドを使ってWindows用のアプリケーションを実行させることができます。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine &lt;__アプリケーションの実行ファイルパス__&gt;</span><br></pre></td></tr></table></figure></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www28.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www16.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="さくらエディタを使ってみる"><a href="#さくらエディタを使ってみる" class="headerlink" title="さくらエディタを使ってみる"></a>さくらエディタを使ってみる</h2><p>参考までにフリーのテキストエディタを使ってみましょう</p>
+<p><a href="http://sourceforge.net/projects/sakura-editor/" target="_blank" rel="external">ホームページ</a>にアクセスしてexeファイルをダウンロードしてきます。</p>
+<p>「sakura_install2-2-0-1.exe」というファイルがダウンロードされたと思いますので、そのパスをコンソールに打ちましょう</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine /Users/pollseed/Downloads/sakura_install2-2-0-1.exe</span><br></pre></td></tr></table></figure>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.31.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.31.png" alt="スクリーンショット 2015-12-29 13.46.31" width="754" height="224" class="alignnone size-full wp-image-325"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.49.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.46.49.png" alt="スクリーンショット 2015-12-29 13.46.49" width="998" height="766" class="alignnone size-full wp-image-327"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.00.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.00.png" alt="スクリーンショット 2015-12-29 13.47.00" width="660" height="508" class="alignnone size-large wp-image-328"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.18.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.18.png" alt="スクリーンショット 2015-12-29 13.47.18" width="660" height="508" class="alignnone size-large wp-image-329"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.30.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.30.png" alt="スクリーンショット 2015-12-29 13.47.30" width="660" height="508" class="alignnone size-large wp-image-330"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.44.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.47.44.png" alt="スクリーンショット 2015-12-29 13.47.44" width="660" height="507" class="alignnone size-large wp-image-331"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.02.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.02.png" alt="スクリーンショット 2015-12-29 13.48.02" width="660" height="508" class="alignnone size-large wp-image-332"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.13.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.13.png" alt="スクリーンショット 2015-12-29 13.48.13" width="660" height="507" class="alignnone size-large wp-image-333"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.25.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.48.25.png" alt="スクリーンショット 2015-12-29 13.48.25" width="660" height="507" class="alignnone size-large wp-image-334"></a></p>
+<h3 id="起動する"><a href="#起動する" class="headerlink" title="起動する"></a>起動する</h3><p>僕と同じ手順でインストールしていたら以下のパスに居るはずなので、こいつを立ち上げます。</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wine .wine/drive_c/Program\ Files/sakura/sakura.exe</span><br></pre></td></tr></table></figure>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.54.18.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-29-13.54.18-1024x604.png" alt="スクリーンショット 2015-12-29 13.54.18" width="660" height="389" class="alignnone size-large wp-image-335"></a></p>
+<p>簡単なのでﾔｯﾃﾐﾃｸﾀﾞｻｲ</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Javaのマルチスレッド【クラス変数】と【インスタンス変数】の違い]]></title>
+      <url>http://www.pollseed.com/java-multithread/</url>
+      <content type="html"><![CDATA[<h1 id="この記事の対象者"><a href="#この記事の対象者" class="headerlink" title="この記事の対象者"></a>この記事の対象者</h1><ul>
+<li>Java初心者プログラマ</li>
+<li>クラス変数とインスタンス変数の違いを説明出来ない方</li>
+<li>staticの付け方がわからない方</li>
+</ul>
+<h1 id="初めに"><a href="#初めに" class="headerlink" title="初めに"></a>初めに</h1><ul>
+<li>Java・マルチスレッド環境で</li>
+<li>コードレビュー中に、とある新人さんの書いたコードを見ていた時に気になったこと</li>
+<li>クラス変数、インスタンス変数を勘違いしていた</li>
+</ul>
+<h1 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h1><ul>
+<li>Java 1.8.x</li>
+</ul>
+<h1 id="クラス変数とは"><a href="#クラス変数とは" class="headerlink" title="クラス変数とは"></a>クラス変数とは</h1><p>JavaScriptが最近流行っているので、それで言うトコロのグローバル変数のイメージでいいかと思います。<br><a href="https://en.wikipedia.org/wiki/Class_variable" target="_blank" rel="external">wikipedia</a>を読めば一発でわかりますので詳しいことは省略します。</p>
+<h3 id="Javaの話に戻すと"><a href="#Javaの話に戻すと" class="headerlink" title="Javaの話に戻すと"></a>Javaの話に戻すと</h3><p><code>static</code>修飾子をつけるとクラス変数となります。</p>
+<h3 id="具体的な例ですと"><a href="#具体的な例ですと" class="headerlink" title="具体的な例ですと"></a>具体的な例ですと</h3><p>MultiThreadStaticValTestクラスにstatc変数を定義します</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MultiThreadStaticValTest</span> </span>&#123;</span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">int</span> __staticValue = <span class="number">100</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>MultiThreadStaticValTest_OuterCallクラスから先ほど定義したstatic変数を呼び出すことが可能です。<br><strong>要は、この変数は外部から変更されます。</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MultiThreadStaticValTest_OuterCall</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    System.out.println(MultiThreadStaticValTest.__staticValue);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>この変数をただ外部から守るだけなら、以下のように<code>__staticValue変数</code>の修飾子のスコープを狭めてあげればよいです。<br>※privateでも変更することはできますが、通常はそういう使い方はしません。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MultiThreadStaticValTest</span> </span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> __staticValue = <span class="number">100</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="今回は"><a href="#今回は" class="headerlink" title="今回は"></a>今回は</h3><p>マルチスレッドの場合にMultiThreadStaticValTestクラス自身が呼んだ場合に防げないということを説明します<br>なお、<code>__staticValue</code> は変更されうる値である</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MultiThreadStaticValTest</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> MAX_CNT = <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> __staticValue = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String threadName = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * コンストラクタ.</span><br><span class="line">     *</span><br><span class="line">     * <span class="doctag">@param</span> v</span><br><span class="line">     *            クラス変数の初期値</span><br><span class="line">     * <span class="doctag">@param</span> value</span><br><span class="line">     *            実行されるスレッド名</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MultiThreadStaticValTest</span><span class="params">(<span class="keyword">int</span> v, String value)</span> </span>&#123;</span><br><span class="line">        threadName = value;</span><br><span class="line">        __staticValue = v;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span>[] idx = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">        IntStream.range(<span class="number">0</span>, MAX_CNT).forEach(v -&gt; &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                sleep(<span class="number">1000</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println(threadName + idx[<span class="number">0</span>]++ + <span class="string">" : "</span> + --__staticValue);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> InterruptedException </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 1つ目のスレッドで初期値「1」を設定する</span></span><br><span class="line">        MultiThreadStaticValTest t3 = <span class="keyword">new</span> MultiThreadStaticValTest(<span class="number">1</span>, <span class="string">"t3 : "</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 2つ目のスレッドで初期値「99」を設定する</span></span><br><span class="line">        MultiThreadStaticValTest t4 = <span class="keyword">new</span> MultiThreadStaticValTest(<span class="number">99</span>, <span class="string">"t4 : "</span>);</span><br><span class="line">        t3.start();</span><br><span class="line">        t4.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="出力例"><a href="#出力例" class="headerlink" title="出力例"></a>出力例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">t4 : 0 : 98</span><br><span class="line">t3 : 0 : 97</span><br><span class="line">t4 : 1 : 96</span><br><span class="line">t3 : 1 : 95</span><br><span class="line">t3 : 2 : 94</span><br><span class="line">t4 : 2 : 93</span><br><span class="line">...</span><br><span class="line">...</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<h3 id="問題点"><a href="#問題点" class="headerlink" title="問題点"></a>問題点</h3><p>スレッドを2つ作るも、後に初期化された値がstatic変数に保持され、さらに互いのstatic変数が共存されている点<br>普通に考えれば当たり前なのですが、このプログラムのようにstatic変数の使い方を間違えると大変なことになるので注意しましょう</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" target="_blank"><br><img border="0" width="468" height="60" alt="" src="http://www25.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www12.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" alt=""></p>
+<h3 id="対処方ですが"><a href="#対処方ですが" class="headerlink" title="対処方ですが"></a>対処方ですが</h3><p>とりあえずただのJavaプログラムであればInstance変数を使うという手段もあります。<br>※ただし、気を付けて欲しいのはServletを使っている方です。サーブレットはインスタンス変数をマルチスレッド間で共存して使いますので、思わぬ動きをすることがあります。</p>
+<p>以下のプログラムを見てください。<br>※プログラムが汚いのは即興で作っているからで、そこは申し訳ありません</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MultiThreadTest</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> MAX_CNT = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">boolean</span> isStatic = <span class="keyword">false</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> instanceValue = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> staticValue = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String threadName = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * コンストラクタ.</span><br><span class="line">     *</span><br><span class="line">     * <span class="doctag">@param</span> v</span><br><span class="line">     *            &#123;<span class="doctag">@code</span> bool&#125; 値によってクラス・インスタンス変数を切り分ける</span><br><span class="line">     * <span class="doctag">@param</span> value</span><br><span class="line">     *            実行されるスレッド名</span><br><span class="line">     * <span class="doctag">@param</span> bool</span><br><span class="line">     *            &#123;<span class="doctag">@code</span> bool&#125; 値によってクラス・インスタンス変数を切り分ける</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MultiThreadTest</span><span class="params">(<span class="keyword">int</span> v, String value, <span class="keyword">boolean</span> bool)</span> </span>&#123;</span><br><span class="line">        isStatic = bool;</span><br><span class="line">        threadName = value;</span><br><span class="line">        <span class="keyword">if</span> (isStatic) &#123;</span><br><span class="line">            staticValue = v;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            instanceValue = v;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span>[] idx = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">        IntStream.range(<span class="number">0</span>, MAX_CNT).forEach(v -&gt; &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                sleep(<span class="number">1000</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (isStatic) &#123;</span><br><span class="line">                System.out.println(threadName + idx[<span class="number">0</span>]++ + <span class="string">" : "</span> + --staticValue);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                System.out.println(threadName + idx[<span class="number">0</span>]++ + <span class="string">" : "</span> + --instanceValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> InterruptedException </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// インスタンス変数の場合</span></span><br><span class="line">        MultiThreadTest t1 = <span class="keyword">new</span> MultiThreadTest(<span class="number">1</span>, <span class="string">"t1 : "</span>, <span class="keyword">false</span>);</span><br><span class="line">        MultiThreadTest t2 = <span class="keyword">new</span> MultiThreadTest(<span class="number">99</span>, <span class="string">"t2 : "</span>, <span class="keyword">false</span>);</span><br><span class="line">        t1.start();</span><br><span class="line">        t2.start();</span><br><span class="line"></span><br><span class="line">        t1.join();</span><br><span class="line">        t2.join();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// クラス変数の場合</span></span><br><span class="line">        MultiThreadTest t3 = <span class="keyword">new</span> MultiThreadTest(<span class="number">1</span>, <span class="string">"t3 : "</span>, <span class="keyword">true</span>);</span><br><span class="line">        MultiThreadTest t4 = <span class="keyword">new</span> MultiThreadTest(<span class="number">99</span>, <span class="string">"t4 : "</span>, <span class="keyword">true</span>);</span><br><span class="line">        t3.start();</span><br><span class="line">        t4.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="出力例-1"><a href="#出力例-1" class="headerlink" title="出力例"></a>出力例</h3><p>t1とt2の変数値が共存されていないことがわかると思います。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">t1 : 0 : 0</span><br><span class="line">t2 : 0 : 98</span><br><span class="line">t1 : 1 : -1</span><br><span class="line">t2 : 1 : 97</span><br><span class="line">t2 : 2 : 96</span><br><span class="line">t1 : 2 : -2</span><br><span class="line">t1 : 3 : -3</span><br><span class="line">t2 : 3 : 95</span><br><span class="line">t1 : 4 : -4</span><br><span class="line">t2 : 4 : 94</span><br><span class="line"></span><br><span class="line">t3 : 0 : 97</span><br><span class="line">t4 : 0 : 98</span><br><span class="line">t4 : 1 : 95</span><br><span class="line">t3 : 1 : 96</span><br><span class="line">t4 : 2 : 94</span><br><span class="line">t3 : 2 : 93</span><br><span class="line">t3 : 3 : 92</span><br><span class="line">t4 : 3 : 91</span><br><span class="line">t4 : 4 : 89</span><br><span class="line">t3 : 4 : 90</span><br></pre></td></tr></table></figure>
+<h3 id="変更しない値を使う場合は"><a href="#変更しない値を使う場合は" class="headerlink" title="変更しない値を使う場合は"></a>変更しない値を使う場合は</h3><p>定数にすれば問題ないです。</p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/pollseed/cure-code/blob/master/src/test/java/test/multithread/MultiThreadTest.java" target="_blank" rel="external">こちら</a>にプログラムを置きました</p>
+<h1 id="まとめ"><a href="#まとめ" class="headerlink" title="まとめ"></a>まとめ</h1><ul>
+<li>クラス変数はマルチスレッド間で値が共存されるので、それを期待しないのであればクラス変数を避ける</li>
+<li>インスタンス変数、クラス変数ともにサーブレットで使う時は設定を見直すか、そもそも共存されても問題ないのかを確認しましょう。サーブレットの場合通常は、1インスタンスに対してマルチスレッドでアクセスをします</li>
+</ul>
+<h4 id="最後に、話はずれますが"><a href="#最後に、話はずれますが" class="headerlink" title="最後に、話はずれますが"></a>最後に、話はずれますが</h4><p>　Javaがまだ慣れないという方がいたら<br>　こんな参考書を使って見たらいかがでしょうか。</p>
+<h5 id="Java8も踏まえて学びたい方はこちら"><a href="#Java8も踏まえて学びたい方はこちら" class="headerlink" title="Java8も踏まえて学びたい方はこちら"></a>Java8も踏まえて学びたい方はこちら</h5><p><a rel="external" href="http://www.amazon.co.jp/gp/product/4774166855/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4774166855&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774166855&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774166855" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<h5 id="JavaEE7を学びたい方はこちら"><a href="#JavaEE7を学びたい方はこちら" class="headerlink" title="JavaEE7を学びたい方はこちら"></a>JavaEE7を学びたい方はこちら</h5><p><a rel="external" href="http://www.amazon.co.jp/gp/product/4798140929/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4798140929&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798140929&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4798140929" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【2015年】買って良かったものをまとめた]]></title>
+      <url>http://www.pollseed.com/buy-list-2015/</url>
+      <content type="html"><![CDATA[<h1 id="2015年度に買ったものリスト"><a href="#2015年度に買ったものリスト" class="headerlink" title="2015年度に買ったものリスト"></a>2015年度に買ったものリスト</h1><h2 id="iPhone6S-64GB"><a href="#iPhone6S-64GB" class="headerlink" title="iPhone6S 64GB"></a>iPhone6S 64GB</h2><p>10万程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B015R9QFJI/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B015R9QFJI&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B015R9QFJI&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B015R9QFJI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B015R9QFJI/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B015R9QFJI&linkCode=as2&tag=slicascript-22" target="_blank">【docomo】 iphone 6s　A1688 (64GB, ローズゴールド)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B015R9QFJI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　発売日に予約して購入したが、正直バッテリの持ち具合は最悪級だろう。使っていなくてもスグに電池切れになっている。バックグラウンド処理のアプリを消しても意味は無い。さらにLTE通信料も何もせずとも1日に200MB以上はやり取りしている。これはカレンダーやメモ帳などが自動同期していたりWifi接続やその他諸々の設定を見なおしてからの状態である。こういう電話会社との陰謀みたいなやり方はすきになれない。<br>　とはいえ、商品自体の出来は非常に素晴らしい。写真も3Dタッチも全ての機能が斬新で面白い。そこは他のスマフォにはない。</p>
+<h2 id="Anker-PowerCore-20100mAh-2ポート-モバイルバッテリー"><a href="#Anker-PowerCore-20100mAh-2ポート-モバイルバッテリー" class="headerlink" title="Anker PowerCore 20100mAh 2ポート モバイルバッテリー"></a>Anker PowerCore 20100mAh 2ポート モバイルバッテリー</h2><p>3000円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B011TQQ9RG/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B011TQQ9RG&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B011TQQ9RG&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B011TQQ9RG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B011TQQ9RG/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B011TQQ9RG&linkCode=as2&tag=slicascript-22" target="_blank">Anker PowerCore 20100 (20100mAh 2ポート 超大容量 モバイルバッテリー パナソニック製セル搭載) iPhone / iPad / Xperia / Galaxy / Android各種他対応 マット仕上げ トラベルポーチ付属【PowerIQ &amp; VoltageBoost搭載】(ブラック)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B011TQQ9RG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　パナソニック製セル搭載のモバイルバッテリー。今まで使っていたものが5000mAhで物足りなくなってきたので購入。20000というのはでかい。</p>
+<h2 id="MacBook-Pro-Retina-15インチ"><a href="#MacBook-Pro-Retina-15インチ" class="headerlink" title="MacBook Pro Retina 15インチ"></a>MacBook Pro Retina 15インチ</h2><p>20万円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00G55EJWO/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00G55EJWO&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00G55EJWO&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00G55EJWO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B00G55EJWO/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00G55EJWO&linkCode=as2&tag=slicascript-22" target="_blank">APPLE MacBook Pro Retina Display(15.4/2.3GHz Quad Core i7/16GB/512GB/Iris Pro/GeForce) ME294J/A</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00G55EJWO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　ちなみにケースに関してはR店というECサイトで購入した安物は付けてもサイズが少し違っていて全く使えなかったので、オススメは家電屋などでMacBook Pro 15インチ用のものを購入するかAppleStoreで正規品を購入するに限る。<br>　僕はそのせいで2000円程散財したのだから。</p>
+<h2 id="Raspberry-Pi2-Model-B-ボード＆ケースセット"><a href="#Raspberry-Pi2-Model-B-ボード＆ケースセット" class="headerlink" title="Raspberry Pi2 Model B ボード＆ケースセット"></a>Raspberry Pi2 Model B ボード＆ケースセット</h2><p>6000円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00TBKFAI2/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00TBKFAI2&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00TBKFAI2&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00TBKFAI2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B00TBKFAI2/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00TBKFAI2&linkCode=as2&tag=slicascript-22" target="_blank">Raspberry Pi2 Model B ボード＆ケースセット (Standard, Clear)-Physical Computing Lab</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00TBKFAI2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　ラズパイは、このケースセットがオススメ。何故かと言うと裸では部屋においておくとホコリだらけになってしまうから。<br>　ちなみにバッファローのWifi子機や、アキバで売ってた500円未満のカメラUSBやゲーム用マウスなども余裕で認識してくれる。</p>
+<h2 id="BUFFALO-無線LAN親機-Wi-Fiルーター-WHR-1166DHP2-N"><a href="#BUFFALO-無線LAN親機-Wi-Fiルーター-WHR-1166DHP2-N" class="headerlink" title="BUFFALO 無線LAN親機(Wi-Fiルーター) WHR-1166DHP2/N"></a>BUFFALO 無線LAN親機(Wi-Fiルーター) WHR-1166DHP2/N</h2><p>6000円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00XU1GUFU/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00XU1GUFU&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00XU1GUFU&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00XU1GUFU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B00XU1GUFU/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00XU1GUFU&linkCode=as2&tag=slicascript-22" target="_blank">BUFFALO 【iPhone6対応】 11ac/n/a/g/b 無線LAN親機(Wi-Fiルーター) エアステーション QRsetup ハイパワー ビームフォーミング対応 866+300Mbps WHR-1166DHP2/N  (利用推奨環境3人・3LDK・2階建) [フラストレーションフリーパッケージ(FFP)]</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00XU1GUFU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　古くなってきた親機の買い替え。2008年頃から使っていたやつから変えたからかもしれないが、その圧倒的なパワーにひれ伏すしかなかった。管理画面も使いやすく、Wifiの接続に関しては本当に一瞬の内に完了した。当然、通信会社のソフトを使わずとも出来る気軽さ。</p>
+<h2 id="Transcend-microSDHCカード-32GB-Class10"><a href="#Transcend-microSDHCカード-32GB-Class10" class="headerlink" title="Transcend microSDHCカード 32GB Class10"></a>Transcend microSDHCカード 32GB Class10</h2><p>1500円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B008UR8TS0/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B008UR8TS0&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B008UR8TS0&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B008UR8TS0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B008UR8TS0/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B008UR8TS0&linkCode=as2&tag=slicascript-22" target="_blank">【Amazon.co.jp限定】Transcend microSDHCカード 32GB Class10 (無期限保証) Newニンテンドー3DS 動作確認済み TS32GUSDHC10E (FFP)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B008UR8TS0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　このmicroSDカードはラズパイ用に買った。OSのインストールに。</p>
+<h2 id="Ergohuman-エンジョイ-ハイタイプ-EJ-HAM"><a href="#Ergohuman-エンジョイ-ハイタイプ-EJ-HAM" class="headerlink" title="Ergohuman エンジョイ ハイタイプ EJ-HAM"></a>Ergohuman エンジョイ ハイタイプ EJ-HAM</h2><p>6万円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B0040JGOL6/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B0040JGOL6&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0040JGOL6&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B0040JGOL6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B0040JGOL6/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B0040JGOL6&linkCode=as2&tag=slicascript-22" target="_blank">Ergohuman(エルゴヒューマン) オフィスチェア エンジョイ ハイタイプ EJ-HAM  BK (KM-11)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B0040JGOL6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　アーロンチェアと迷うも、値段がお買い得だったので購入。既に購入後半年以上経っているが、全く問題はなく買ってよかった。</p>
+<h2 id="mofua-プレミアム-マイクロファイバー-毛布"><a href="#mofua-プレミアム-マイクロファイバー-毛布" class="headerlink" title="mofua プレミアム マイクロファイバー 毛布"></a>mofua プレミアム マイクロファイバー 毛布</h2><p>2000円程度</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00N3PQ9OU/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00N3PQ9OU&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00N3PQ9OU&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00N3PQ9OU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B00N3PQ9OU/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00N3PQ9OU&linkCode=as2&tag=slicascript-22" target="_blank">mofua モフア プレミアム マイクロファイバー 毛布 シングル ブラウン 50000106</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00N3PQ9OU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br>　冬に作業する時に寒いので購入。かなり暖かい。2枚購入してもいいぐらいの触り心地だ。とにかく肌触りが最高</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www27.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www10.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h1 id="まとめ"><a href="#まとめ" class="headerlink" title="まとめ"></a>まとめ</h1><p>以下8点のモノを紹介しました。</p>
+<ul>
+<li>iPhone6S 64GB</li>
+<li>Anker PowerCore 20100mAh 2ポート モバイルバッテリー</li>
+<li>MacBook Pro Retina 15インチ</li>
+<li>Raspberry Pi2 Model B ボード＆ケースセット</li>
+<li>BUFFALO 無線LAN親機(Wi-Fiルーター) WHR-1166DHP2/N</li>
+<li>Transcend microSDHCカード 32GB Class10</li>
+<li>Ergohuman エンジョイ ハイタイプ EJ-HAM</li>
+<li>mofua プレミアム マイクロファイバー 毛布</li>
+</ul>
+<p>来年もたくさんいいモノを買いたいものです。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Google Knowledge Graph Search APIを使ってみた]]></title>
+      <url>http://www.pollseed.com/google-knowledge-graph-search-api/</url>
+      <content type="html"><![CDATA[<p>この記事は<a href="http://qiita.com/advent-calendar/2015/web_api" target="_blank" rel="external">Web API Advent calendar</a> 2015 の 20 日目です。</p>
+<h1 id="今回は２つの章に分かれています。"><a href="#今回は２つの章に分かれています。" class="headerlink" title="今回は２つの章に分かれています。"></a>今回は２つの章に分かれています。</h1><p>それぞれ必要な環境が違いますので注意してください。</p>
+<h2 id="1-Google-Knowledge-Graph-Search-APIを使うまで"><a href="#1-Google-Knowledge-Graph-Search-APIを使うまで" class="headerlink" title="1. Google Knowledge Graph Search APIを使うまで"></a>1. Google Knowledge Graph Search APIを使うまで</h2><p><a href="https://developers.google.com/knowledge-graph/" target="_blank" rel="external">ドキュメント</a>はここ<br>このAPIを使うためには、Googleアカウントが必要です。</p>
+<h2 id="2-Node-jsで実装してみる"><a href="#2-Node-jsで実装してみる" class="headerlink" title="2. Node.jsで実装してみる"></a>2. Node.jsで実装してみる</h2><p>npm, Node.jsの環境が必要です。</p>
+<h3 id="以下バージョン"><a href="#以下バージョン" class="headerlink" title="以下バージョン"></a>以下バージョン</h3><ul>
+<li>npm v3.3.12</li>
+<li>Node.js v5.2.0</li>
+<li>Express v4.13.1</li>
+<li>Jade v1.11.0</li>
+</ul>
+<h2 id="1-Google-Knowledge-Graph-Search-API"><a href="#1-Google-Knowledge-Graph-Search-API" class="headerlink" title="1. Google Knowledge Graph Search API"></a>1. Google Knowledge Graph Search API</h2><p>これは何かと言うと、Googleの<a href="https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html" target="_blank" rel="external">ナレッジグラフ</a>と言うものを検索するためのAPIになります。</p>
+<p>昔<a href="https://developers.google.com/freebase/" target="_blank" rel="external">Freebase API</a>というものがありましたが、それは非推奨になっており、新しくは<a href="https://developers.google.com/knowledge-graph/" target="_blank" rel="external">Google Knowledge Graph Search API</a>を使うという話になってるみたいですね。</p>
+<h3 id="Request"><a href="#Request" class="headerlink" title="Request"></a>Request</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://kgsearch.googleapis.com/v1/entities:search</span><br></pre></td></tr></table></figure>
+<h3 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h3><p>1系のメソッドは<a href="https://developers.google.com/knowledge-graph/reference/rest/v1/" target="_blank" rel="external">以下</a>になります</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">パラメータ名</th>
+<th style="text-align:center">型</th>
+<th style="text-align:center">詳細</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">query</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">ナレッジグラフで検索するクエリ</td>
+</tr>
+<tr>
+<td style="text-align:center">ids</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">ナレッジグラフで検索するID</td>
+</tr>
+<tr>
+<td style="text-align:center">languages</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">言語コード</td>
+</tr>
+<tr>
+<td style="text-align:center">types</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">型指定</td>
+</tr>
+<tr>
+<td style="text-align:center">indent</td>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">JSON型ならtrue</td>
+</tr>
+<tr>
+<td style="text-align:center">prefix</td>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">部分一致用のプレフィクス</td>
+</tr>
+<tr>
+<td style="text-align:center">limit</td>
+<td style="text-align:center">number</td>
+<td style="text-align:center">リミット数</td>
+</tr>
+</tbody>
+</table>
+<h3 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h3><h4 id="1-Googleアプリにログイン"><a href="#1-Googleアプリにログイン" class="headerlink" title="1. Googleアプリにログイン"></a>1. Googleアプリにログイン</h4><p>アプリを作成します</p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.07.59-300x84.png" alt="スクリーンショット 2015-12-19 23.07.59" width="600" height="168" class="alignnone size-medium wp-image-222"></a></p>
+<h4 id="2-Google-Knowledge-Graph-Search-APIを有効にします"><a href="#2-Google-Knowledge-Graph-Search-APIを有効にします" class="headerlink" title="2. Google Knowledge Graph Search APIを有効にします"></a>2. Google Knowledge Graph Search APIを有効にします</h4><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.14.10-300x82.png" alt="スクリーンショット 2015-12-19 23.14.10" width="600" height="164" class="alignnone size-medium wp-image-223"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.15.54-300x130.png" alt="スクリーンショット 2015-12-19 23.15.54" width="600" height="260" class="alignnone size-medium wp-image-224"></a></p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.16.40-300x140.png" alt="スクリーンショット 2015-12-19 23.16.40" width="600" height="280" class="alignnone size-medium wp-image-225"></a></p>
+<h4 id="3-APIキーを生成します。"><a href="#3-APIキーを生成します。" class="headerlink" title="3. APIキーを生成します。"></a>3. APIキーを生成します。</h4><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.27.01-300x96.png" alt="スクリーンショット 2015-12-19 23.27.01" width="600" height="192" class="alignnone size-medium wp-image-227"></a></p>
+<h4 id="4-以下のURLをブラウザから叩くかcurlコマンドで見てみましょう"><a href="#4-以下のURLをブラウザから叩くかcurlコマンドで見てみましょう" class="headerlink" title="4. 以下のURLをブラウザから叩くかcurlコマンドで見てみましょう"></a>4. 以下のURLをブラウザから叩くか<code>curl</code>コマンドで見てみましょう</h4><p>試しに、チューリング賞で有名なケン・トンプソンを調べてみましょうか。{API_KEY}には3. で生成したものを入れてください。</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://kgsearch.googleapis.com/v1/entities:search?query=Kenneth+Lane+Thompson&amp;key=&#123;API_KEY&#125;&amp;<span class="built_in">limit</span>=3&amp;indent=True</span><br></pre></td></tr></table></figure>
+<p>こんな感じで出力されます。<br><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-19-23.34.05-1024x589.png" alt="スクリーンショット 2015-12-19 23.34.05" width="660" height="380" class="alignnone size-large wp-image-229"></a></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www23.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015031000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HHNXT" alt=""></p>
+<h2 id="2-コーディング"><a href="#2-コーディング" class="headerlink" title="2. コーディング"></a>2. コーディング</h2><p>Node.jsでコーディングしてみましょうか。<br>やることは、検索した人の名前と画像を表示するという単純なものにします。</p>
+<h3 id="1-Expressを使ってプロジェクトを作ります"><a href="#1-Expressを使ってプロジェクトを作ります" class="headerlink" title="1. Expressを使ってプロジェクトを作ります"></a>1. Expressを使ってプロジェクトを作ります</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// ジェネレータをインストール</span><br><span class="line">npm install express-generator -g</span><br><span class="line"></span><br><span class="line">// Expressを構築</span><br><span class="line">express hack-api</span><br><span class="line"><span class="built_in">cd</span> hack-api</span><br><span class="line">npm install</span><br><span class="line">npm start</span><br></pre></td></tr></table></figure>
+<h4 id="フロント側を作成"><a href="#フロント側を作成" class="headerlink" title="フロント側を作成"></a>フロント側を作成</h4><p>API_KEYには任意の値を入れてください</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">extends layout</span><br><span class="line"></span><br><span class="line">block content</span><br><span class="line">  h1= title</span><br><span class="line">  p Welcome to #&#123;title&#125;</span><br><span class="line"></span><br><span class="line">  img</span><br><span class="line"></span><br><span class="line">  script(type='text/javascript').</span><br><span class="line">    var service_url = 'https://kgsearch.googleapis.com/v1/entities:search';</span><br><span class="line">    var params = &#123;</span><br><span class="line">      'query': 'Kenneth+Lane+Thompson',</span><br><span class="line">      'limit': 3,</span><br><span class="line">      'indent': true,</span><br><span class="line">      'key': 'API_KEY'</span><br><span class="line">    &#125;;</span><br><span class="line">    $.getJSON(service_url + '?callback=?', params, function(response) &#123;</span><br><span class="line">      $.each(response.itemListElement, function(i, element) &#123;</span><br><span class="line">        $('<span class="tag">&lt;<span class="name">div</span>&gt;</span>', &#123;text:element['result']['name']&#125;).appendTo(document.body);</span><br><span class="line">        $('img:eq(0)').attr("src", element['result']['image']['contentUrl']);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="3000ポートにアクセスする"><a href="#3000ポートにアクセスする" class="headerlink" title="3000ポートにアクセスする"></a>3000ポートにアクセスする</h4><p>サーバサイドやその他に関しては初期のままで構いません</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:3000/</span><br></pre></td></tr></table></figure>
+<h5 id="以下のように出力されればOKです"><a href="#以下のように出力されればOKです" class="headerlink" title="以下のように出力されればOKです"></a>以下のように出力されればOKです</h5><p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53.png" rel="external" target="_blank"><img src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-20-0.22.53-300x251.png" alt="スクリーンショット 2015-12-20 0.22.53" width="600" height="502" class="alignnone size-medium wp-image-234"></a></p>
+<p>※ 画像は、<a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="external">https://en.wikipedia.org/wiki/Ken_Thompson</a> を参照しています。</p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/pollseed/Google-Knowledge-Graph-Search-api" target="_blank" rel="external">GitHub</a>に今回使ったソースを上げてあります。なお、API_KEYがハードコードされてますが、既に消去してますのでこのキーは変えてください。</p>
+<h2 id="以上"><a href="#以上" class="headerlink" title="以上"></a>以上</h2><p>非常に簡単にAPIを使うことを確認しました。<br>是非やってみてください。</p>
+<p>※当記事で問題がある箇所があれば仰ってください。削除します。</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" target="_blank"><br><img border="0" width="468" height="60" alt="" src="http://www29.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015118000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2I0B8H" alt=""></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【Windows】パソコン2015年度版・オススメ]]></title>
+      <url>http://www.pollseed.com/best-linux-driven-development/</url>
+      <content type="html"><![CDATA[<h1 id="恣意的なオススメ"><a href="#恣意的なオススメ" class="headerlink" title="恣意的なオススメ"></a>恣意的なオススメ</h1><p>軽いノート(1kg以下)を使いたいというので候補を上げてみた。</p>
+<h2 id="スペック"><a href="#スペック" class="headerlink" title="スペック"></a>スペック</h2><p>軽さ重視</p>
+<h3 id="重量"><a href="#重量" class="headerlink" title="重量"></a>重量</h3><p>1kg未満</p>
+<h3 id="画面の大きさ"><a href="#画面の大きさ" class="headerlink" title="画面の大きさ"></a>画面の大きさ</h3><p>10〜12インチ</p>
+<h3 id="駆動時間"><a href="#駆動時間" class="headerlink" title="駆動時間"></a>駆動時間</h3><p>8時間以上</p>
+<h2 id="値段"><a href="#値段" class="headerlink" title="値段"></a>値段</h2><p>20万以内であれば可能</p>
+<h1 id="PC候補"><a href="#PC候補" class="headerlink" title="PC候補"></a>PC候補</h1><h2 id="2〜3万円クラス"><a href="#2〜3万円クラス" class="headerlink" title="2〜3万円クラス"></a>2〜3万円クラス</h2><h3 id="ASUS-EeeBook-X205TA"><a href="#ASUS-EeeBook-X205TA" class="headerlink" title="ASUS EeeBook X205TA"></a>ASUS EeeBook X205TA</h3><p><a rel="external" href="http://www.amazon.co.jp/gp/product/B015DTB87Q/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B015DTB87Q&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B015DTB87Q&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B015DTB87Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B015DTB87Q/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B015DTB87Q&linkCode=as2&tag=slicascript-22" target="_blank">ASUS ノートパソコン EeeBook X205TA-WHITE10 Windows10/11.6インチワイド/ホワイト</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B015DTB87Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>このモデルはどうやらメモリの上限(2GB)が決まっているようだ。価格は3万を切る低価格。実際Atomの4コアだと昔のCore2Duoぐらいの速さのイメージだから、かなり安くなったと思う。</p>
+<h2 id="10〜12万円クラス"><a href="#10〜12万円クラス" class="headerlink" title="10〜12万円クラス"></a>10〜12万円クラス</h2><h3 id="VAIO-Pro-11-VJP1111AUL3B"><a href="#VAIO-Pro-11-VJP1111AUL3B" class="headerlink" title="VAIO Pro 11 VJP1111AUL3B"></a>VAIO Pro 11 VJP1111AUL3B</h3><p><a rel="external" href="http://www.amazon.co.jp/gp/product/B013TR9AHO/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B013TR9AHO&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B013TR9AHO&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B013TR9AHO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B013TR9AHO/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B013TR9AHO&linkCode=as2&tag=slicascript-22" target="_blank">ソニー(VAIO) VAIO ビジネス VAIO Pro 11 (11.6W/タッチ無/W7P64DG/i5/4G/128G/黒/VAIO株式会社製) VJP1111AUL3B</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B013TR9AHO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>スペックも高いけれど、0.8kgを切っているこの軽さはびっくりした。macbookproの半分を余裕で切る軽さ。SSDとか搭載</p>
+<h3 id="Let’s-note-RZ4-CF-RZ4LDDJR"><a href="#Let’s-note-RZ4-CF-RZ4LDDJR" class="headerlink" title="Let’s note RZ4 CF-RZ4LDDJR"></a>Let’s note RZ4 CF-RZ4LDDJR</h3><p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00YO181KM/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B00YO181KM&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00YO181KM&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00YO181KM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B00YO181KM/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00YO181KM&linkCode=as2&tag=slicascript-22" target="_blank">パナソニック CF-RZ4LDDJR Lets note RZシリーズ シルバー</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B00YO181KM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>有名なレッツノートシリーズ。営業さんがよく持ち歩いてる。かなり頑丈でコーヒーとかこぼしても確か大丈夫なんだよね。これもVAIOと同じぐらい軽い。ウルトラブックというジャンルになる。</p>
+<h2 id="15〜16万円クラス"><a href="#15〜16万円クラス" class="headerlink" title="15〜16万円クラス"></a>15〜16万円クラス</h2><h3 id="Surface-Pro-4-128GB-Intel-Core-i5"><a href="#Surface-Pro-4-128GB-Intel-Core-i5" class="headerlink" title="Surface Pro 4 - 128GB / Intel Core i5"></a>Surface Pro 4 - 128GB / Intel Core i5</h3><p><a rel="external" href="http://www.amazon.co.jp/gp/product/B016ZZIT56/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B016ZZIT56&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B016ZZIT56&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B016ZZIT56" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B016ZZIT56/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B016ZZIT56&linkCode=as2&tag=slicascript-22" target="_blank">マイクロソフト Surface Pro 4（i5／128GB／4GBモデル） Windowsタブレット［Office付き・12.3型］ （キーボード別売・シルバー） CR5-00014</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B016ZZIT56" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>surface pro4が発売して1ヶ月ほど経ったが、実際使ったレビューとか見てると買うのは有りだと思う。</p>
+<p>ただ、キーボードが必要なので、こいつも買う必要がある。</p>
+<p><a rel="external" href="http://www.amazon.co.jp/gp/product/B016ZYWBBK/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B016ZYWBBK&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B016ZYWBBK&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B016ZYWBBK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><br><a rel="external" href="http://www.amazon.co.jp/gp/product/B016ZYWBBK/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B016ZYWBBK&linkCode=as2&tag=slicascript-22" target="_blank">マイクロソフト 【純正】 Surface Pro 4用 タイプカバー ブラック QC7-00070</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=B016ZYWBBK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>色は黒、青、水色、赤がある。</p>
+<h1 id="この中では"><a href="#この中では" class="headerlink" title="この中では"></a>この中では</h1><p>Surface Pro4のデモ機を触ってきた。一番高いが、このモデル(Pro)は1〜2年に1度しか出てこないので、安心して使うことができると感じた。また、特にいいと思ったのは、ペンでスラスラと直感的に文字を書いたり絵を書いたり図を書いたりできるところだ。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[KuromojiをJavaで使ってみる]]></title>
+      <url>http://www.pollseed.com/kuromoji-java/</url>
+      <content type="html"><![CDATA[<h1 id="Kuromoji"><a href="#Kuromoji" class="headerlink" title="Kuromoji"></a><a href="http://www.atilika.com/ja/products/kuromoji.html" target="_blank" rel="external">Kuromoji</a></h1><ul>
+<li>Javaで書かれているオープンソースの日本語形態素解析エンジン</li>
+<li>Javaで自然言語処理等をするならば非常に有用なライブラリです。</li>
+</ul>
+<h2 id="機能"><a href="#機能" class="headerlink" title="機能"></a>機能</h2><ul>
+<li>複合語の分割 テキストを言葉に分割（形態素）</li>
+<li>品詞のタグ付け 言葉分類の割当（名詞、動詞、助詞、形容詞など）</li>
+<li>見出し化 活用の動詞や形容詞に辞書の見出しを表示</li>
+<li>読み方 漢字の読み方を抽出</li>
+</ul>
+<p>大学院でも最近自然言語処理を研究テーマとする人が多く、Javaを使うなら候補としては上がってくるものです。というわけで使ってみることにしました。</p>
+<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><p>Java 1.8.x<br>gradle 2.4.x<br>kuromoji 0.9.0</p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+D7PD4I+3C9Q+60H7L" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www22.a8.net/svt/bgt?aid=151209554799&wid=001&eno=01&mid=s00000015587001010000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www13.a8.net/0.gif?a8mat=2I0Y1E+D7PD4I+3C9Q+60H7L" alt=""></p>
+<h2 id="サンプルコード"><a href="#サンプルコード" class="headerlink" title="サンプルコード"></a>サンプルコード</h2><h3 id="build-gradle"><a href="#build-gradle" class="headerlink" title="build.gradle"></a>build.gradle</h3><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dependencies</span> &#123;</span><br><span class="line">    <span class="keyword">compile</span> <span class="string">'com.atilika.kuromoji:kuromoji-jumandic:0.9.0'</span></span><br><span class="line">    testCompile <span class="keyword">group</span>: <span class="string">'junit'</span>, name: <span class="string">'junit-dep'</span>, version: <span class="string">'4.10'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="KuromojiWrapper-java"><a href="#KuromojiWrapper-java" class="headerlink" title="KuromojiWrapper.java"></a>KuromojiWrapper.java</h3><p>このクラスで実際にKuromojiを使っています。<br>Tokenizerクラスに与えられた引数を元に形態素解析を行っています。<br>難しい処理はしていません。素直にサンプルソースを書いただけですね。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> kuromojiWrapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atilika.kuromoji.jumandic.Token;</span><br><span class="line"><span class="keyword">import</span> com.atilika.kuromoji.jumandic.Tokenizer;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">KuromojiWrapper</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Tokenizer T = <span class="keyword">new</span> Tokenizer();</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> KuromojiWrapper KW = <span class="keyword">new</span> KuromojiWrapper();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 表層形式</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;String&gt; <span class="title">surfaces</span><span class="params">(<span class="keyword">final</span> String target)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">        token(target).forEach(v -&gt; list.add(v.getSurface()));</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 品詞</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;String&gt; <span class="title">allFeatures</span><span class="params">(<span class="keyword">final</span> String target)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">        token(target).forEach(v -&gt; list.add(v.getAllFeatures()));</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 単語のトークン</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Token&gt; <span class="title">token</span><span class="params">(<span class="keyword">final</span> String target)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> T.tokenize(target);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="KuromojiWrapperTest-java"><a href="#KuromojiWrapperTest-java" class="headerlink" title="KuromojiWrapperTest.java"></a>KuromojiWrapperTest.java</h3><p>テストクラスです。<code>KuromojiWrapper</code>を実際に使ってテストをしています。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> kuromojiWrapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.LinkedList;</span><br><span class="line"><span class="keyword">import</span> java.util.Queue;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> junit.framework.Assert;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atilika.kuromoji.jumandic.Token;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">KuromojiWrapperTest</span> </span>&#123;</span><br><span class="line">    <span class="keyword">static</span> KuromojiWrapper KW = <span class="keyword">new</span> KuromojiWrapper();</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_surfaces</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;String&gt; surfacesTrue = <span class="keyword">new</span> LinkedList&lt;String&gt;() &#123;</span><br><span class="line">            <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = <span class="number">1L</span>;</span><br><span class="line">            &#123;</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">                add(<span class="string">"ほ"</span>);</span><br><span class="line">                add(<span class="string">"げ"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        KW.surfaces(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, surfacesTrue.poll()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test_features</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Queue&lt;Token&gt; tokens = <span class="keyword">new</span> LinkedList&lt;Token&gt;();</span><br><span class="line">        KW.token(<span class="string">"ほげほげ"</span>).forEach(v -&gt; tokens.add(v));</span><br><span class="line">        KW.allFeatures(<span class="string">"ほげほげ"</span>).forEach(v -&gt; Assert.assertEquals(v, tokens.poll().getAllFeatures()));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www20.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015081000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www12.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" alt=""></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[TA-LibをJavaで使ってみる]]></title>
+      <url>http://www.pollseed.com/talib-java/</url>
+      <content type="html"><![CDATA[<h1 id="TA-Lib"><a href="#TA-Lib" class="headerlink" title="TA-Lib"></a>TA-Lib</h1><p>　皆さん、TA-Libをご存知でしょうか。<br>　TA-Libというのは、<a href="http://ta-lib.org/" target="_blank" rel="external">こちら</a>のサイトにあるテクニカル分析をするためのライブラリです。<br>　今回はJavaで書きましたが、他言語もサポートされ、最新バージョンとしては0.4となっています。<br>　こちらのライブラリは、1999年にOSS化して2007年に最終タグが付けられた状態となっております。<br>　それでは、早速コードの方を紹介していきます。</p>
+<h2 id="サポート言語"><a href="#サポート言語" class="headerlink" title="サポート言語"></a>サポート言語</h2><p>ライブラリの実体は<a href="http://sourceforge.net/p/ta-lib/code/HEAD/tree/tags/" target="_blank" rel="external">こちら</a>に置かれています。</p>
+<ul>
+<li>C/C++</li>
+<li>.NET</li>
+<li>Perl</li>
+<li>Python</li>
+</ul>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+D7PD4I+3C9Q+60H7L" target="_blank"><br><img border="0" width="300" height="250" alt="" src="http://www24.a8.net/svt/bgt?aid=151209554799&wid=001&eno=01&mid=s00000015587001010000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www13.a8.net/0.gif?a8mat=2I0Y1E+D7PD4I+3C9Q+60H7L" alt=""></p>
+<h2 id="サンプルコード"><a href="#サンプルコード" class="headerlink" title="サンプルコード"></a>サンプルコード</h2><h3 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h3><ul>
+<li>Java 1.8.x</li>
+<li>gradle 2.x</li>
+</ul>
+<h3 id="build-gradle"><a href="#build-gradle" class="headerlink" title="build.gradle"></a>build.gradle</h3><p>最終バージョンを依存関係に追加します。</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dependencies</span> &#123;</span><br><span class="line">    <span class="keyword">compile</span> <span class="string">'com.tictactec:ta-lib:0.4.0'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="TaLibWrapper-java"><a href="#TaLibWrapper-java" class="headerlink" title="TaLibWrapper.java"></a>TaLibWrapper.java</h3><p>main関数に処理を実装しています。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> taLibWrapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.tictactec.ta.lib.Core;</span><br><span class="line"><span class="keyword">import</span> com.tictactec.ta.lib.MInteger;</span><br><span class="line"><span class="keyword">import</span> com.tictactec.ta.lib.RetCode;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TaLibWrapper</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Core C = <span class="keyword">new</span> Core();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> MInteger __outBegIdx = <span class="keyword">new</span> MInteger();</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> MInteger __outNBElement = <span class="keyword">new</span> MInteger();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">StandardVal</span> </span>&#123;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> START_IDX = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> END_IDX = <span class="number">399</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">double</span>[] IN_REAL = <span class="keyword">new</span> <span class="keyword">double</span>[<span class="number">400</span>];</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> OPT_IN_TIME_PERIOD = <span class="number">30</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">double</span>[] OUT_REAL = <span class="keyword">new</span> <span class="keyword">double</span>[<span class="number">400</span>];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">AdvancedVal</span> </span>&#123;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> OPT_IN_FAST_PERIOD = <span class="number">100</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> OPT_IN_SLOW_PERIOD = <span class="number">100</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> OPT_IN_SIGNAL_PERIOD = <span class="number">100</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> OPT_IN_TIME_PERIOD = <span class="number">100</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">double</span>[] OUT_MACD = <span class="keyword">new</span> <span class="keyword">double</span>[<span class="number">400</span>];</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">double</span>[] OUT_MACD_SIGNAL = <span class="keyword">new</span> <span class="keyword">double</span>[<span class="number">400</span>];</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">double</span>[] OUT_MACD_HIST = <span class="keyword">new</span> <span class="keyword">double</span>[<span class="number">400</span>];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        execute(() -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 単純移動平均線(SMA)を出す</span></span><br><span class="line">            <span class="keyword">return</span> C.sma(</span><br><span class="line">                    StandardVal.START_IDX,</span><br><span class="line">                    StandardVal.END_IDX,</span><br><span class="line">                    StandardVal.IN_REAL,</span><br><span class="line">                    StandardVal.OPT_IN_TIME_PERIOD,</span><br><span class="line">                    __outBegIdx,</span><br><span class="line">                    __outNBElement,</span><br><span class="line">                    StandardVal.OUT_REAL);</span><br><span class="line">        &#125;);</span><br><span class="line">        execute(() -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 相対力指数(RSI)を出す</span></span><br><span class="line">            <span class="keyword">return</span> C.rsi(</span><br><span class="line">                    StandardVal.START_IDX,</span><br><span class="line">                    StandardVal.END_IDX,</span><br><span class="line">                    StandardVal.IN_REAL,</span><br><span class="line">                    StandardVal.OPT_IN_TIME_PERIOD,</span><br><span class="line">                    __outBegIdx,</span><br><span class="line">                    __outNBElement,</span><br><span class="line">                    StandardVal.OUT_REAL);</span><br><span class="line">        &#125;);</span><br><span class="line">        execute(() -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 移動平均収束拡散手法(MACD)を出す</span></span><br><span class="line">            <span class="keyword">return</span> C.macd(</span><br><span class="line">                    StandardVal.START_IDX,</span><br><span class="line">                    StandardVal.END_IDX,</span><br><span class="line">                    StandardVal.IN_REAL,</span><br><span class="line">                    AdvancedVal.OPT_IN_FAST_PERIOD,</span><br><span class="line">                    AdvancedVal.OPT_IN_SLOW_PERIOD,</span><br><span class="line">                    AdvancedVal.OPT_IN_SIGNAL_PERIOD,</span><br><span class="line">                    __outBegIdx,</span><br><span class="line">                    __outNBElement,</span><br><span class="line">                    AdvancedVal.OUT_MACD,</span><br><span class="line">                    AdvancedVal.OUT_MACD_SIGNAL,</span><br><span class="line">                    AdvancedVal.OUT_MACD_HIST);</span><br><span class="line">        &#125;);</span><br><span class="line">        execute(() -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 移動平均線を出す</span></span><br><span class="line">            <span class="keyword">return</span> C.movingAverage(</span><br><span class="line">                    StandardVal.START_IDX,</span><br><span class="line">                    StandardVal.END_IDX,</span><br><span class="line">                    StandardVal.IN_REAL,</span><br><span class="line">                    AdvancedVal.OPT_IN_TIME_PERIOD,</span><br><span class="line">                    MAType.Kama,</span><br><span class="line">                    __outBegIdx,</span><br><span class="line">                    __outNBElement,</span><br><span class="line">                    StandardVal.OUT_REAL);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成功時のみ、出力させる</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">execute</span><span class="params">(TaLib t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (RetCode.Success == t.run()) &#123;</span><br><span class="line">            System.out.println(__outBegIdx.value);</span><br><span class="line">            System.out.println(__outNBElement.value);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@FunctionalInterface</span></span><br><span class="line">    <span class="keyword">private</span> <span class="class"><span class="keyword">interface</span> <span class="title">TaLib</span> </span>&#123;</span><br><span class="line">        <span class="function">RetCode <span class="title">run</span><span class="params">()</span></span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="title">TaLibWrapper</span><span class="params">()</span> <span class="keyword">throws</span> AssertionError </span>&#123;</span><br><span class="line">        <span class="keyword">new</span> AssertionError(<span class="string">"cannot create instance."</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="使ってみて"><a href="#使ってみて" class="headerlink" title="使ってみて"></a>使ってみて</h3><p> このままスグに自分のサービスやビジネスに組み込むことはできません。<br> そもそもデータというものは最近はマッシュアップさせるのが定石ですので、こんな算出が簡単にできるライブラリがJavaでできるということを知っているだけでも良いと思います。<br> CSVなどを食わせて連続で処理させるだけなら、サポートも多いし、他のライブラリと組み合わせるのも有りだと思います。  </p>
+<h4 id="最後に、話はずれますが"><a href="#最後に、話はずれますが" class="headerlink" title="最後に、話はずれますが"></a>最後に、話はずれますが</h4><p>　Javaがまだ慣れないという方がいたら<br>　こんな参考書を使って見たらいかがでしょうか。</p>
+<h5 id="Java8も踏まえて学びたい方はこちら"><a href="#Java8も踏まえて学びたい方はこちら" class="headerlink" title="Java8も踏まえて学びたい方はこちら"></a>Java8も踏まえて学びたい方はこちら</h5><p><a rel="external" href="http://www.amazon.co.jp/gp/product/4774166855/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4774166855&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774166855&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4774166855" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<h5 id="JavaEE7を学びたい方はこちら"><a href="#JavaEE7を学びたい方はこちら" class="headerlink" title="JavaEE7を学びたい方はこちら"></a>JavaEE7を学びたい方はこちら</h5><p><a rel="external" href="http://www.amazon.co.jp/gp/product/4798140929/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4798140929&linkCode=as2&tag=slicascript-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798140929&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=slicascript-22"></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=slicascript-22&l=as2&o=9&a=4798140929" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>　<a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html" target="_blank" rel="external">TIOBEの2015年度版</a>を見てもわかるように、Javaの人気は今年TOPであり、全体の20%を上回っています。<br>　現在フリーとして働いている僕の肌感ですが、今年もまたJava案件が多いですし、Javaを得意言語の一つにしておくのはキャリア的にありだと思います。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[【必見】2016年から人気爆発JavaScriptライブラリ紹介]]></title>
+      <url>http://www.pollseed.com/2016-a-favorite-javascript-lib/</url>
+      <content type="html"><![CDATA[<p>タイトルが凄い凄いオーバーな感じですが、早速紹介します。<br>　JSのライブラリを見ていて面白そうなものを恣意的に使ってみて、少しだけ紹介している記事となっています。濃い内容は書いてないです。<br>　新しい技術をちょっと動かして遊んでいるだけなので、ガチで使いたい時はドキュメントを読むだけでなくソース読まないと多分使えないですね。</p>
+<h2 id="Labella-js"><a href="#Labella-js" class="headerlink" title="Labella.js"></a><a href="http://twitter.github.io/labella.js/" target="_blank" rel="external">Labella.js</a></h2><p>こちらのライブラリですが「<a href="https://twitter.com/" target="_blank" rel="external">Twitter, Inc.</a>」のリポジトリで開発されてリリースされています。となると当然、注目すべきライブラリの一つですよね。ちなみに開発された方は<a href="https://twitter.com/kristw" target="_blank" rel="external">kristw</a>という方みたいです。<br>既にファーストリリースから10日以上経ちます。<br>このライブラリは、なんとオーバラップさせずにラベルを自動的にインタラクティブに再配置してくれます。こんなこと自分でやろうとしたらものすごく大変ですよね。</p>
+<h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><p>labellaというより、グラフやSVG,図をよく一緒に使うと思うのでd3もpackage.jsonに追加しておきましょう。</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install labella --save</span><br><span class="line">npm install d3 --save</span><br></pre></td></tr></table></figure>
+<h4 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h4><p>定番どころを読み込んでおく</p>
+<ul>
+<li><a href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js" target="_blank" rel="external">Chart.js</a></li>
+</ul>
+<h3 id="ドキュメント"><a href="#ドキュメント" class="headerlink" title="ドキュメント"></a>ドキュメント</h3><ul>
+<li><a href="https://github.com/twitter/labella.js/blob/master/docs/Force.md" target="_blank" rel="external">Force</a></li>
+<li><a href="https://github.com/twitter/labella.js/blob/master/docs/Node.md" target="_blank" rel="external">Node</a></li>
+</ul>
+<h3 id="サンプルコーディング"><a href="#サンプルコーディング" class="headerlink" title="サンプルコーディング"></a>サンプルコーディング</h3><p><del>ちょっとTwitterのサンプルソースだとコンパイルエラーになるので修正します。</del>(既に修正版が出てました。)README.mdの保守って忘れがちですよね。僕も良く忘れちゃいます。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> nodes = [</span><br><span class="line">  <span class="keyword">new</span> labella.Node(<span class="number">1</span>, <span class="number">50</span>),</span><br><span class="line">  <span class="keyword">new</span> labella.Node(<span class="number">2</span>, <span class="number">50</span>),</span><br><span class="line">  <span class="keyword">new</span> labella.Node(<span class="number">3</span>, <span class="number">50</span>),</span><br><span class="line">  <span class="keyword">new</span> labella.Node(<span class="number">3</span>, <span class="number">50</span>),</span><br><span class="line">  <span class="keyword">new</span> labella.Node(<span class="number">3</span>, <span class="number">50</span>),</span><br><span class="line">];</span><br><span class="line"><span class="keyword">var</span> force = <span class="keyword">new</span> labella.Force();</span><br><span class="line">  force.nodes(nodes)</span><br><span class="line">  .on(<span class="string">'end'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  draw(force.nodes());</span><br><span class="line">  &#125;)</span><br><span class="line">  .start(<span class="number">100</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> renderer = <span class="keyword">new</span> labella.Renderer(&#123;</span><br><span class="line">  layerGap: <span class="number">60</span>,</span><br><span class="line">  nodeHeight: <span class="number">12</span>,</span><br><span class="line">  direction: <span class="string">'up'</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Node情報を元に、rect, pathタグを追加する</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">draw</span>(<span class="params">nodes</span>)</span>&#123;</span><br><span class="line">  renderer.layout(nodes);</span><br><span class="line"></span><br><span class="line">  d3.selectAll(<span class="string">'rect.label'</span>)</span><br><span class="line">    .data(nodes)</span><br><span class="line">    .enter().append(<span class="string">'rect'</span>)</span><br><span class="line">    .classed(<span class="string">'label'</span>, <span class="literal">true</span>)</span><br><span class="line">    .attr(<span class="string">'x'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">d</span>)</span>&#123; <span class="keyword">return</span> d.x - d.dx/<span class="number">2</span>; &#125;)</span><br><span class="line">    .attr(<span class="string">'y'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">d</span>)</span>&#123; <span class="keyword">return</span> d.y; &#125;)</span><br><span class="line">    .attr(<span class="string">'width'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">d</span>)</span>&#123; <span class="keyword">return</span> d.dx; &#125;)</span><br><span class="line">    .attr(<span class="string">'height'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">d</span>)</span>&#123; <span class="keyword">return</span> d.dy; &#125;);</span><br><span class="line"></span><br><span class="line">  d3.selectAll(<span class="string">'path.link'</span>)</span><br><span class="line">    .data(nodes)</span><br><span class="line">    .enter().append(<span class="string">'path'</span>)</span><br><span class="line">    .classed(<span class="string">'link'</span>, <span class="literal">true</span>)</span><br><span class="line">    .attr(<span class="string">'d'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">d</span>)</span>&#123;<span class="keyword">return</span> renderer.generatePath(d);&#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="スクショ"><a href="#スクショ" class="headerlink" title="スクショ"></a>スクショ</h3><p>こんな形で出力されます。<br><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-03-22.52.10.png" target="_blank" rel="external"><img class="alignnone size-medium wp-image-61" src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-03-22.52.10-300x202.png" alt="スクリーンショット 2015-12-03 22.52.10" width="500" height="404"></a></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+D7PD4I+3C9Q+60OXD" target="_blank"><br><img border="0" width="320" height="50" alt="" src="http://www20.a8.net/svt/bgt?aid=151209554799&wid=001&eno=01&mid=s00000015587001011000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www10.a8.net/0.gif?a8mat=2I0Y1E+D7PD4I+3C9Q+60OXD" alt=""></p>
+<h2 id="Matreshka-js-Framework"><a href="#Matreshka-js-Framework" class="headerlink" title="Matreshka.js Framework"></a><a href="http://matreshka.io/#!home" target="_blank" rel="external">Matreshka.js Framework</a></h2><p>　イベントドリブンモデルのJSフレームワーク。最近流行りのReact.jsのようにフロント側のJSフレームワークですので、使い方はシンプルです。<br>　ちなみにマトリョーシカというのは、ロシア製の人形で、人形が入れ子になって中にはより小さな人形が6層以上入っているようなものを指します。初音ミクとグミのボカロソングでもマトリョーシカっていうのがあるので、馴染みのある単語かと思います。</p>
+<h3 id="Install-1"><a href="#Install-1" class="headerlink" title="Install"></a>Install</h3><pre>
+npm install --save matreshka
+</pre>
+
+<h3 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h3><p>クラス名my-input, my-outputを、キーxに<code>Hoge Fuga Piyo</code>と表示させる。中の文字を変更する度に<code>change:x</code>により、xが変更したことを感知してログを吐きます。<br>今回は、xのキーをmy-input, my-outputで同じにしているので、inputを変更すれば、outputも変更されます。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = <span class="keyword">new</span> Matreshka();</span><br><span class="line">  app.bindNode(<span class="string">'x'</span>, <span class="string">'.my-input'</span>);</span><br><span class="line">  app.x = <span class="string">'Hoge Fuga Piyo'</span>;</span><br><span class="line">  app.bindNode(<span class="string">'x'</span>, <span class="string">'.my-output'</span>, &#123;</span><br><span class="line">  setValue: <span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.innerHTML = v;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line">app.on(<span class="string">'change:x'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'x changed to'</span> + <span class="keyword">this</span>.x);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h3 id="スクショ-1"><a href="#スクショ-1" class="headerlink" title="スクショ"></a>スクショ</h3><p>inputボックスに入力をすることで、先の説明のようにログを吐きます。</p>
+<p><a href="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-05-3.35.33.png" target="_blank" rel="external"><img class="alignnone size-medium wp-image-61" src="http://php-aoringo.rhcloud.com/wp-content/uploads/2015/12/スクリーンショット-2015-12-05-3.35.33.png" alt="スクリーンショット 2015-12-03 22.52.10" width="500" height="404"></a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[仕事の依頼]]></title>
+      <url>http://www.pollseed.com/work/</url>
+      <content type="html"><![CDATA[<h2 id="仕事の依頼に関してのページ"><a href="#仕事の依頼に関してのページ" class="headerlink" title="仕事の依頼に関してのページ"></a>仕事の依頼に関してのページ</h2><h3 id="委任契約"><a href="#委任契約" class="headerlink" title="委任契約"></a>委任契約</h3><p>プログラマ業務</p>
+<h4 id="価格"><a href="#価格" class="headerlink" title="価格"></a>価格</h4><p>700,000〜1,000,000円 / 月あたり</p>
+<h4 id="契約期間"><a href="#契約期間" class="headerlink" title="契約期間"></a>契約期間</h4><p>初回のみ1ヶ月更新<br>初回更新以降3ヶ月更新<br>現在予約待ちのため2016年4月以降〜参画可能</p>
+<h4 id="技術"><a href="#技術" class="headerlink" title="技術"></a>技術</h4><p>Java, JavaScript, PHP等</p>
+<h4 id="スキル目安"><a href="#スキル目安" class="headerlink" title="スキル目安"></a>スキル目安</h4><p>今までの平均として、PJに慣れてきたら1日あたり80,000〜100,000円の受注額に匹敵する作業量を完了します。</p>
+<h4 id="制約"><a href="#制約" class="headerlink" title="制約"></a>制約</h4><p>１．1週間あたり3〜5日の作業（24〜30時間）<br>２．1日あたり6〜8時間の作業<br>３．土日祝日・年末年始休暇</p>
+<h3 id="請負契約"><a href="#請負契約" class="headerlink" title="請負契約"></a>請負契約</h3><p>１．システム・サービスの改修、機能追加等<br>２．ECサイト構築<br>３．ホームページ製作<br>４．プログラミング講師</p>
+<h4 id="価格-1"><a href="#価格-1" class="headerlink" title="価格"></a>価格</h4><p>応相談</p>
+<h4 id="技術-1"><a href="#技術-1" class="headerlink" title="技術"></a>技術</h4><p>応相談</p>
+<h2 id="お問い合わせ"><a href="#お問い合わせ" class="headerlink" title="お問い合わせ"></a>お問い合わせ</h2><p><a href="https://twitter.com/GEKIKAR90551875" target="_blank" rel="external">Twitter</a></p>
+<p>メッセージをおねがいします。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[最新のテックニュース]]></title>
+      <url>http://www.pollseed.com/news/</url>
+      <content type="html"><![CDATA[<h3 id="気になったテックニュースをただひたすら羅列していく"><a href="#気になったテックニュースをただひたすら羅列していく" class="headerlink" title="気になったテックニュースをただひたすら羅列していく"></a>気になったテックニュースをただひたすら羅列していく</h3><ul>
+<li>2016年1月〜開始。</li>
+<li>テックと言いながら、ガジェット的なものも羅列します。</li>
+<li>なお、日付は自分が気になった日でありリリース日ではありません。</li>
+<li>日本のニュースもけっこう入れます。</li>
+</ul>
+<h4 id="2016年"><a href="#2016年" class="headerlink" title="2016年"></a>2016年</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">日付</th>
+<th style="text-align:center">技術名</th>
+<th style="text-align:center">ジャンル</th>
+<th>詳細</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center">cURL,openSSL</td>
+<td style="text-align:center">Security</td>
+<td><a href="https://securitychecklist.org/" target="_blank" rel="external">Security Checklist</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center">Safari</td>
+<td style="text-align:center">Browser</td>
+<td><a href="https://developer.apple.com/library/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html" target="_blank" rel="external">9.1 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center">Swift</td>
+<td style="text-align:center">Language</td>
+<td><a href="https://swift.org/blog/swift-2-2-released/" target="_blank" rel="external">2.2 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center">iPad Pro</td>
+<td style="text-align:center">Device</td>
+<td><a href="http://www.apple.com/jp/ipad-pro/" target="_blank" rel="external">iPad Pro</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center">iPhone SE</td>
+<td style="text-align:center">Device</td>
+<td><a href="http://www.apple.com/iphone-se/" target="_blank" rel="external">iPhone SE</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/21</td>
+<td style="text-align:center">Markov Chains</td>
+<td style="text-align:center">Blog</td>
+<td><a href="http://setosa.io/ev/markov-chains/" target="_blank" rel="external">Markov Chains</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/17</td>
+<td style="text-align:center">InfraRuby</td>
+<td style="text-align:center">Software</td>
+<td><a href="http://infraruby.com/blog/infraruby-4.0-released" target="_blank" rel="external">4.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/16</td>
+<td style="text-align:center">Zube</td>
+<td style="text-align:center">Web</td>
+<td><a href="https://zube.io/" target="_blank" rel="external">1.0 – Powerful project management for GitHub Issues</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/15</td>
+<td style="text-align:center">V8</td>
+<td style="text-align:center">JS Engine</td>
+<td><a href="http://v8project.blogspot.jp/2016/03/v8-release-50.html" target="_blank" rel="external">Release 5.0</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/12</td>
+<td style="text-align:center">PyPy</td>
+<td style="text-align:center">Software</td>
+<td><a href="http://morepypy.blogspot.jp/2016/03/pypy-50-released.html" target="_blank" rel="external">5.0 released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/12</td>
+<td style="text-align:center">JDK9</td>
+<td style="text-align:center">Language</td>
+<td>ついにモジュール<a href="http://www.infoq.com/news/2016/03/jigsaw-jdk-9" target="_blank" rel="external">Jigsaw Finally Arrives in JDK 9</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/9</td>
+<td style="text-align:center">Apache Flink</td>
+<td style="text-align:center">Software</td>
+<td><a href="http://flink.apache.org/news/2016/03/08/release-1.0.0.html" target="_blank" rel="external">v1.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/9</td>
+<td style="text-align:center">React.js</td>
+<td style="text-align:center">Software</td>
+<td><a href="https://facebook.github.io/react/blog/2016/03/07/react-v15-rc1.html" target="_blank" rel="external">v15.0 cadidate Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3/4</td>
+<td style="text-align:center"><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="https://github.com/nodejs/node/releases/tag/v5.7.1" target="_blank" rel="external">v5.7.1 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/20</td>
+<td style="text-align:center">Wine</td>
+<td style="text-align:center">Software</td>
+<td><a href="https://www.winehq.org/announce/1.9.4" target="_blank" rel="external">1.9.4 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/18</td>
+<td style="text-align:center">Sigma.js</td>
+<td style="text-align:center">Library</td>
+<td><a href="http://sigmajs.org/#" target="_blank" rel="external">1.1.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/18</td>
+<td style="text-align:center">ReactOS</td>
+<td style="text-align:center">Software</td>
+<td><a href="https://reactos.org/project-news/reactos-040-released" target="_blank" rel="external">0.4.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/18</td>
+<td style="text-align:center">Go</td>
+<td style="text-align:center">Proigraming</td>
+<td><a href="https://blog.golang.org/go1.6" target="_blank" rel="external">1.6 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/17</td>
+<td style="text-align:center">Kotlin</td>
+<td style="text-align:center">Programing</td>
+<td><a href="http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/" target="_blank" rel="external">Kotlin 1.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/17</td>
+<td style="text-align:center"><a href="https://googleonlinesecurity.blogspot.jp/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html" target="_blank" rel="external">glibc security vulnerability</a></td>
+<td style="text-align:center">CVE</td>
+<td>CVE-2015-7547: glibc getaddrinfo stack-based buffer overflow</td>
+</tr>
+<tr>
+<td style="text-align:center">2/11</td>
+<td style="text-align:center"><a href="http://hisham.hm/htop/index.php?page=main" target="_blank" rel="external">HTOP</a></td>
+<td style="text-align:center">Software</td>
+<td><a href="http://hisham.hm/htop/releases/2.0.0/" target="_blank" rel="external">2.0 release</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/10</td>
+<td style="text-align:center"><a href="https://developer.visa.com/" target="_blank" rel="external">Visa Developer</a></td>
+<td style="text-align:center">API</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">2/6</td>
+<td style="text-align:center"><a href="https://chrome.google.com/webstore/detail/github-notifier/ekjiicgclcmjodoijejldoohdlomjlhl" target="_blank" rel="external">GitHub Notifier</a></td>
+<td style="text-align:center">Plugin</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">2/5</td>
+<td style="text-align:center">Kotlin</td>
+<td style="text-align:center">Programing</td>
+<td><a href="http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/" target="_blank" rel="external">1.0 release</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/5</td>
+<td style="text-align:center">Docker</td>
+<td style="text-align:center">Software</td>
+<td><a href="https://github.com/docker/docker/releases/tag/v1.10.0" target="_blank" rel="external">v1.10.0 release</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/4</td>
+<td style="text-align:center">Apache Mesos</td>
+<td style="text-align:center">blog</td>
+<td><a href="http://mesos.apache.org/blog/mesos-0-27-0-released/" target="_blank" rel="external">0.27.0 release</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2/4</td>
+<td style="text-align:center">GitHub</td>
+<td style="text-align:center">blog</td>
+<td><a href="https://github.com/blog/2106-january-28th-incident-report" target="_blank" rel="external">GitHub 1/28 incident report</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/27</td>
+<td style="text-align:center"><a href="http://www.libretro.com/" target="_blank" rel="external">RetroArch</a></td>
+<td style="text-align:center">Emulator</td>
+<td><a href="http://www.libretro.com/index.php/retroarch-1-3-released/" target="_blank" rel="external">RetroArch 1.3 released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/26</td>
+<td style="text-align:center"><a href="http://lab.ejci.net/favico.js/" target="_blank" rel="external">favico.js</a></td>
+<td style="text-align:center">Library</td>
+<td>Make use of your favicon with badges, images or videos</td>
+</tr>
+<tr>
+<td style="text-align:center">1/20</td>
+<td style="text-align:center"><a href="http://nim-lang.org/" target="_blank" rel="external">Nim</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="http://nim-lang.org/news.html#Z2016-01-18-version-0-13-0-released" target="_blank" rel="external">v0.13.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/20</td>
+<td style="text-align:center"><a href="http://clojure.org/" target="_blank" rel="external">Clojure</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="http://blog.cognitect.com/blog/2016/1/19/clojure-18" target="_blank" rel="external">v1.8 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/19</td>
+<td style="text-align:center"><a href="http://codepen.io/davidkpiano/pen/wMqXea" target="_blank" rel="external">CSSでHusky</a></td>
+<td style="text-align:center">Design</td>
+<td>HuskyをCSSで書くとかsugoi</td>
+</tr>
+<tr>
+<td style="text-align:center">1/19</td>
+<td style="text-align:center"><a href="https://webtorrent.io/" target="_blank" rel="external">WebTorrent</a></td>
+<td style="text-align:center">WebRTC</td>
+<td>クライアントでtorrentストリーミング。sugoi</td>
+</tr>
+<tr>
+<td style="text-align:center">1/19</td>
+<td style="text-align:center"><a href="http://cdmedia.github.io/cms.js/" target="_blank" rel="external">CMS.js</a></td>
+<td style="text-align:center">Site Generator</td>
+<td>CMSのサイトジェネレータ</td>
+</tr>
+<tr>
+<td style="text-align:center">1/16</td>
+<td style="text-align:center"><a href="http://drmemory.org/" target="_blank" rel="external">Dr.Memory</a></td>
+<td style="text-align:center">メモリデバッガ</td>
+<td>Valgrindよりも早くチェックできる</td>
+</tr>
+<tr>
+<td style="text-align:center">1/16</td>
+<td style="text-align:center"><a href="http://www.ecmascript.org/" target="_blank" rel="external">ECMAScript</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="http://www.2ality.com/2016/01/enumify.html" target="_blank" rel="external">JSのEnum良い書き方</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/16</td>
+<td style="text-align:center"><a href="https://zipit.io/" target="_blank" rel="external">Zip it</a></td>
+<td style="text-align:center">Tools</td>
+<td>どんなファイルでも暗号化したい時にものすごく便利</td>
+</tr>
+<tr>
+<td style="text-align:center">1/16</td>
+<td style="text-align:center"><a href="https://wrte.io/" target="_blank" rel="external">wrte.io</a></td>
+<td style="text-align:center">Tools</td>
+<td>Email with a paywall</td>
+</tr>
+<tr>
+<td style="text-align:center">1/15</td>
+<td style="text-align:center"><a href="https://golang.org/" target="_blank" rel="external">Go</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="https://ory.am/fosite" target="_blank" rel="external">Fosite</a> GoのOAuth2のframework</td>
+</tr>
+<tr>
+<td style="text-align:center">1/15</td>
+<td style="text-align:center"><a href="http://jquery.com/" target="_blank" rel="external">jQuery</a></td>
+<td style="text-align:center">Web Application FW</td>
+<td><a href="http://blog.jquery.com/2016/01/14/jquery-3-0-beta-released/" target="_blank" rel="external">jQuery v3.0 β Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/15</td>
+<td style="text-align:center"><a href="http://www.openssh.com/" target="_blank" rel="external">OpenSSH</a></td>
+<td style="text-align:center">Remote Control</td>
+<td>クライアントのバグ(CVE-2016-0777,CVE-2016-0778) <a href="https://rhn.redhat.com/errata/RHSA-2016-0043.html" target="_blank" rel="external">RedHat Vul</a>, <a href="http://undeadly.org/cgi?action=article&amp;sid=20160114142733" target="_blank" rel="external">OpenBSDジャーナル</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/15</td>
+<td style="text-align:center"><a href="https://jquery.com/" target="_blank" rel="external">jQuery</a></td>
+<td style="text-align:center">Web Application FW</td>
+<td><a href="http://ejohn.org/blog/10th-anniversary-of-jquery/" target="_blank" rel="external">jQueryの10周年記念</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="https://github.com/nodejs/node/releases/tag/v5.4.1" target="_blank" rel="external">v5.4.1 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="https://atom.io/" target="_blank" rel="external">Atom</a></td>
+<td style="text-align:center">Editor</td>
+<td><a href="https://github.com/atom/atom/releases/tag/v1.4.0" target="_blank" rel="external">v1.4.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="https://lodash.com/" target="_blank" rel="external">lodash</a></td>
+<td style="text-align:center">Programing</td>
+<td><a href="https://github.com/lodash/lodash/releases/tag/4.0.0" target="_blank" rel="external">v4.0.0 Released</a></td>
+</tr>
+<tr>
+<td style="text-align:center">1/13</td>
+<td style="text-align:center"><a href="http://www.ansible.com/" target="_blank" rel="external">Ansible</a></td>
+<td style="text-align:center">構成管理ツール</td>
+<td><a href="http://www.ansible.com/blog/ansible-2.0-launch" target="_blank" rel="external">v2.0.0 Released</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="読む技術書羅列"><a href="#読む技術書羅列" class="headerlink" title="読む技術書羅列"></a>読む技術書羅列</h3><p>消化する必要があるなと思った技術書を羅列する。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日付</th>
+<th style="text-align:center">書名</th>
+<th style="text-align:center">ジャンル</th>
+<th>出版社</th>
+<th>詳細</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">3/22</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117645/" target="_blank" rel="external">カンバン仕事術</a></td>
+<td style="text-align:center">Buisiness</td>
+<td>Oreilly</td>
+<td>カンバンの原則や流れの管理などの入門的な事柄から応用的な話題までを網羅的に解説</td>
+</tr>
+<tr>
+<td style="text-align:center">3/1</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117607/" target="_blank" rel="external">マイクロサービスアーキテクチャ</a></td>
+<td style="text-align:center">IS</td>
+<td>Oreilly</td>
+<td>マイクロサービスについて深く理解できる一冊</td>
+</tr>
+<tr>
+<td style="text-align:center">2/11</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117492/" target="_blank" rel="external">初めてのAndroid 第4版</a></td>
+<td style="text-align:center">Android</td>
+<td>Oreilly</td>
+<td>シンプルなゲームアプリの開発を通してAndroidアプリ開発の“いろは”を学ぶための書籍</td>
+</tr>
+<tr>
+<td style="text-align:center">1/26</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117591/" target="_blank" rel="external">Rパッケージ開発入門</a></td>
+<td style="text-align:center">R</td>
+<td>Oreilly</td>
+<td>テスト、文書化、コード共有の手法を学ぶ</td>
+</tr>
+<tr>
+<td style="text-align:center">1/26</td>
+<td style="text-align:center"><a href="http://kci-salon.jp/books/" target="_blank" rel="external">【全15巻合本版】角川インターネット講座</a></td>
+<td style="text-align:center">computer science</td>
+<td>角川学芸出版</td>
+<td>全貌をつかみにくい巨大なネット社会を、設計と思想、文化、ビジネス、最新技術など15のテーマで概説</td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="https://pragprog.com/book/kdnodesec/secure-your-node-js-web-application" target="_blank" rel="external">Secure Your Node.js Web Application</a></td>
+<td style="text-align:center">Node.js</td>
+<td>Pragmatic Bookshelf</td>
+<td>Webアプリケーションセキュリティのベストプラクティスと効果的な対策を実施する</td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117478/" target="_blank" rel="external">物を作って生きるには</a></td>
+<td style="text-align:center">Maker</td>
+<td>Oreilly</td>
+<td>23人のMaker Proが語る仕事と生活</td>
+</tr>
+<tr>
+<td style="text-align:center">1/14</td>
+<td style="text-align:center"><a href="http://www.oreilly.co.jp/books/9784873117508/" target="_blank" rel="external">Sparkによる実践データ解析</a></td>
+<td style="text-align:center">Spark</td>
+<td>Oreilly</td>
+<td>大規模データのための機械学習事例集</td>
+</tr>
+<tr>
+<td style="text-align:center">1/13</td>
+<td style="text-align:center"><a href="https://www.oreilly.co.jp/books/9784873117485/" target="_blank" rel="external">IPythonデータサイエンスクックブック</a></td>
+<td style="text-align:center">IPython</td>
+<td>Oreilly</td>
+<td>対話型コンピューティングと可視化のためのレシピ集</td>
+</tr>
+<tr>
+<td style="text-align:center">1/13</td>
+<td style="text-align:center"><a href="http://gihyo.jp/book/2016/978-4-7741-7802-8" target="_blank" rel="external">APIデザインケーススタディ</a></td>
+<td style="text-align:center">Ruby</td>
+<td>WEB+DB PRESS plus</td>
+<td>Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方</td>
+</tr>
+</tbody>
+</table>
+<h3 id="メモ"><a href="#メモ" class="headerlink" title="メモ"></a>メモ</h3><p>TODO 大きくなり過ぎたら分割しよう</p>
+<h4 id="Node-js-アプデ"><a href="#Node-js-アプデ" class="headerlink" title="Node.js アプデ"></a>Node.js アプデ</h4><pre>
+nvm ls-remote
+nvm install v5.4.1
+nvm use v5.4.1
+nvm alias default v5.4.1
+</pre>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HOME]]></title>
+      <url>http://www.pollseed.com/index/</url>
+      <content type="html"><![CDATA[<h4 id="メニュー一覧"><a href="#メニュー一覧" class="headerlink" title="メニュー一覧"></a>メニュー一覧</h4><p>　<strong>１．<a href="/news">テックニュース</a></strong></p>
+<p>　<strong>２．<a href="/work">仕事の依頼 (クライアント向け)</a></strong></p>
+<p>　<strong>３．<a href="/atom.xml">更新情報 (RSS)</a></strong></p>
+<p>　<strong>４．<a href="/categories/Technology/">技術ネタ</a></strong></p>
+<p>　<strong>５．<a href="/categories/daily/">日記</a></strong></p>
+<p><a href="http://px.a8.net/svt/ejp?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" target="_blank"><br><img border="0" width="350" height="80" alt="" src="http://www26.a8.net/svt/bgt?aid=151209554724&wid=001&eno=01&mid=s00000000018015081000&mc=1"></a><br><img border="0" width="1" height="1" src="http://www18.a8.net/0.gif?a8mat=2I0Y1E+BZ1UR6+50+2HSDQP" alt=""></p>
+<h4 id="Technology"><a href="#Technology" class="headerlink" title="Technology"></a>Technology</h4><h5 id="開発したものを置いておく"><a href="#開発したものを置いておく" class="headerlink" title="開発したものを置いておく"></a>開発したものを置いておく</h5><p>※ただし公開しているもののみ</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">No</th>
+<th style="text-align:center">name</th>
+<th style="text-align:center">lang/FW</th>
+<th style="text-align:center">other</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong><a href="https://markov-lib.pollseed.com/" target="_blank" rel="external">マルコフ連鎖で要約API</a></strong></td>
+<td style="text-align:center">Node.js/Express</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong><a href="https://github.com/pollseed/github-extension-api" target="_blank" rel="external">GitHub Extension API</a></strong></td>
+<td style="text-align:center">Ruby/Sinatra</td>
+<td style="text-align:center"><a href="/github-extension-api">紹介記事</a></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong><a href="https://play.google.com/store/apps/details?id=com.pollseed.ThreePrimaryColors" target="_blank" rel="external">簡単にできる3原色の色別あぷり</a></strong></td>
+<td style="text-align:center">Kotlin/Android</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="注意事項"><a href="#注意事項" class="headerlink" title="注意事項"></a>注意事項</h4><p>本サーバ上の文書及びその内容に関し、いかなる保証もしません。万一本サーバ上の文書の内容に誤りがあった場合でも私pollseedは、一切責任を負いかねます。また本サーバ上の文書に記載されている事項は予告なしに変更または中止されることがありますので、あらかじめご了承下さい。</p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>

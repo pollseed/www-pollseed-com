@@ -64,7 +64,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: alberta
-theme: tyrant
+theme: hexo-theme-freemind.386
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
